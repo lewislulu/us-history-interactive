@@ -32,7 +32,9 @@ export class Minimap {
     const { innerWidth, innerHeight } = this.timeline.getDimensions();
     const data = this.timeline.data;
     const characters = data.characters;
-    const characterOrder = data.timeline.characters;
+    const characterOrder = Array.isArray(data.timeline.characters)
+      ? data.timeline.characters
+      : Object.keys(characters || {});
 
     ctx.clearRect(0, 0, this.mapWidth, this.mapHeight);
 
@@ -64,7 +66,9 @@ export class Minimap {
 
     // Draw event nodes
     const events = data.events;
-    const eventIds = data.timeline.events;
+    const eventIds = Array.isArray(data.timeline.events)
+      ? data.timeline.events
+      : Object.keys(events || {});
     eventIds.forEach((eventId) => {
       const event = events[eventId];
       if (!event) return;

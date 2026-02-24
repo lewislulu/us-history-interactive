@@ -28,6 +28,21 @@ export class Timeline {
     // Current view state
     this.currentChapter = null; // null = overview
     this.biographyCharacter = null; // null = normal mode
+    this.timeline.characters = Array.isArray(this.timeline.characters)
+      ? this.timeline.characters
+      : Object.keys(this.characters || {}).sort((a, b) => {
+          const ca = this.characters[a] || {};
+          const cb = this.characters[b] || {};
+          return (ca.birth || 0) - (cb.birth || 0);
+        });
+    this.timeline.events = Array.isArray(this.timeline.events)
+      ? this.timeline.events
+      : Object.keys(this.events || {}).sort((a, b) => {
+          const ea = this.events[a] || {};
+          const eb = this.events[b] || {};
+          return (ea.year || 0) - (eb.year || 0);
+        });
+
     this.activeCharacters = [...this.timeline.characters];
     this.activeEvents = [...this.timeline.events];
     this.activeTimeRange = [...this.timeline.timeRange];
