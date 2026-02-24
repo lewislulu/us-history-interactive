@@ -1,0 +1,45 @@
+{
+  "id": "roosevelt-f",
+  "name": "富兰克林·罗斯福",
+  "courtesy": "FDR",
+  "birth": 1882,
+  "death": 1945,
+  "color": "#1b4f72",
+  "portrait": "",
+  "bio": "美国第32任总统，唯一连任四届的总统。大萧条期间推行新政拯救经济，二战期间领导美国成为民主国家的兵工厂。虽身患小儿麻痹症却以坚强意志领导国家度过危机。",
+  "activeRange": [
+    1933,
+    1945
+  ],
+  "tags": [
+    "第32任总统",
+    "新政",
+    "二战领袖"
+  ],
+  "personalEvents": [
+    {
+      "year": 1933,
+      "title": "就任总统·推行新政",
+      "description": "就职演说——唯一值得恐惧的就是恐惧本身，推行百日新政",
+      "type": "milestone"
+    },
+    {
+      "year": 1941,
+      "title": "对日宣战",
+      "description": "珍珠港事件后发表国耻日演说，美国全面参战",
+      "type": "turning-point"
+    },
+    {
+      "year": 1944,
+      "title": "诺曼底登陆",
+      "description": "批准霸王行动，盟军在诺曼底登陆开辟欧洲第二战场",
+      "type": "milestone"
+    },
+    {
+      "year": 1945,
+      "title": "病逝任上",
+      "description": "在二战胜利前夕病逝，举国哀悼",
+      "type": "turning-point"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"id":"moon-landing","name":"阿波罗登月","year":1969,"month":7,"characters":["jfk"],"importance":"major","narrative":"events/moon-landing.md","relatedEvents":["i-have-a-dream"],"scenes":[{"id":"one-small-step","title":"个人一小步","hasDialogue":true}]}

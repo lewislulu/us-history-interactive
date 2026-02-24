@@ -1,0 +1,1 @@
+{"id":"battle-of-yorktown","name":"约克镇大捷","year":1781,"month":10,"characters":["washington"],"importance":"major","narrative":"events/battle-of-yorktown.md","relatedEvents":["declaration-of-independence","constitutional-convention"],"scenes":[{"id":"surrender","title":"英军投降","hasDialogue":true}]}

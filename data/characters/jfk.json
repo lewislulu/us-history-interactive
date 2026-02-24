@@ -1,0 +1,39 @@
+{
+  "id": "jfk",
+  "name": "约翰·F·肯尼迪",
+  "courtesy": "JFK",
+  "birth": 1917,
+  "death": 1963,
+  "color": "#1f618d",
+  "portrait": "",
+  "bio": "美国第35任总统，最年轻的当选总统。在古巴导弹危机中沉着应对，避免核战争。推动太空计划，提出登月目标。1963年在达拉斯遇刺身亡，震惊世界。",
+  "activeRange": [
+    1960,
+    1963
+  ],
+  "tags": [
+    "第35任总统",
+    "太空竞赛",
+    "古巴危机"
+  ],
+  "personalEvents": [
+    {
+      "year": 1961,
+      "title": "就任总统",
+      "description": "发表就职演说——不要问国家能为你做什么",
+      "type": "milestone"
+    },
+    {
+      "year": 1962,
+      "title": "化解古巴导弹危机",
+      "description": "与赫鲁晓夫对峙13天，避免核战争",
+      "type": "turning-point"
+    },
+    {
+      "year": 1963,
+      "title": "遇刺身亡",
+      "description": "在达拉斯被枪杀，举国震惊",
+      "type": "turning-point"
+    }
+  ]
+}

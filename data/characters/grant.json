@@ -1,0 +1,17 @@
+{
+  "id": "grant",
+  "name": "尤利西斯·格兰特",
+  "courtesy": "联邦军总司令",
+  "birth": 1822,
+  "death": 1885,
+  "color": "#2980b9",
+  "portrait": "",
+  "bio": "内战中联邦军总司令，美国第18任总统。以坚韧不拔的作战风格著称，攻克维克斯堡、接受李将军投降。担任总统期间推动重建南方和保护黑人权利。",
+  "activeRange": [1861, 1877],
+  "tags": ["联邦军总司令", "第18任总统", "内战英雄"],
+  "personalEvents": [
+    {"year": 1862, "title": "攻克亨利堡与多纳尔逊堡", "description": "取得西线首批重大胜利", "type": "milestone"},
+    {"year": 1863, "title": "维克斯堡战役", "description": "围困维克斯堡，切断南方补给线", "type": "milestone"},
+    {"year": 1865, "title": "接受李将军投降", "description": "在阿波马托克斯接受李投降，内战结束", "type": "milestone"}
+  ]
+}

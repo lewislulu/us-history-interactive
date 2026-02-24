@@ -1,0 +1,26 @@
+{
+  "name": "us-history-interactive",
+  "version": "1.0.0",
+  "description": "美国历史 · 从殖民到超级大国 -- 互动人物时间线可视化",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "visualization",
+    "storyline",
+    "timeline",
+    "d3",
+    "interactive",
+    "template"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "gsap": "^3.14.2",
+    "marked": "^17.0.3",
+    "vite": "^7.3.1"
+  }
+}

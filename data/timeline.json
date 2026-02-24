@@ -1,0 +1,93 @@
+{
+  "title": "美国历史 · 从殖民到超级大国",
+  "timeRange": [1760, 1975],
+  "eras": [
+    { "name": "独立革命", "start": 1760, "end": 1789 },
+    { "name": "建国初期", "start": 1789, "end": 1820 },
+    { "name": "西进运动", "start": 1820, "end": 1860 },
+    { "name": "内战与重建", "start": 1860, "end": 1877 },
+    { "name": "镀金时代", "start": 1877, "end": 1900 },
+    { "name": "进步时代与一战", "start": 1900, "end": 1920 },
+    { "name": "大萧条与二战", "start": 1929, "end": 1945 },
+    { "name": "冷战与民权运动", "start": 1945, "end": 1975 }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "独立革命",
+      "subtitle": "从殖民地到独立国家",
+      "timeRange": [1760, 1789],
+      "description": "英国对北美殖民地横征暴敛，激起殖民者反抗。从波士顿倾茶事件到独立宣言，再到约克镇大捷，十三个殖民地最终赢得独立，建立了世界上第一个现代共和国。",
+      "characters": ["washington", "jefferson", "franklin", "hamilton"],
+      "events": ["boston-tea-party", "declaration-of-independence", "battle-of-yorktown", "constitutional-convention"],
+      "coverColor": "#1a5276"
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "title": "建国初期",
+      "subtitle": "联邦制度的确立",
+      "timeRange": [1789, 1820],
+      "description": "华盛顿就任首任总统，联邦党与民主共和党展开政争。路易斯安那购地使国土翻倍，1812年战争巩固了国家主权。",
+      "characters": ["washington", "jefferson", "hamilton"],
+      "events": ["washington-inauguration", "louisiana-purchase", "war-of-1812"],
+      "coverColor": "#2e86c1"
+    },
+    {
+      "id": "ch3",
+      "number": 3,
+      "title": "西进运动",
+      "subtitle": "天命昭昭与扩张",
+      "timeRange": [1820, 1860],
+      "description": "美国在天命昭昭信念下向西大举扩张。淘金热、俄勒冈小径、美墨战争，领土从大西洋延伸到太平洋，但奴隶制问题日益尖锐。",
+      "characters": ["jackson", "lincoln"],
+      "events": ["trail-of-tears", "mexican-american-war", "california-gold-rush"],
+      "coverColor": "#d4ac0d"
+    },
+    {
+      "id": "ch4",
+      "number": 4,
+      "title": "内战风云",
+      "subtitle": "分裂与统一",
+      "timeRange": [1860, 1877],
+      "description": "林肯当选引发南方脱离联邦，美国陷入历时四年的内战。战争夺去62万人生命，最终联邦胜利，奴隶制被废除，但重建之路漫长艰辛。",
+      "characters": ["lincoln", "grant", "lee"],
+      "events": ["fort-sumter", "emancipation-proclamation", "gettysburg", "lincoln-assassination"],
+      "coverColor": "#922b21"
+    },
+    {
+      "id": "ch5",
+      "number": 5,
+      "title": "镀金时代",
+      "subtitle": "工业崛起与贫富分化",
+      "timeRange": [1877, 1900],
+      "description": "铁路横贯大陆，钢铁与石油巨头崛起。移民潮涌入，城市迅速扩张。工业飞速发展的背后是工人的血汗与社会的巨大不平等。",
+      "characters": ["edison", "roosevelt-t"],
+      "events": ["transcontinental-railroad", "spanish-american-war"],
+      "coverColor": "#b7950b"
+    },
+    {
+      "id": "ch6",
+      "number": 6,
+      "title": "两次世界大战",
+      "subtitle": "从孤立到世界领袖",
+      "timeRange": [1914, 1945],
+      "description": "一战使美国从债务国变为债权国。大萧条重创经济，罗斯福新政拯救了国家。珍珠港事件将美国卷入二战，最终以原子弹结束战争，美国成为超级大国。",
+      "characters": ["roosevelt-f", "eisenhower"],
+      "events": ["us-enters-ww1", "great-depression", "pearl-harbor", "d-day"],
+      "coverColor": "#1b4f72"
+    },
+    {
+      "id": "ch7",
+      "number": 7,
+      "title": "冷战与民权",
+      "subtitle": "对抗与变革",
+      "timeRange": [1945, 1975],
+      "description": "美苏冷战主导世界格局，古巴导弹危机险些引发核战。国内民权运动风起云涌，马丁·路德·金带领黑人争取平等权利。越战撕裂社会，登月彰显科技实力。",
+      "characters": ["mlk", "jfk"],
+      "events": ["korean-war", "cuban-missile-crisis", "i-have-a-dream", "moon-landing"],
+      "coverColor": "#6c3483"
+    }
+  ]
+}

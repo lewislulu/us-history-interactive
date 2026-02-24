@@ -1,0 +1,18 @@
+{
+  "id": "mlk",
+  "name": "马丁·路德·金",
+  "courtesy": "民权领袖",
+  "birth": 1929,
+  "death": 1968,
+  "color": "#6c3483",
+  "portrait": "",
+  "bio": "美国民权运动领袖，非暴力抗争的倡导者。领导蒙哥马利公车抵制运动、向华盛顿进军，发表我有一个梦想演说。1964年获诺贝尔和平奖。1968年在孟菲斯遇刺身亡。",
+  "activeRange": [1955, 1968],
+  "tags": ["民权领袖", "非暴力", "诺贝尔和平奖"],
+  "personalEvents": [
+    {"year": 1955, "title": "蒙哥马利公车抵制", "description": "领导黑人抵制种族隔离的公共汽车，历时381天", "type": "milestone"},
+    {"year": 1963, "title": "我有一个梦想", "description": "在华盛顿林肯纪念堂前发表著名演说", "type": "milestone"},
+    {"year": 1964, "title": "获诺贝尔和平奖", "description": "因非暴力抗争获诺贝尔和平奖", "type": "milestone"},
+    {"year": 1968, "title": "遇刺身亡", "description": "在孟菲斯被枪杀，年仅39岁", "type": "turning-point"}
+  ]
+}

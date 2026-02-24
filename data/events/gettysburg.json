@@ -1,0 +1,1 @@
+{"id":"gettysburg","name":"葛底斯堡战役","year":1863,"month":7,"characters":["lincoln","lee","grant"],"importance":"major","narrative":"events/gettysburg.md","relatedEvents":["emancipation-proclamation","lincoln-assassination"],"scenes":[{"id":"picketts-charge","title":"皮克特冲锋","hasDialogue":true}]}

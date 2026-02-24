@@ -1,0 +1,17 @@
+{
+  "id": "edison",
+  "name": "托马斯·爱迪生",
+  "courtesy": "发明大王",
+  "birth": 1847,
+  "death": 1931,
+  "color": "#f39c12",
+  "portrait": "",
+  "bio": "史上最多产的发明家之一，拥有超过1000项专利。发明电灯泡、留声机、电影摄影机，创建了世界第一个工业研究实验室。他的发明彻底改变了人类生活方式。",
+  "activeRange": [1877, 1920],
+  "tags": ["发明家", "电灯", "留声机"],
+  "personalEvents": [
+    {"year": 1877, "title": "发明留声机", "description": "发明了世界上第一台留声机", "type": "milestone"},
+    {"year": 1879, "title": "发明电灯泡", "description": "成功研发实用白炽灯泡，点亮了世界", "type": "milestone"},
+    {"year": 1882, "title": "建立发电站", "description": "在纽约建立第一座商用发电站", "type": "milestone"}
+  ]
+}

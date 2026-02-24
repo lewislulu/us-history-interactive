@@ -1,0 +1,20 @@
+{
+  "id": "washington",
+  "name": "乔治·华盛顿",
+  "courtesy": "美国国父",
+  "birth": 1732,
+  "death": 1799,
+  "color": "#1a5276",
+  "portrait": "",
+  "bio": "美国首任总统，大陆军总司令。出身弗吉尼亚种植园主家庭，独立战争中率领大陆军击败英军。主持制宪会议，两任总统后主动退位，确立了民主交接的传统。被尊为美国国父。",
+  "activeRange": [1775, 1799],
+  "tags": ["国父", "首任总统", "大陆军总司令"],
+  "personalEvents": [
+    {"year": 1775, "title": "就任大陆军总司令", "description": "大陆会议任命华盛顿为大陆军总司令，领导独立战争", "type": "milestone"},
+    {"year": 1776, "title": "横渡特拉华河", "description": "圣诞夜率军横渡特拉华河，突袭特伦顿，扭转战局", "type": "turning-point"},
+    {"year": 1781, "title": "约克镇大捷", "description": "围困约克镇，迫使英军投降，独立战争实质胜利", "type": "milestone"},
+    {"year": 1787, "title": "主持制宪会议", "description": "在费城主持制宪会议，制定美国宪法", "type": "milestone"},
+    {"year": 1789, "title": "就任首任总统", "description": "全票当选美国第一任总统，建立行政体系", "type": "milestone"},
+    {"year": 1797, "title": "主动退位", "description": "拒绝第三任期，主动交出权力，树立民主典范", "type": "turning-point"}
+  ]
+}

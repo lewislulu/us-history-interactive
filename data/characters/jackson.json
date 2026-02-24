@@ -1,0 +1,39 @@
+{
+  "id": "jackson",
+  "name": "安德鲁·杰克逊",
+  "courtesy": "平民总统",
+  "birth": 1767,
+  "death": 1845,
+  "color": "#d4ac0d",
+  "portrait": "",
+  "bio": "美国第7任总统，民主党创始人。出身贫寒，以军功著称。推行杰克逊民主扩大白人男性选举权，但强行驱逐印第安人，是争议极大的历史人物。",
+  "activeRange": [
+    1815,
+    1845
+  ],
+  "tags": [
+    "第7任总统",
+    "平民总统",
+    "印第安迁移"
+  ],
+  "personalEvents": [
+    {
+      "year": 1815,
+      "title": "新奥尔良大捷",
+      "description": "在1812年战争中击败英军，成为国家英雄",
+      "type": "milestone"
+    },
+    {
+      "year": 1829,
+      "title": "就任总统",
+      "description": "首位平民出身的总统，开启杰克逊时代",
+      "type": "milestone"
+    },
+    {
+      "year": 1830,
+      "title": "签署印第安迁移法",
+      "description": "强制东部印第安人西迁，导致血泪之路",
+      "type": "turning-point"
+    }
+  ]
+}

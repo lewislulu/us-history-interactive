@@ -1,0 +1,19 @@
+{
+  "id": "lincoln",
+  "name": "亚伯拉罕·林肯",
+  "courtesy": "伟大的解放者",
+  "birth": 1809,
+  "death": 1865,
+  "color": "#922b21",
+  "portrait": "",
+  "bio": "美国第16任总统。出身贫寒，自学成才。内战期间领导联邦政府，发表《解放黑人奴隶宣言》，维护了国家统一，废除了奴隶制。1865年在福特剧院被刺杀，成为美国第一位被暗杀的总统。",
+  "activeRange": [1858, 1865],
+  "tags": ["第16任总统", "解放者", "联邦保卫者"],
+  "personalEvents": [
+    {"year": 1858, "title": "林肯-道格拉斯辩论", "description": "与道格拉斯就奴隶制展开著名辩论，声名鹊起", "type": "milestone"},
+    {"year": 1860, "title": "当选总统", "description": "当选第16任总统，引发南方各州脱离联邦", "type": "turning-point"},
+    {"year": 1863, "title": "发表解放宣言", "description": "发布《解放黑人奴隶宣言》，将战争转变为解放战争", "type": "milestone"},
+    {"year": 1863, "title": "葛底斯堡演说", "description": "在葛底斯堡发表著名演说：'民有、民治、民享的政府'", "type": "milestone"},
+    {"year": 1865, "title": "遇刺身亡", "description": "在福特剧院被约翰·威尔克斯·布斯枪杀", "type": "turning-point"}
+  ]
+}

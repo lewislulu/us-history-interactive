@@ -1,0 +1,16 @@
+{
+  "id": "eisenhower",
+  "name": "德怀特·艾森豪威尔",
+  "courtesy": "艾克",
+  "birth": 1890,
+  "death": 1969,
+  "color": "#5d6d7e",
+  "portrait": "",
+  "bio": "二战盟军欧洲最高统帅，美国第34任总统。指挥诺曼底登陆等重大战役。任总统期间推动建设州际公路系统，在冷战中采取遏制政策。离任时警告军工复合体的危险。",
+  "activeRange": [1942, 1961],
+  "tags": ["盟军统帅", "第34任总统", "诺曼底"],
+  "personalEvents": [
+    {"year": 1944, "title": "指挥诺曼底登陆", "description": "作为盟军最高统帅指挥D-Day登陆", "type": "milestone"},
+    {"year": 1953, "title": "就任总统", "description": "当选第34任总统，结束朝鲜战争", "type": "milestone"}
+  ]
+}

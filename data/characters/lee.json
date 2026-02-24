@@ -1,0 +1,17 @@
+{
+  "id": "lee",
+  "name": "罗伯特·E·李",
+  "courtesy": "南军总司令",
+  "birth": 1807,
+  "death": 1870,
+  "color": "#7d3c98",
+  "portrait": "",
+  "bio": "南方邦联军总司令。出身弗吉尼亚名门，西点军校毕业。虽个人反对奴隶制，但因忠于故乡选择为南方而战。军事才华卓越，最终因实力悬殊投降，战后致力于南北和解。",
+  "activeRange": [1861, 1870],
+  "tags": ["南军总司令", "弗吉尼亚", "军事天才"],
+  "personalEvents": [
+    {"year": 1861, "title": "拒绝联邦军指挥权", "description": "拒绝林肯的邀请，选择加入南方邦联", "type": "turning-point"},
+    {"year": 1862, "title": "七日战役", "description": "击退联邦军对里士满的进攻", "type": "milestone"},
+    {"year": 1865, "title": "投降", "description": "在阿波马托克斯向格兰特投降", "type": "turning-point"}
+  ]
+}

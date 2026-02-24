@@ -1,0 +1,17 @@
+{
+  "id": "franklin",
+  "name": "本杰明·富兰克林",
+  "courtesy": "美国第一公民",
+  "birth": 1706,
+  "death": 1790,
+  "color": "#27ae60",
+  "portrait": "",
+  "bio": "政治家、科学家、外交家、发明家。参与起草独立宣言和宪法。出使法国争取到关键军事同盟，对独立战争的胜利功不可没。发明避雷针，创办宾夕法尼亚大学。",
+  "activeRange": [1765, 1790],
+  "tags": ["外交家", "科学家", "开国元勋"],
+  "personalEvents": [
+    {"year": 1776, "title": "参与起草独立宣言", "description": "与杰斐逊等人共同起草独立宣言", "type": "milestone"},
+    {"year": 1778, "title": "促成法美同盟", "description": "出使法国，成功说服法国与美国结盟，获得军事援助", "type": "turning-point"},
+    {"year": 1787, "title": "出席制宪会议", "description": "以81岁高龄出席制宪会议，促成各方妥协", "type": "milestone"}
+  ]
+}
