@@ -236,6 +236,16 @@ async function boot() {
 
   } catch (err) {
     console.error('Failed to load visualization:', err);
+
+    // Visible fallback (avoid blank screen in production)
+    const app = document.getElementById('app') || document.body;
+    app.innerHTML = `
+      <div style="padding:24px;color:#fff;background:#111;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;">
+        <h2 style="margin:0 0 12px;">页面加载失败</h2>
+        <p style="margin:0 0 12px;opacity:.9;">请刷新重试；如果仍失败，请把下面错误截图给我。</p>
+        <pre style="white-space:pre-wrap;background:#1b1b1b;padding:12px;border-radius:8px;overflow:auto;">${(err && (err.stack || err.message)) || String(err)}</pre>
+      </div>
+    `;
   }
 }
 
