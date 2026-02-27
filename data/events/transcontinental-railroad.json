@@ -3,7 +3,7 @@
   "name": "横贯大陆铁路",
   "year": 1869,
   "month": 5,
-  "characters": [],
+  "characters": ["carnegie"],
   "importance": "major",
   "narrative": "events/transcontinental-railroad.md",
   "relatedEvents": [],

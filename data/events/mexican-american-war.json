@@ -3,7 +3,7 @@
   "name": "美墨战争",
   "year": 1846,
   "month": 4,
-  "characters": [],
+  "characters": ["lincoln"],
   "importance": "normal",
   "narrative": "events/mexican-american-war.md",
   "relatedEvents": [

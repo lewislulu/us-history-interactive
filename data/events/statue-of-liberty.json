@@ -3,7 +3,7 @@
   "name": "自由女神像落成",
   "year": 1886,
   "month": 10,
-  "characters": [],
+  "characters": ["edison"],
   "importance": "normal",
   "narrative": "events/statue-of-liberty.md",
   "relatedEvents": [

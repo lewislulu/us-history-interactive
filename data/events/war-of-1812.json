@@ -3,7 +3,7 @@
   "name": "1812年战争",
   "year": 1812,
   "month": 6,
-  "characters": [],
+  "characters": ["madison"],
   "importance": "normal",
   "narrative": "events/war-of-1812.md",
   "relatedEvents": [],

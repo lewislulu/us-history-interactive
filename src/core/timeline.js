@@ -733,11 +733,18 @@ export class Timeline {
         .map((cid) => this.yScale(cid))
         .filter((y) => y !== undefined);
 
-      if (charYs.length === 0) return;
-
-      const minY = Math.min(...charYs);
-      const maxY = Math.max(...charYs);
-      const centerY = (minY + maxY) / 2;
+      // Fallback: place event at vertical midpoint of all character lines
+      let centerY, minY, maxY;
+      if (charYs.length === 0) {
+        const allYs = this.activeCharacters.map((cid) => this.yScale(cid)).filter((y) => y !== undefined);
+        if (allYs.length === 0) return;
+        centerY = (Math.min(...allYs) + Math.max(...allYs)) / 2;
+        minY = maxY = centerY;
+      } else {
+        minY = Math.min(...charYs);
+        maxY = Math.max(...charYs);
+        centerY = (minY + maxY) / 2;
+      }
       const isMajor = event.importance === 'major';
       const nodeRadius = isMajor ? 8 : 6;
 

@@ -3,7 +3,7 @@
   "name": "埃利斯岛移民站开放",
   "year": 1892,
   "month": 1,
-  "characters": [],
+  "characters": ["roosevelt-t", "carnegie"],
   "importance": "normal",
   "narrative": "events/ellis-island.md",
   "relatedEvents": [

@@ -3,7 +3,7 @@
   "name": "排华法案",
   "year": 1882,
   "month": 5,
-  "characters": [],
+  "characters": ["douglass"],
   "importance": "major",
   "narrative": "events/chinese-exclusion.md",
   "relatedEvents": [

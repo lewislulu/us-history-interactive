@@ -4,7 +4,7 @@
   "name_en": "Battles of Lexington and Concord",
   "year": 1775,
   "month": 4,
-  "characters": [],
+  "characters": ["washington", "john-adams"],
   "importance": "major",
   "narrative": "events/lexington-concord.md",
   "relatedEvents": ["stamp-act", "boston-tea-party", "declaration-of-independence"],

@@ -4,7 +4,7 @@
   "name_en": "Monroe Doctrine",
   "year": 1823,
   "month": 12,
-  "characters": [],
+  "characters": ["jackson"],
   "importance": "major",
   "narrative": "events/monroe-doctrine.md",
   "relatedEvents": ["louisiana-purchase", "mexican-american-war"],

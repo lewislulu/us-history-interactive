@@ -3,7 +3,7 @@
   "name": "哈莱姆文艺复兴",
   "name_en": "Harlem Renaissance",
   "year": 1920,
-  "characters": [],
+  "characters": ["roosevelt-f"],
   "importance": "major",
   "narrative": "events/harlem-renaissance.md",
   "relatedEvents": ["plessy-v-ferguson", "great-depression"],
