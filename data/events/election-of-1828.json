@@ -1,0 +1,19 @@
+{
+  "id": "election-of-1828",
+  "name": "1828年大选",
+  "name_en": "Election of 1828",
+  "year": 1828,
+  "month": 11,
+  "characters": ["jackson"],
+  "importance": "major",
+  "narrative": "events/election-of-1828.md",
+  "relatedEvents": ["nullification-crisis", "trail-of-tears"],
+  "scenes": [
+    {
+      "id": "peoples-president",
+      "title": "人民的总统",
+      "title_en": "The People's President",
+      "hasDialogue": true
+    }
+  ]
+}

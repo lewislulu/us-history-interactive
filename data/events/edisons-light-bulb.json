@@ -1,0 +1,19 @@
+{
+  "id": "edisons-light-bulb",
+  "name": "爱迪生发明电灯",
+  "name_en": "Edison's Light Bulb",
+  "year": 1879,
+  "month": 10,
+  "characters": ["edison"],
+  "importance": "major",
+  "narrative": "events/edisons-light-bulb.md",
+  "relatedEvents": ["transcontinental-railroad"],
+  "scenes": [
+    {
+      "id": "menlo-park-lab",
+      "title": "门洛帕克的灯光",
+      "title_en": "Light at Menlo Park",
+      "hasDialogue": true
+    }
+  ]
+}

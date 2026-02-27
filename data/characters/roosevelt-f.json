@@ -11,7 +11,7 @@
   "bio": "美国第32任总统，唯一连任四届的总统。大萧条期间推行新政拯救经济，二战期间领导美国成为民主国家的兵工厂。虽身患小儿麻痹症却以坚强意志领导国家度过危机。",
   "bio_en": "Thirty-second President who led America through the Great Depression and World War II. Elected to an unprecedented four terms, his New Deal programs—Social Security, the SEC, the WPA—fundamentally expanded the federal government's role. Paralyzed by polio, he projected strength and optimism. Led the Allied war effort until his death in April 1945, weeks before victory in Europe.",
   "activeRange": [
-    1933,
+    1920,
     1945
   ],
   "tags": [
@@ -25,6 +25,30 @@
     "WWII Leader"
   ],
   "personalEvents": [
+    {
+      "year": 1920,
+      "title": "副总统候选人",
+      "title_en": "Vice Presidential Nominee",
+      "description": "作为民主党副总统候选人参选，虽败犹荣",
+      "description_en": "Ran as Democratic vice presidential candidate; though defeated, gained national prominence",
+      "type": "milestone"
+    },
+    {
+      "year": 1921,
+      "title": "罹患小儿麻痹症",
+      "title_en": "Stricken with Polio",
+      "description": "39岁时患小儿麻痹症导致双腿瘫痪，但意志不屈",
+      "description_en": "Contracted polio at age 39, leaving both legs paralyzed, yet his resolve remained unbroken",
+      "type": "turning-point"
+    },
+    {
+      "year": 1928,
+      "title": "当选纽约州长",
+      "title_en": "Elected Governor of New York",
+      "description": "当选纽约州长，为入主白宫奠定基础",
+      "description_en": "Elected Governor of New York, laying the groundwork for his presidential bid",
+      "type": "milestone"
+    },
     {
       "year": 1933,
       "title": "就任总统·推行新政",

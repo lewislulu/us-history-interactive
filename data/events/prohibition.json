@@ -1,0 +1,19 @@
+{
+  "id": "prohibition",
+  "name": "禁酒令",
+  "name_en": "Prohibition",
+  "year": 1920,
+  "month": 1,
+  "characters": ["wilson", "roosevelt-f"],
+  "importance": "major",
+  "narrative": "events/prohibition.md",
+  "relatedEvents": ["womens-suffrage", "great-depression"],
+  "scenes": [
+    {
+      "id": "speakeasy",
+      "title": "地下酒吧",
+      "title_en": "The Speakeasy",
+      "hasDialogue": true
+    }
+  ]
+}

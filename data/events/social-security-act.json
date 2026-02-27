@@ -1,0 +1,19 @@
+{
+  "id": "social-security-act",
+  "name": "社会保障法",
+  "name_en": "Social Security Act",
+  "year": 1935,
+  "month": 8,
+  "characters": ["roosevelt-f"],
+  "importance": "major",
+  "narrative": "events/social-security-act.md",
+  "relatedEvents": ["new-deal", "great-depression"],
+  "scenes": [
+    {
+      "id": "signing-ceremony",
+      "title": "签署仪式",
+      "title_en": "The Signing Ceremony",
+      "hasDialogue": true
+    }
+  ]
+}
