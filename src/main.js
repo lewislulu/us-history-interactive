@@ -109,14 +109,16 @@ async function boot() {
     const mapContainer = document.getElementById('map-container');
     const minimapEl = document.getElementById('minimap');
 
-    // View switcher UI
+    // View switcher UI — placed ABOVE chapter-bar-mount for stable layout
     const viewSwitcher = document.createElement('div');
     viewSwitcher.className = 'view-switcher';
     viewSwitcher.innerHTML = `
       <button class="view-btn active" data-view="timeline">时间线</button>
       <button class="view-btn" data-view="map">地图</button>
     `;
-    chapterMount.insertBefore(viewSwitcher, chapterBar.getElement());
+    // Insert view switcher as a separate element before the chapter-bar-mount
+    const appEl = document.getElementById('app');
+    appEl.insertBefore(viewSwitcher, chapterMount);
 
     viewSwitcher.addEventListener('click', (e) => {
       const btn = e.target.closest('.view-btn');
@@ -139,15 +141,15 @@ async function boot() {
         minimapEl.classList.add('hidden');
         mapView.classList.remove('hidden');
 
-        // Hide chapter cards in map mode (map has its own scrubber)
-        chapterBar.getElement().style.display = 'none';
+        // Hide chapter bar (map has its own scrubber)
+        chapterMount.classList.add('hidden');
 
         initMapView();
       } else {
         mapView.classList.add('hidden');
         timelineContainer.classList.remove('hidden');
         minimapEl.classList.remove('hidden');
-        chapterBar.getElement().style.display = '';
+        chapterMount.classList.remove('hidden');
       }
     }
 
@@ -354,6 +356,7 @@ async function boot() {
     });
 
     // ── Entrance animation ──
+    gsap.from(viewSwitcher, { y: -40, opacity: 0, duration: 0.8, delay: 0.1, ease: 'power3.out' });
     gsap.from(header, { y: -40, opacity: 0, duration: 1, ease: 'power3.out' });
     gsap.from('#chapter-bar-mount', { y: -60, opacity: 0, duration: 0.8, delay: 0.2, ease: 'power3.out' });
     gsap.from('#timeline-container', { opacity: 0, duration: 1.5, delay: 0.3, ease: 'power2.out' });
