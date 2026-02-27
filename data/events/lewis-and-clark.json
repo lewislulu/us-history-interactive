@@ -1,0 +1,19 @@
+{
+  "id": "lewis-and-clark",
+  "name": "刘易斯与克拉克远征",
+  "name_en": "Lewis and Clark Expedition",
+  "year": 1804,
+  "month": 5,
+  "characters": ["jefferson"],
+  "importance": "major",
+  "narrative": "events/lewis-and-clark.md",
+  "relatedEvents": ["louisiana-purchase"],
+  "scenes": [
+    {
+      "id": "reaching-pacific",
+      "title": "抵达太平洋",
+      "title_en": "Reaching the Pacific",
+      "hasDialogue": true
+    }
+  ]
+}

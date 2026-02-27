@@ -12,6 +12,13 @@
   "relatedEvents": [
     "constitutional-convention"
   ],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "oath-of-office",
+      "title": "就职宣誓",
+      "title_en": "The Oath of Office",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "Washington's Inauguration"
 }

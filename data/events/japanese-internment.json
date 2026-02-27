@@ -1,0 +1,19 @@
+{
+  "id": "japanese-internment",
+  "name": "日裔美国人集中营",
+  "name_en": "Japanese American Internment",
+  "year": 1942,
+  "month": 2,
+  "characters": ["roosevelt-f"],
+  "importance": "major",
+  "narrative": "events/japanese-internment.md",
+  "relatedEvents": ["pearl-harbor", "d-day"],
+  "scenes": [
+    {
+      "id": "internment-order",
+      "title": "48小时的告别",
+      "title_en": "48 Hours to Say Goodbye",
+      "hasDialogue": true
+    }
+  ]
+}

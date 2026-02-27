@@ -1,0 +1,19 @@
+{
+  "id": "lexington-concord",
+  "name": "列克星敦与康科德战役",
+  "name_en": "Battles of Lexington and Concord",
+  "year": 1775,
+  "month": 4,
+  "characters": [],
+  "importance": "major",
+  "narrative": "events/lexington-concord.md",
+  "relatedEvents": ["stamp-act", "boston-tea-party", "declaration-of-independence"],
+  "scenes": [
+    {
+      "id": "lexington-green",
+      "title": "列克星敦绿地的第一枪",
+      "title_en": "The Shot Heard Round the World",
+      "hasDialogue": true
+    }
+  ]
+}

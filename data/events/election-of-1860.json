@@ -1,0 +1,19 @@
+{
+  "id": "election-of-1860",
+  "name": "1860年选举与南方脱离",
+  "name_en": "Election of 1860 & Secession",
+  "year": 1860,
+  "month": 11,
+  "characters": ["lincoln"],
+  "importance": "major",
+  "narrative": "events/election-of-1860.md",
+  "relatedEvents": ["lincoln-douglas-debates", "fort-sumter"],
+  "scenes": [
+    {
+      "id": "south-carolina-secession",
+      "title": "南卡罗来纳脱离",
+      "title_en": "South Carolina Secession",
+      "hasDialogue": true
+    }
+  ]
+}

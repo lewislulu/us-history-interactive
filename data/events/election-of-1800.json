@@ -1,0 +1,19 @@
+{
+  "id": "election-of-1800",
+  "name": "1800年选举",
+  "name_en": "Election of 1800",
+  "year": 1800,
+  "month": 11,
+  "characters": ["jefferson", "john-adams", "hamilton"],
+  "importance": "major",
+  "narrative": "events/election-of-1800.md",
+  "relatedEvents": ["whiskey-rebellion", "louisiana-purchase"],
+  "scenes": [
+    {
+      "id": "hamilton-supports-jefferson",
+      "title": "汉密尔顿支持杰斐逊",
+      "title_en": "Hamilton Supports Jefferson",
+      "hasDialogue": true
+    }
+  ]
+}

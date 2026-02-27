@@ -1,0 +1,19 @@
+{
+  "id": "lincoln-douglas-debates",
+  "name": "林肯-道格拉斯辩论",
+  "name_en": "Lincoln-Douglas Debates",
+  "year": 1858,
+  "month": 8,
+  "characters": ["lincoln"],
+  "importance": "major",
+  "narrative": "events/lincoln-douglas-debates.md",
+  "relatedEvents": ["kansas-nebraska", "dred-scott", "harpers-ferry"],
+  "scenes": [
+    {
+      "id": "freeport-debate",
+      "title": "自由港辩论",
+      "title_en": "Freeport Debate",
+      "hasDialogue": true
+    }
+  ]
+}

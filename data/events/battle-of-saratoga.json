@@ -1,0 +1,19 @@
+{
+  "id": "battle-of-saratoga",
+  "name": "萨拉托加战役",
+  "name_en": "Battle of Saratoga",
+  "year": 1777,
+  "month": 10,
+  "characters": ["washington", "franklin"],
+  "importance": "major",
+  "narrative": "events/battle-of-saratoga.md",
+  "relatedEvents": ["lexington-concord", "declaration-of-independence", "battle-of-yorktown"],
+  "scenes": [
+    {
+      "id": "burgoyne-surrender",
+      "title": "伯戈因投降与法国结盟",
+      "title_en": "Burgoyne's Surrender and the French Alliance",
+      "hasDialogue": true
+    }
+  ]
+}

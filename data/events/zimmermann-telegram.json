@@ -1,0 +1,19 @@
+{
+  "id": "zimmermann-telegram",
+  "name": "齐默尔曼电报",
+  "name_en": "Zimmermann Telegram",
+  "year": 1917,
+  "month": 1,
+  "characters": ["wilson"],
+  "importance": "major",
+  "narrative": "events/zimmermann-telegram.md",
+  "relatedEvents": ["us-enters-ww1"],
+  "scenes": [
+    {
+      "id": "telegram-revelation",
+      "title": "截获的密电",
+      "title_en": "The Intercepted Telegram",
+      "hasDialogue": true
+    }
+  ]
+}

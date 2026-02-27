@@ -1,0 +1,19 @@
+{
+  "id": "monroe-doctrine",
+  "name": "门罗主义",
+  "name_en": "Monroe Doctrine",
+  "year": 1823,
+  "month": 12,
+  "characters": [],
+  "importance": "major",
+  "narrative": "events/monroe-doctrine.md",
+  "relatedEvents": ["louisiana-purchase", "mexican-american-war"],
+  "scenes": [
+    {
+      "id": "congress-address",
+      "title": "国会演讲",
+      "title_en": "Address to Congress",
+      "hasDialogue": true
+    }
+  ]
+}

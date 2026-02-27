@@ -1,0 +1,19 @@
+{
+  "id": "thirteenth-amendment",
+  "name": "第13修正案：废除奴隶制",
+  "name_en": "13th Amendment: Abolition of Slavery",
+  "year": 1865,
+  "month": 1,
+  "characters": ["lincoln"],
+  "importance": "major",
+  "narrative": "events/thirteenth-amendment.md",
+  "relatedEvents": ["emancipation-proclamation", "appomattox", "14th-amendment"],
+  "scenes": [
+    {
+      "id": "house-vote",
+      "title": "众议院投票",
+      "title_en": "House Vote",
+      "hasDialogue": true
+    }
+  ]
+}

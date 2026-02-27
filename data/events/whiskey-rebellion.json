@@ -1,0 +1,18 @@
+{
+  "id": "whiskey-rebellion",
+  "name": "威士忌叛乱",
+  "name_en": "Whiskey Rebellion",
+  "year": 1794,
+  "characters": ["washington", "hamilton"],
+  "importance": "major",
+  "narrative": "events/whiskey-rebellion.md",
+  "relatedEvents": ["hamiltons-financial-plan", "constitutional-convention"],
+  "scenes": [
+    {
+      "id": "washington-leads-militia",
+      "title": "华盛顿率军西征",
+      "title_en": "Washington Leads the Militia West",
+      "hasDialogue": true
+    }
+  ]
+}

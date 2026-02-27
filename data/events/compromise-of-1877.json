@@ -1,0 +1,19 @@
+{
+  "id": "compromise-of-1877",
+  "name": "1877年妥协",
+  "name_en": "Compromise of 1877",
+  "year": 1877,
+  "month": 2,
+  "characters": ["douglass"],
+  "importance": "major",
+  "narrative": "events/compromise-of-1877.md",
+  "relatedEvents": ["fifteenth-amendment", "14th-amendment", "plessy-v-ferguson"],
+  "scenes": [
+    {
+      "id": "backroom-deal",
+      "title": "密室交易",
+      "title_en": "Backroom Deal",
+      "hasDialogue": true
+    }
+  ]
+}

@@ -50,5 +50,14 @@
   { "id": "topeka", "name": "托皮卡", "name_en": "Topeka", "coords": [-95.68, 39.05], "type": "city" },
   { "id": "quincy", "name": "昆西", "name_en": "Quincy", "coords": [-70.87, 42.25], "type": "landmark" },
   { "id": "kansas-territory", "name": "堪萨斯领地", "name_en": "Kansas Territory", "coords": [-98.48, 38.50], "type": "battlefield" },
-  { "id": "omaha", "name": "奥马哈", "name_en": "Omaha", "coords": [-95.93, 41.26], "type": "city" }
+  { "id": "omaha", "name": "奥马哈", "name_en": "Omaha", "coords": [-95.93, 41.26], "type": "city" },
+  { "id": "saratoga", "name": "萨拉托加", "name_en": "Saratoga", "coords": [-73.63, 42.99], "type": "battlefield" },
+  { "id": "paris", "name": "巴黎", "name_en": "Paris", "coords": [2.35, 48.86], "type": "city" },
+  { "id": "concord", "name": "康科德", "name_en": "Concord", "coords": [-71.35, 42.46], "type": "battlefield" },
+  { "id": "antietam", "name": "安提特姆", "name_en": "Antietam", "coords": [-77.75, 39.47], "type": "battlefield" },
+  { "id": "harlem", "name": "哈莱姆", "name_en": "Harlem", "coords": [-73.94, 40.81], "type": "landmark" },
+  { "id": "hiroshima", "name": "广岛", "name_en": "Hiroshima", "coords": [132.46, 34.39], "type": "city" },
+  { "id": "berlin", "name": "柏林", "name_en": "Berlin", "coords": [13.40, 52.52], "type": "city" },
+  { "id": "manzanar", "name": "曼扎纳", "name_en": "Manzanar", "coords": [-118.15, 36.73], "type": "landmark" },
+  { "id": "versailles", "name": "凡尔赛", "name_en": "Versailles", "coords": [2.12, 48.80], "type": "landmark" }
 ]

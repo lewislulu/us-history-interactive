@@ -11,6 +11,13 @@
   "relatedEvents": [
     "cuban-missile-crisis"
   ],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "inchon-landing",
+      "title": "仁川登陆",
+      "title_en": "Inchon Landing",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "Korean War"
 }

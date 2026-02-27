@@ -1,0 +1,19 @@
+{
+  "id": "treaty-of-versailles",
+  "name": "凡尔赛条约",
+  "name_en": "Treaty of Versailles",
+  "year": 1919,
+  "month": 6,
+  "characters": ["wilson"],
+  "importance": "major",
+  "narrative": "events/treaty-of-versailles.md",
+  "relatedEvents": ["us-enters-ww1", "great-depression"],
+  "scenes": [
+    {
+      "id": "versailles-wilson-defeat",
+      "title": "威尔逊的理想与现实",
+      "title_en": "Wilson's Idealism vs. Reality",
+      "hasDialogue": true
+    }
+  ]
+}

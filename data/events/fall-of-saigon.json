@@ -1,0 +1,25 @@
+{
+  "id": "fall-of-saigon",
+  "name": "西贡陷落",
+  "name_en": "Fall of Saigon",
+  "year": 1975,
+  "month": 4,
+  "characters": ["nixon"],
+  "importance": "major",
+  "narrative": "events/fall-of-saigon.md",
+  "relatedEvents": ["vietnam-war", "watergate"],
+  "scenes": [
+    {
+      "id": "embassy-evacuation",
+      "title": "大使馆撤离",
+      "title_en": "Embassy Evacuation",
+      "hasDialogue": true
+    },
+    {
+      "id": "tank-at-palace",
+      "title": "坦克冲入总统府",
+      "title_en": "Tanks at the Presidential Palace",
+      "hasDialogue": true
+    }
+  ]
+}

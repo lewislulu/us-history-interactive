@@ -9,6 +9,13 @@
   "relatedEvents": [
     "california-gold-rush"
   ],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "manifest-destiny",
+      "title": "天命昭昭",
+      "title_en": "Manifest Destiny",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "Mexican-American War"
 }

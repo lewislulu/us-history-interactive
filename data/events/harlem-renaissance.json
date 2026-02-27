@@ -1,0 +1,18 @@
+{
+  "id": "harlem-renaissance",
+  "name": "哈莱姆文艺复兴",
+  "name_en": "Harlem Renaissance",
+  "year": 1920,
+  "characters": [],
+  "importance": "major",
+  "narrative": "events/harlem-renaissance.md",
+  "relatedEvents": ["plessy-v-ferguson", "great-depression"],
+  "scenes": [
+    {
+      "id": "harlem-jazz-club",
+      "title": "哈莱姆的爵士之夜",
+      "title_en": "A Harlem Jazz Night",
+      "hasDialogue": true
+    }
+  ]
+}

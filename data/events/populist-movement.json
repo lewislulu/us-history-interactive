@@ -1,0 +1,19 @@
+{
+  "id": "populist-movement",
+  "name": "民粹运动与十字架上的金子",
+  "name_en": "Populist Movement & Cross of Gold",
+  "year": 1896,
+  "month": 7,
+  "characters": ["roosevelt-t"],
+  "importance": "major",
+  "narrative": "events/populist-movement.md",
+  "relatedEvents": ["pullman-strike", "homestead-strike"],
+  "scenes": [
+    {
+      "id": "cross-of-gold-speech",
+      "title": "十字架上的金子演讲",
+      "title_en": "The Cross of Gold Speech",
+      "hasDialogue": true
+    }
+  ]
+}

@@ -9,6 +9,13 @@
   "importance": "major",
   "narrative": "events/louisiana-purchase.md",
   "relatedEvents": [],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "the-offer",
+      "title": "三美分一英亩",
+      "title_en": "Three Cents an Acre",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "Louisiana Purchase"
 }

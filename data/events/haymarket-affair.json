@@ -1,0 +1,19 @@
+{
+  "id": "haymarket-affair",
+  "name": "海马凯特事件",
+  "name_en": "Haymarket Affair",
+  "year": 1886,
+  "month": 5,
+  "characters": ["carnegie"],
+  "importance": "major",
+  "narrative": "events/haymarket-affair.md",
+  "relatedEvents": ["homestead-strike", "transcontinental-railroad"],
+  "scenes": [
+    {
+      "id": "haymarket-bombing",
+      "title": "芝加哥的爆炸与混乱",
+      "title_en": "Explosion and Chaos in Chicago",
+      "hasDialogue": true
+    }
+  ]
+}

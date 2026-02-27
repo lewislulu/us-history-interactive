@@ -1,0 +1,18 @@
+{
+  "id": "hamiltons-financial-plan",
+  "name": "汉密尔顿财政计划",
+  "name_en": "Hamilton's Financial Plan",
+  "year": 1790,
+  "characters": ["hamilton", "jefferson", "madison", "washington"],
+  "importance": "major",
+  "narrative": "events/hamiltons-financial-plan.md",
+  "relatedEvents": ["washington-inauguration", "whiskey-rebellion"],
+  "scenes": [
+    {
+      "id": "dinner-table-bargain",
+      "title": "晚餐桌协议",
+      "title_en": "The Dinner Table Bargain",
+      "hasDialogue": true
+    }
+  ]
+}

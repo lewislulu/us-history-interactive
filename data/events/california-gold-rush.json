@@ -9,6 +9,13 @@
   "relatedEvents": [
     "mexican-american-war"
   ],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "gold-discovery",
+      "title": "发现黄金",
+      "title_en": "Gold Discovery",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "California Gold Rush"
 }

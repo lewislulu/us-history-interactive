@@ -7,6 +7,13 @@
   "importance": "normal",
   "narrative": "events/war-of-1812.md",
   "relatedEvents": [],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "white-house-burns",
+      "title": "白宫在燃烧",
+      "title_en": "The White House Burns",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "War of 1812"
 }

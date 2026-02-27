@@ -1,0 +1,19 @@
+{
+  "id": "atomic-bomb",
+  "name": "原子弹轰炸广岛与长崎",
+  "name_en": "Atomic Bombs on Hiroshima and Nagasaki",
+  "year": 1945,
+  "month": 8,
+  "characters": ["truman"],
+  "importance": "major",
+  "narrative": "events/atomic-bomb.md",
+  "relatedEvents": ["pearl-harbor", "d-day", "truman-doctrine"],
+  "scenes": [
+    {
+      "id": "truman-decision",
+      "title": "杜鲁门的决定",
+      "title_en": "Truman's Decision",
+      "hasDialogue": true
+    }
+  ]
+}

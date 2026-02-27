@@ -1,0 +1,19 @@
+{
+  "id": "pullman-strike",
+  "name": "普尔曼罢工",
+  "name_en": "Pullman Strike",
+  "year": 1894,
+  "month": 5,
+  "characters": ["carnegie"],
+  "importance": "major",
+  "narrative": "events/pullman-strike.md",
+  "relatedEvents": ["homestead-strike", "haymarket-affair"],
+  "scenes": [
+    {
+      "id": "pullman-federal-intervention",
+      "title": "联邦军队与铁路工人",
+      "title_en": "Federal Troops vs. Railroad Workers",
+      "hasDialogue": true
+    }
+  ]
+}

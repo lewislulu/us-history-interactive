@@ -1,0 +1,25 @@
+{
+  "id": "mccarthyism",
+  "name": "麦卡锡主义与红色恐惧",
+  "name_en": "McCarthyism & the Red Scare",
+  "year": 1950,
+  "month": 2,
+  "characters": ["truman", "eisenhower"],
+  "importance": "major",
+  "narrative": "events/mccarthyism.md",
+  "relatedEvents": ["truman-doctrine", "korean-war"],
+  "scenes": [
+    {
+      "id": "wheeling-speech",
+      "title": "威灵演讲",
+      "title_en": "The Wheeling Speech",
+      "hasDialogue": true
+    },
+    {
+      "id": "army-hearings",
+      "title": "陆军听证会",
+      "title_en": "Army-McCarthy Hearings",
+      "hasDialogue": true
+    }
+  ]
+}

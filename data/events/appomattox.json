@@ -1,0 +1,19 @@
+{
+  "id": "appomattox",
+  "name": "阿波马托克斯投降",
+  "name_en": "Surrender at Appomattox",
+  "year": 1865,
+  "month": 4,
+  "characters": ["grant", "lee"],
+  "importance": "major",
+  "narrative": "events/appomattox.md",
+  "relatedEvents": ["gettysburg", "emancipation-proclamation", "lincoln-assassination"],
+  "scenes": [
+    {
+      "id": "surrender-meeting",
+      "title": "投降会面",
+      "title_en": "Surrender Meeting",
+      "hasDialogue": true
+    }
+  ]
+}

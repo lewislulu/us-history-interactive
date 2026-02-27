@@ -1,0 +1,25 @@
+{
+  "id": "berlin-wall",
+  "name": "柏林墙",
+  "name_en": "Construction of the Berlin Wall",
+  "year": 1961,
+  "month": 8,
+  "characters": ["jfk"],
+  "importance": "major",
+  "narrative": "events/berlin-wall.md",
+  "relatedEvents": ["truman-doctrine", "cuban-missile-crisis"],
+  "scenes": [
+    {
+      "id": "wall-construction",
+      "title": "一夜建墙",
+      "title_en": "Overnight Construction",
+      "hasDialogue": true
+    },
+    {
+      "id": "ich-bin-ein-berliner",
+      "title": "我是柏林人",
+      "title_en": "Ich bin ein Berliner",
+      "hasDialogue": true
+    }
+  ]
+}

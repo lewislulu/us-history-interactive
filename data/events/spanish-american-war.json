@@ -9,6 +9,13 @@
   "importance": "normal",
   "narrative": "events/spanish-american-war.md",
   "relatedEvents": [],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "remember-the-maine",
+      "title": "记住缅因号",
+      "title_en": "Remember the Maine",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "Spanish-American War"
 }

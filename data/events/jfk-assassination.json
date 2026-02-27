@@ -1,0 +1,25 @@
+{
+  "id": "jfk-assassination",
+  "name": "肯尼迪遇刺",
+  "name_en": "Assassination of JFK",
+  "year": 1963,
+  "month": 11,
+  "characters": ["jfk", "lbj"],
+  "importance": "major",
+  "narrative": "events/jfk-assassination.md",
+  "relatedEvents": ["cuban-missile-crisis", "civil-rights-act", "vietnam-war"],
+  "scenes": [
+    {
+      "id": "dealey-plaza",
+      "title": "迪利广场",
+      "title_en": "Dealey Plaza",
+      "hasDialogue": true
+    },
+    {
+      "id": "air-force-one",
+      "title": "空军一号宣誓",
+      "title_en": "Oath on Air Force One",
+      "hasDialogue": true
+    }
+  ]
+}

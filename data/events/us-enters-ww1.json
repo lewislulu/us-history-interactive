@@ -9,6 +9,13 @@
   "relatedEvents": [
     "great-depression"
   ],
-  "scenes": [],
+  "scenes": [
+    {
+      "id": "war-declaration",
+      "title": "让世界安全于民主",
+      "title_en": "Making the World Safe for Democracy",
+      "hasDialogue": true
+    }
+  ],
   "name_en": "America Enters World War I"
 }

@@ -1,0 +1,19 @@
+{
+  "id": "fifteenth-amendment",
+  "name": "第15修正案：黑人投票权",
+  "name_en": "15th Amendment: Black Voting Rights",
+  "year": 1870,
+  "month": 2,
+  "characters": ["grant", "douglass"],
+  "importance": "major",
+  "narrative": "events/fifteenth-amendment.md",
+  "relatedEvents": ["14th-amendment", "thirteenth-amendment", "compromise-of-1877"],
+  "scenes": [
+    {
+      "id": "celebration-and-warning",
+      "title": "庆祝与警告",
+      "title_en": "Celebration and Warning",
+      "hasDialogue": true
+    }
+  ]
+}

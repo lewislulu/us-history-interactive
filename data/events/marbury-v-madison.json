@@ -1,0 +1,19 @@
+{
+  "id": "marbury-v-madison",
+  "name": "马伯里诉麦迪逊案",
+  "name_en": "Marbury v. Madison",
+  "year": 1803,
+  "month": 2,
+  "characters": ["jefferson", "madison"],
+  "importance": "major",
+  "narrative": "events/marbury-v-madison.md",
+  "relatedEvents": ["election-of-1800", "constitutional-convention"],
+  "scenes": [
+    {
+      "id": "marshall-delivers-opinion",
+      "title": "马歇尔宣读判决",
+      "title_en": "Marshall Delivers His Opinion",
+      "hasDialogue": true
+    }
+  ]
+}

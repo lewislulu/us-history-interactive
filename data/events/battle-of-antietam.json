@@ -1,0 +1,19 @@
+{
+  "id": "battle-of-antietam",
+  "name": "安提特姆战役",
+  "name_en": "Battle of Antietam",
+  "year": 1862,
+  "month": 9,
+  "characters": ["lincoln", "lee"],
+  "importance": "major",
+  "narrative": "events/battle-of-antietam.md",
+  "relatedEvents": ["fort-sumter", "emancipation-proclamation"],
+  "scenes": [
+    {
+      "id": "bloodiest-day",
+      "title": "最血腥的一天",
+      "title_en": "The Bloodiest Day",
+      "hasDialogue": true
+    }
+  ]
+}

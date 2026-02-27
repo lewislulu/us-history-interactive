@@ -24,7 +24,7 @@
       "description": "英国对北美殖民地横征暴敛，激起殖民者反抗。从印花税法案到波士顿倾茶事件，从独立宣言到约克镇大捷，十三个殖民地最终赢得独立，制宪会议建立了世界上第一个现代共和国。",
       "description_en": "Britain's oppressive taxes and policies provoked colonial resistance. From the Stamp Act to the Boston Tea Party, from the Declaration of Independence to the victory at Yorktown, the thirteen colonies won their independence and the Constitutional Convention established the world's first modern republic.",
       "characters": ["washington", "jefferson", "franklin", "hamilton", "john-adams", "madison"],
-      "events": ["stamp-act", "boston-tea-party", "declaration-of-independence", "battle-of-yorktown", "constitutional-convention"],
+      "events": ["stamp-act", "boston-tea-party", "lexington-concord", "common-sense", "declaration-of-independence", "battle-of-saratoga", "valley-forge", "battle-of-yorktown", "treaty-of-paris-1783", "constitutional-convention"],
       "coverColor": "#1a5276"
     },
     {
@@ -38,7 +38,7 @@
       "description": "华盛顿就任首任总统，联邦党与民主共和党展开政争。路易斯安那购地使国土翻倍，1812年战争巩固了国家主权。",
       "description_en": "Washington became the first president as Federalists and Democratic-Republicans clashed over the nation's direction. The Louisiana Purchase doubled the nation's territory, and the War of 1812 consolidated national sovereignty.",
       "characters": ["washington", "jefferson", "hamilton", "john-adams", "madison"],
-      "events": ["washington-inauguration", "louisiana-purchase", "war-of-1812"],
+      "events": ["washington-inauguration", "hamiltons-financial-plan", "whiskey-rebellion", "election-of-1800", "marbury-v-madison", "louisiana-purchase", "lewis-and-clark", "war-of-1812"],
       "coverColor": "#2e86c1"
     },
     {
@@ -52,7 +52,7 @@
       "description": "美国在天命昭昭信念下向西大举扩张，领土从大西洋延伸到太平洋。但奴隶制问题日益尖锐——从密苏里妥协到流血堪萨斯，从德雷德·斯科特案到约翰·布朗袭击哈珀斯费里，一系列妥协的失败使内战成为必然。",
       "description_en": "Driven by Manifest Destiny, America expanded westward from the Atlantic to the Pacific. Yet the slavery question grew ever more acute—from the Missouri Compromise to Bleeding Kansas, from Dred Scott to John Brown's raid on Harpers Ferry, the failure of successive compromises made civil war inevitable.",
       "characters": ["jackson", "lincoln", "douglass", "anthony", "tubman", "john-brown"],
-      "events": ["missouri-compromise", "nullification-crisis", "trail-of-tears", "seneca-falls", "mexican-american-war", "california-gold-rush", "compromise-1850", "underground-railroad", "kansas-nebraska", "dred-scott", "harpers-ferry"],
+      "events": ["missouri-compromise", "monroe-doctrine", "nullification-crisis", "trail-of-tears", "seneca-falls", "mexican-american-war", "california-gold-rush", "compromise-1850", "underground-railroad", "kansas-nebraska", "dred-scott", "lincoln-douglas-debates", "harpers-ferry", "election-of-1860"],
       "coverColor": "#d4ac0d"
     },
     {
@@ -66,7 +66,7 @@
       "description": "林肯当选引发南方脱离联邦，美国陷入历时四年的内战。战争夺去62万人生命，最终联邦胜利，奴隶制被废除。重建时期通过第14修正案确立平等保护原则，但随着1877年妥协，南方重新陷入种族隔离。",
       "description_en": "Lincoln's election triggered Southern secession and plunged the nation into four years of civil war. The conflict claimed 620,000 lives before the Union prevailed and slavery was abolished. The 14th Amendment established equal protection, but the Compromise of 1877 ended Reconstruction and ushered in an era of racial segregation in the South.",
       "characters": ["lincoln", "grant", "lee", "douglass", "tubman"],
-      "events": ["fort-sumter", "emancipation-proclamation", "gettysburg", "lincoln-assassination", "14th-amendment"],
+      "events": ["fort-sumter", "battle-of-antietam", "emancipation-proclamation", "gettysburg", "thirteenth-amendment", "appomattox", "lincoln-assassination", "14th-amendment", "fifteenth-amendment", "compromise-of-1877"],
       "coverColor": "#922b21"
     },
     {
@@ -80,7 +80,7 @@
       "description": "铁路横贯大陆，钢铁与石油巨头崛起。移民潮涌入，城市迅速扩张。排华法案开创了种族排斥移民的先例。Plessy v. Ferguson确立'隔离但平等'，为半个世纪的种族隔离奠定法律基础。",
       "description_en": "Transcontinental railroads spanned the continent as steel and oil barons rose to power. Waves of immigrants poured in and cities expanded rapidly. The Chinese Exclusion Act set the precedent for race-based immigration restriction. Plessy v. Ferguson enshrined 'separate but equal,' laying the legal foundation for half a century of racial segregation.",
       "characters": ["edison", "roosevelt-t", "carnegie", "anthony", "douglass"],
-      "events": ["transcontinental-railroad", "chinese-exclusion", "statue-of-liberty", "ellis-island", "homestead-strike", "plessy-v-ferguson", "spanish-american-war"],
+      "events": ["transcontinental-railroad", "chinese-exclusion", "haymarket-affair", "statue-of-liberty", "ellis-island", "homestead-strike", "pullman-strike", "populist-movement", "plessy-v-ferguson", "spanish-american-war"],
       "coverColor": "#b7950b"
     },
     {
@@ -94,7 +94,7 @@
       "description": "一战使美国从债务国变为债权国。女性终获选举权。大萧条重创经济，罗斯福新政从根本上改变了联邦政府的角色。珍珠港事件将美国卷入二战，美国成为超级大国。",
       "description_en": "World War I transformed America from a debtor nation into a creditor nation. Women finally won the right to vote. The Great Depression devastated the economy, and Roosevelt's New Deal fundamentally redefined the role of the federal government. Pearl Harbor drew America into World War II, and the nation emerged as a superpower.",
       "characters": ["wilson", "roosevelt-f", "eisenhower", "truman"],
-      "events": ["us-enters-ww1", "womens-suffrage", "great-depression", "new-deal", "pearl-harbor", "d-day"],
+      "events": ["zimmermann-telegram", "us-enters-ww1", "treaty-of-versailles", "womens-suffrage", "harlem-renaissance", "great-depression", "new-deal", "pearl-harbor", "japanese-internment", "d-day", "atomic-bomb"],
       "coverColor": "#1b4f72"
     },
     {
@@ -108,7 +108,7 @@
       "description": "杜鲁门主义开启遏制战略，冷战主导世界格局。国内民权运动从法庭走向街头——Brown v. Board推翻隔离，蒙哥马利抵制开启群众运动，选举权法终结选举歧视。越战撕裂社会，水门事件动摇信任，登月彰显科技实力。",
       "description_en": "The Truman Doctrine launched the containment strategy as the Cold War defined world affairs. At home, the civil rights movement moved from the courtroom to the streets—Brown v. Board overturned segregation, the Montgomery boycott ignited a mass movement, and the Voting Rights Act ended electoral discrimination. The Vietnam War tore society apart, Watergate shook public trust, and the Moon landing showcased American technological prowess.",
       "characters": ["truman", "eisenhower", "mlk", "jfk", "malcolm-x", "lbj", "nixon"],
-      "events": ["truman-doctrine", "korean-war", "brown-v-board", "montgomery-boycott", "little-rock", "cuban-missile-crisis", "i-have-a-dream", "civil-rights-act", "voting-rights-act", "vietnam-war", "moon-landing", "watergate"],
+      "events": ["truman-doctrine", "mccarthyism", "korean-war", "brown-v-board", "montgomery-boycott", "little-rock", "berlin-wall", "cuban-missile-crisis", "i-have-a-dream", "jfk-assassination", "civil-rights-act", "voting-rights-act", "vietnam-war", "moon-landing", "watergate", "fall-of-saigon"],
       "coverColor": "#6c3483"
     }
   ]

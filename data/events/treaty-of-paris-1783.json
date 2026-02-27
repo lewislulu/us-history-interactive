@@ -1,0 +1,19 @@
+{
+  "id": "treaty-of-paris-1783",
+  "name": "1783年巴黎条约",
+  "name_en": "Treaty of Paris (1783)",
+  "year": 1783,
+  "month": 9,
+  "characters": ["franklin", "jefferson", "john-adams"],
+  "importance": "major",
+  "narrative": "events/treaty-of-paris-1783.md",
+  "relatedEvents": ["battle-of-yorktown", "constitutional-convention"],
+  "scenes": [
+    {
+      "id": "paris-signing",
+      "title": "巴黎的外交胜利",
+      "title_en": "Diplomatic Triumph in Paris",
+      "hasDialogue": true
+    }
+  ]
+}

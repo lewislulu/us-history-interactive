@@ -1,0 +1,19 @@
+{
+  "id": "common-sense",
+  "name": "《常识》发表",
+  "name_en": "Publication of Common Sense",
+  "year": 1776,
+  "month": 1,
+  "characters": ["franklin"],
+  "importance": "major",
+  "narrative": "events/common-sense.md",
+  "relatedEvents": ["lexington-concord", "declaration-of-independence"],
+  "scenes": [
+    {
+      "id": "philadelphia-pamphlet",
+      "title": "费城街头的革命呐喊",
+      "title_en": "Revolutionary Call in Philadelphia Streets",
+      "hasDialogue": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "valley-forge",
+  "name": "福吉谷的寒冬",
+  "name_en": "Winter at Valley Forge",
+  "year": 1777,
+  "month": 12,
+  "characters": ["washington"],
+  "importance": "major",
+  "narrative": "events/valley-forge.md",
+  "relatedEvents": ["battle-of-saratoga", "battle-of-yorktown"],
+  "scenes": [
+    {
+      "id": "winter-encampment",
+      "title": "严冬中的考验与重生",
+      "title_en": "Trial and Transformation in the Bitter Cold",
+      "hasDialogue": true
+    }
+  ]
+}
