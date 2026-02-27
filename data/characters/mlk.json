@@ -1,18 +1,22 @@
 {
   "id": "mlk",
   "name": "马丁·路德·金",
+  "name_en": "Martin Luther King Jr.",
   "courtesy": "民权领袖",
+  "courtesy_en": "Civil Rights Leader",
   "birth": 1929,
   "death": 1968,
   "color": "#6c3483",
   "portrait": "",
   "bio": "美国民权运动领袖，非暴力抗争的倡导者。领导蒙哥马利公车抵制运动、向华盛顿进军，发表我有一个梦想演说。1964年获诺贝尔和平奖。1968年在孟菲斯遇刺身亡。",
+  "bio_en": "Leader of the American civil rights movement and advocate of nonviolent resistance. Led the Montgomery Bus Boycott, the March on Washington, and delivered the iconic 'I Have a Dream' speech. Awarded the Nobel Peace Prize in 1964. Assassinated in Memphis in 1968 at the age of 39.",
   "activeRange": [1955, 1968],
   "tags": ["民权领袖", "非暴力", "诺贝尔和平奖"],
+  "tags_en": ["Civil Rights Leader", "Nonviolence", "Nobel Peace Prize"],
   "personalEvents": [
-    {"year": 1955, "title": "蒙哥马利公车抵制", "description": "领导黑人抵制种族隔离的公共汽车，历时381天", "type": "milestone"},
-    {"year": 1963, "title": "我有一个梦想", "description": "在华盛顿林肯纪念堂前发表著名演说", "type": "milestone"},
-    {"year": 1964, "title": "获诺贝尔和平奖", "description": "因非暴力抗争获诺贝尔和平奖", "type": "milestone"},
-    {"year": 1968, "title": "遇刺身亡", "description": "在孟菲斯被枪杀，年仅39岁", "type": "turning-point"}
+    {"year": 1955, "title": "蒙哥马利公车抵制", "title_en": "Montgomery Bus Boycott", "description": "领导黑人抵制种族隔离的公共汽车，历时381天", "description_en": "Leads African Americans in boycott of segregated buses for 381 days", "type": "milestone"},
+    {"year": 1963, "title": "我有一个梦想", "title_en": "I Have a Dream", "description": "在华盛顿林肯纪念堂前发表著名演说", "description_en": "Delivers iconic speech at the Lincoln Memorial during the March on Washington", "type": "milestone"},
+    {"year": 1964, "title": "获诺贝尔和平奖", "title_en": "Nobel Peace Prize", "description": "因非暴力抗争获诺贝尔和平奖", "description_en": "Awarded Nobel Peace Prize for nonviolent resistance to racial injustice", "type": "milestone"},
+    {"year": 1968, "title": "遇刺身亡", "title_en": "Assassination", "description": "在孟菲斯被枪杀，年仅39岁", "description_en": "Assassinated in Memphis at age 39", "type": "turning-point"}
   ]
 }

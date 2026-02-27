@@ -1,18 +1,22 @@
 {
   "id": "malcolm-x",
   "name": "马尔科姆·X",
+  "name_en": "Malcolm X",
   "courtesy": "黑人力量",
+  "courtesy_en": "Voice of Black Power",
   "birth": 1925,
   "death": 1965,
   "color": "#c0392b",
   "portrait": "",
   "bio": "20世纪最具影响力的黑人领袖之一，马丁·路德·金非暴力路线的强力对照。早年入狱，在狱中加入伊斯兰国度组织，出狱后成为最具感染力的黑人权力演说家。他拒绝'融入白人社会'，主张黑人自力更生、自我防卫。后期思想转向温和，1965年被暗杀。他的自传影响了一代又一代人。",
+  "bio_en": "Influential African American leader and spokesman for the Nation of Islam who advocated Black self-reliance and self-defense. His autobiography became a classic of American literature. After his pilgrimage to Mecca, he embraced a more inclusive vision of racial justice. Assassinated in New York in 1965.",
   "activeRange": [1952, 1965],
   "tags": ["黑人力量", "伊斯兰国度", "民权运动"],
+  "tags_en": ["Black Nationalist", "Nation of Islam", "Civil Rights"],
   "personalEvents": [
-    {"year": 1952, "title": "出狱与信仰", "description": "出狱后成为伊斯兰国度组织最重要的发言人", "type": "turning-point"},
-    {"year": 1963, "title": "'以任何必要的手段'", "description": "发表激进演说，主张黑人有自卫的权利", "type": "milestone"},
-    {"year": 1964, "title": "离开伊斯兰国度", "description": "与伊斯兰国度决裂，前往麦加朝觐后思想转向温和", "type": "turning-point"},
-    {"year": 1965, "title": "遭暗杀", "description": "在纽约演讲时被伊斯兰国度成员枪杀", "type": "turning-point"}
+    {"year": 1952, "title": "出狱与信仰", "title_en": "Release and Faith", "description": "出狱后成为伊斯兰国度组织最重要的发言人", "description_en": "Released from prison; becomes the Nation of Islam's most powerful spokesman", "type": "turning-point"},
+    {"year": 1963, "title": "'以任何必要的手段'", "title_en": "By Any Means Necessary", "description": "发表激进演说，主张黑人有自卫的权利", "description_en": "Delivers radical speeches advocating Black people's right to self-defense", "type": "milestone"},
+    {"year": 1964, "title": "离开伊斯兰国度", "title_en": "Breaks with Nation of Islam", "description": "与伊斯兰国度决裂，前往麦加朝觐后思想转向温和", "description_en": "Splits from the Nation of Islam; pilgrimage to Mecca transforms his views toward inclusivity", "type": "turning-point"},
+    {"year": 1965, "title": "遭暗杀", "title_en": "Assassination", "description": "在纽约演讲时被伊斯兰国度成员枪杀", "description_en": "Assassinated by Nation of Islam members while giving a speech in New York", "type": "turning-point"}
   ]
 }

@@ -1,1 +1,25 @@
-{"id":"civil-rights-act","name":"民权法案","year":1964,"month":7,"characters":["mlk","jfk"],"importance":"major","narrative":"events/civil-rights-act.md","relatedEvents":["i-have-a-dream","emancipation-proclamation"],"scenes":[{"id":"signing-ceremony","title":"签署仪式","hasDialogue":true}]}
+{
+  "id": "civil-rights-act",
+  "name": "民权法案",
+  "year": 1964,
+  "month": 7,
+  "characters": [
+    "mlk",
+    "jfk"
+  ],
+  "importance": "major",
+  "narrative": "events/civil-rights-act.md",
+  "relatedEvents": [
+    "i-have-a-dream",
+    "emancipation-proclamation"
+  ],
+  "scenes": [
+    {
+      "id": "signing-ceremony",
+      "title": "签署仪式",
+      "hasDialogue": true,
+      "title_en": "The Signing Ceremony"
+    }
+  ],
+  "name_en": "Civil Rights Act of 1964"
+}

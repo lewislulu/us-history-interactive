@@ -1,17 +1,21 @@
 {
   "id": "hamilton",
   "name": "亚历山大·汉密尔顿",
+  "name_en": "Alexander Hamilton",
   "courtesy": "美国金融之父",
+  "courtesy_en": "Architect of Finance",
   "birth": 1755,
   "death": 1804,
   "color": "#2ecc71",
   "portrait": "",
   "bio": "美国首任财政部长，联邦党创始人之一。建立国家银行、联邦税收体系和信用制度，奠定美国金融体系基础。在与伯尔的决斗中身亡，年仅49岁。",
+  "bio_en": "First Secretary of the Treasury and chief architect of the American financial system. Born in the Caribbean, he rose to become Washington's aide-de-camp during the Revolution. He established the national bank, federal credit system, and the U.S. Mint. Co-authored The Federalist Papers defending the Constitution. Killed in a duel with Aaron Burr in 1804.",
   "activeRange": [1776, 1804],
   "tags": ["财政部长", "联邦党", "金融之父"],
+  "tags_en": ["Founding Father", "1st Treasury Secretary", "Federalist"],
   "personalEvents": [
-    {"year": 1776, "title": "参加独立战争", "description": "加入大陆军，成为华盛顿的副官", "type": "milestone"},
-    {"year": 1789, "title": "就任首任财政部长", "description": "建立国家银行和联邦税收体系", "type": "milestone"},
-    {"year": 1804, "title": "决斗身亡", "description": "与副总统阿伦·伯尔决斗，中弹身亡", "type": "turning-point"}
+    {"year": 1776, "title": "参加独立战争", "title_en": "Joined the Revolutionary War", "description": "加入大陆军，成为华盛顿的副官", "description_en": "Joined the Continental Army and became Washington's aide-de-camp", "type": "milestone"},
+    {"year": 1789, "title": "就任首任财政部长", "title_en": "Appointed First Treasury Secretary", "description": "建立国家银行和联邦税收体系", "description_en": "Established the national bank and federal tax system", "type": "milestone"},
+    {"year": 1804, "title": "决斗身亡", "title_en": "Killed in Duel", "description": "与副总统阿伦·伯尔决斗，中弹身亡", "description_en": "Mortally wounded in a duel with Vice President Aaron Burr", "type": "turning-point"}
   ]
 }

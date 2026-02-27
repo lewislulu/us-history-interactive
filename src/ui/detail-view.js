@@ -3,6 +3,7 @@
  */
 import { overlayFadeIn, overlayFadeOut, typewriterReveal, staggerReveal } from '../utils/animations.js';
 import { generatePortraitPlaceholder } from '../utils/helpers.js';
+import { isEn } from '../i18n/index.js';
 
 export class DetailView {
   constructor(characters) {
@@ -92,7 +93,9 @@ export class DetailView {
 
     const speaker = document.createElement('div');
     speaker.className = 'dialogue-speaker';
-    speaker.textContent = el.speaker + (el.emotion ? `（${el.emotion}）` : '');
+    const lp = isEn() ? '(' : '（';
+    const rp = isEn() ? ')' : '）';
+    speaker.textContent = el.speaker + (el.emotion ? `${lp}${el.emotion}${rp}` : '');
     speaker.style.color = color;
 
     const text = document.createElement('div');

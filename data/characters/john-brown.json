@@ -1,18 +1,22 @@
 {
   "id": "john-brown",
   "name": "约翰·布朗",
+  "name_en": "John Brown",
   "courtesy": "激进废奴者",
+  "courtesy_en": "Radical Abolitionist",
   "birth": 1800,
   "death": 1859,
   "color": "#8b4513",
   "portrait": "",
   "bio": "美国最激进的废奴主义者。他相信上帝选中他来以暴力终结奴隶制。在堪萨斯'流血事件'中杀死支持奴隶制的定居者，1859年率21人袭击哈珀斯费里联邦军火库，试图引发奴隶起义。行动失败被捕处死，但他的殉道激化了南北矛盾。北方人视他为英雄，南方人视他为恐怖分子——18个月后内战爆发。",
+  "bio_en": "Radical abolitionist who believed armed insurrection was the only way to end slavery. Led the Pottawatomie Massacre in Bleeding Kansas and the raid on the federal arsenal at Harpers Ferry in 1859. His capture, trial, and execution galvanized both abolitionists and secessionists, helping precipitate the Civil War.",
   "activeRange": [1855, 1859],
   "tags": ["废奴主义", "哈珀斯费里", "流血堪萨斯"],
+  "tags_en": ["Abolitionist", "Radical", "Harpers Ferry"],
   "personalEvents": [
-    {"year": 1855, "title": "赴堪萨斯作战", "description": "带领儿子们前往堪萨斯，武装对抗支持奴隶制的势力", "type": "turning-point"},
-    {"year": 1856, "title": "波塔瓦托米大屠杀", "description": "在堪萨斯夜袭杀死5名支持奴隶制的定居者", "type": "turning-point"},
-    {"year": 1859, "title": "袭击哈珀斯费里", "description": "率21人突袭联邦军火库，试图引发奴隶大起义", "type": "turning-point"},
-    {"year": 1859, "title": "受审处死", "description": "被判叛国罪绞刑，临终说：'我相信这片土地的罪恶只有用鲜血才能洗清'", "type": "turning-point"}
+    {"year": 1855, "title": "赴堪萨斯作战", "title_en": "Went to Kansas to Fight", "description": "带领儿子们前往堪萨斯，武装对抗支持奴隶制的势力", "description_en": "Led his sons to Kansas to wage armed resistance against pro-slavery forces", "type": "turning-point"},
+    {"year": 1856, "title": "波塔瓦托米大屠杀", "title_en": "Pottawatomie Massacre", "description": "在堪萨斯夜袭杀死5名支持奴隶制的定居者", "description_en": "Led nighttime raid in Kansas, killing five pro-slavery settlers", "type": "turning-point"},
+    {"year": 1859, "title": "袭击哈珀斯费里", "title_en": "Raid on Harpers Ferry", "description": "率21人突袭联邦军火库，试图引发奴隶大起义", "description_en": "Led 21 men in a raid on the federal arsenal, attempting to spark a slave uprising", "type": "turning-point"},
+    {"year": 1859, "title": "受审处死", "title_en": "Trial and Execution", "description": "被判叛国罪绞刑，临终说：'我相信这片土地的罪恶只有用鲜血才能洗清'", "description_en": "Convicted of treason and hanged, saying before death: 'I believe that the crimes of this land will never be purged away but with blood'", "type": "turning-point"}
   ]
 }

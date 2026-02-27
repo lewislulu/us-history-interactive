@@ -1,19 +1,23 @@
 {
   "id": "tubman",
   "name": "哈丽特·塔布曼",
+  "name_en": "Harriet Tubman",
   "courtesy": "黑摩西",
+  "courtesy_en": "Moses of Her People",
   "birth": 1822,
   "death": 1913,
   "color": "#6c3461",
   "portrait": "",
   "bio": "生为奴隶，1849年孤身逃往北方后，13次潜回南方，通过'地下铁路'帮助约70名奴隶逃往自由。她随身携带手枪——不是为了对付追捕者，而是警告想要回头的逃亡者。内战期间担任联邦军间谍和侦察兵，是美国历史上第一位领导武装突袭的女性。",
+  "bio_en": "Escaped slave who became the most famous conductor on the Underground Railroad, making 13 missions to rescue approximately 70 enslaved people. During the Civil War, she served as a scout, spy, and nurse for the Union Army. The first woman to lead an armed assault during the war. A lifelong activist for abolition and women's suffrage.",
   "activeRange": [1849, 1913],
   "tags": ["地下铁路", "废奴英雄", "间谍"],
+  "tags_en": ["Abolitionist", "Underground Railroad", "Union Spy"],
   "personalEvents": [
-    {"year": 1849, "title": "逃出奴役", "description": "独自从马里兰逃往费城，步行近90英里", "type": "turning-point"},
-    {"year": 1850, "title": "首次返回救人", "description": "《逃奴法》通过后，冒死返回马里兰营救家人", "type": "milestone"},
-    {"year": 1858, "title": "与道格拉斯会面", "description": "在地下铁路网络中与弗雷德里克·道格拉斯合作", "type": "milestone"},
-    {"year": 1863, "title": "领导军事行动", "description": "在南卡罗来纳领导康巴希河突袭，解放700余名奴隶", "type": "turning-point"},
-    {"year": 1869, "title": "加入女权运动", "description": "在废奴之后转向争取女性投票权", "type": "milestone"}
+    {"year": 1849, "title": "逃出奴役", "title_en": "Escaped from Slavery", "description": "独自从马里兰逃往费城，步行近90英里", "description_en": "Escaped alone from Maryland to Philadelphia, walking nearly 90 miles", "type": "turning-point"},
+    {"year": 1850, "title": "首次返回救人", "title_en": "First Rescue Mission", "description": "《逃奴法》通过后，冒死返回马里兰营救家人", "description_en": "After the Fugitive Slave Act passed, risked her life returning to Maryland to rescue family members", "type": "milestone"},
+    {"year": 1858, "title": "与道格拉斯会面", "title_en": "Met with Frederick Douglass", "description": "在地下铁路网络中与弗雷德里克·道格拉斯合作", "description_en": "Collaborated with Frederick Douglass in the Underground Railroad network", "type": "milestone"},
+    {"year": 1863, "title": "领导军事行动", "title_en": "Led Military Raid", "description": "在南卡罗来纳领导康巴希河突袭，解放700余名奴隶", "description_en": "Led the Combahee River Raid in South Carolina, liberating over 700 enslaved people", "type": "turning-point"},
+    {"year": 1869, "title": "加入女权运动", "title_en": "Joined Women's Suffrage Movement", "description": "在废奴之后转向争取女性投票权", "description_en": "After abolition, turned her efforts to fighting for women's voting rights", "type": "milestone"}
   ]
 }

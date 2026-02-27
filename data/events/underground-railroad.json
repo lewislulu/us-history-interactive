@@ -1,1 +1,24 @@
-{"id":"underground-railroad","name":"地下铁路","year":1850,"month":9,"characters":["douglass"],"importance":"major","narrative":"events/underground-railroad.md","relatedEvents":["emancipation-proclamation","missouri-compromise"],"scenes":[{"id":"midnight-escape","title":"午夜逃亡","hasDialogue":true}]}
+{
+  "id": "underground-railroad",
+  "name": "地下铁路",
+  "year": 1850,
+  "month": 9,
+  "characters": [
+    "douglass"
+  ],
+  "importance": "major",
+  "narrative": "events/underground-railroad.md",
+  "relatedEvents": [
+    "emancipation-proclamation",
+    "missouri-compromise"
+  ],
+  "scenes": [
+    {
+      "id": "midnight-escape",
+      "title": "午夜逃亡",
+      "hasDialogue": true,
+      "title_en": "Midnight Escape"
+    }
+  ],
+  "name_en": "Underground Railroad"
+}

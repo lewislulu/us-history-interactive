@@ -1,20 +1,24 @@
 {
   "id": "washington",
   "name": "乔治·华盛顿",
+  "name_en": "George Washington",
   "courtesy": "美国国父",
+  "courtesy_en": "Founding Father",
   "birth": 1732,
   "death": 1799,
   "color": "#1a5276",
   "portrait": "",
   "bio": "美国首任总统，大陆军总司令。出身弗吉尼亚种植园主家庭，独立战争中率领大陆军击败英军。主持制宪会议，两任总统后主动退位，确立了民主交接的传统。被尊为美国国父。",
+  "bio_en": "First President of the United States and Commander-in-Chief of the Continental Army. Born into a Virginia planter family, he led the Continental Army to victory over Britain in the Revolutionary War. He presided over the Constitutional Convention and voluntarily stepped down after two terms, establishing the tradition of peaceful democratic transition. Revered as the Father of His Country.",
   "activeRange": [1775, 1799],
   "tags": ["国父", "首任总统", "大陆军总司令"],
+  "tags_en": ["Founding Father", "1st President", "Commander-in-Chief"],
   "personalEvents": [
-    {"year": 1775, "title": "就任大陆军总司令", "description": "大陆会议任命华盛顿为大陆军总司令，领导独立战争", "type": "milestone"},
-    {"year": 1776, "title": "横渡特拉华河", "description": "圣诞夜率军横渡特拉华河，突袭特伦顿，扭转战局", "type": "turning-point"},
-    {"year": 1781, "title": "约克镇大捷", "description": "围困约克镇，迫使英军投降，独立战争实质胜利", "type": "milestone"},
-    {"year": 1787, "title": "主持制宪会议", "description": "在费城主持制宪会议，制定美国宪法", "type": "milestone"},
-    {"year": 1789, "title": "就任首任总统", "description": "全票当选美国第一任总统，建立行政体系", "type": "milestone"},
-    {"year": 1797, "title": "主动退位", "description": "拒绝第三任期，主动交出权力，树立民主典范", "type": "turning-point"}
+    {"year": 1775, "title": "就任大陆军总司令", "title_en": "Appointed Commander-in-Chief", "description": "大陆会议任命华盛顿为大陆军总司令，领导独立战争", "description_en": "The Continental Congress appointed Washington as Commander-in-Chief of the Continental Army to lead the Revolutionary War", "type": "milestone"},
+    {"year": 1776, "title": "横渡特拉华河", "title_en": "Crossing of the Delaware", "description": "圣诞夜率军横渡特拉华河，突袭特伦顿，扭转战局", "description_en": "Led troops across the Delaware River on Christmas night for a surprise attack on Trenton, turning the tide of war", "type": "turning-point"},
+    {"year": 1781, "title": "约克镇大捷", "title_en": "Victory at Yorktown", "description": "围困约克镇，迫使英军投降，独立战争实质胜利", "description_en": "Besieged Yorktown, forcing the British surrender and effectively winning the Revolutionary War", "type": "milestone"},
+    {"year": 1787, "title": "主持制宪会议", "title_en": "Presided over Constitutional Convention", "description": "在费城主持制宪会议，制定美国宪法", "description_en": "Chaired the Constitutional Convention in Philadelphia, drafting the U.S. Constitution", "type": "milestone"},
+    {"year": 1789, "title": "就任首任总统", "title_en": "Inaugurated as First President", "description": "全票当选美国第一任总统，建立行政体系", "description_en": "Unanimously elected as the first President of the United States, establishing the executive branch", "type": "milestone"},
+    {"year": 1797, "title": "主动退位", "title_en": "Voluntary Retirement", "description": "拒绝第三任期，主动交出权力，树立民主典范", "description_en": "Declined a third term and voluntarily relinquished power, setting a democratic precedent", "type": "turning-point"}
   ]
 }

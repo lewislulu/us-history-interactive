@@ -1,1 +1,24 @@
-{"id":"cuban-missile-crisis","name":"古巴导弹危机","year":1962,"month":10,"characters":["jfk"],"importance":"major","narrative":"events/cuban-missile-crisis.md","relatedEvents":["korean-war","i-have-a-dream"],"scenes":[{"id":"thirteen-days","title":"十三天对峙","hasDialogue":true}]}
+{
+  "id": "cuban-missile-crisis",
+  "name": "古巴导弹危机",
+  "year": 1962,
+  "month": 10,
+  "characters": [
+    "jfk"
+  ],
+  "importance": "major",
+  "narrative": "events/cuban-missile-crisis.md",
+  "relatedEvents": [
+    "korean-war",
+    "i-have-a-dream"
+  ],
+  "scenes": [
+    {
+      "id": "thirteen-days",
+      "title": "十三天对峙",
+      "hasDialogue": true,
+      "title_en": "Thirteen Days"
+    }
+  ],
+  "name_en": "Cuban Missile Crisis"
+}

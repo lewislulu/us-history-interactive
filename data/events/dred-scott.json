@@ -1,1 +1,25 @@
-{"id":"dred-scott","name":"德雷德·斯科特案","year":1857,"month":3,"characters":["lincoln","douglass"],"importance":"major","narrative":"events/dred-scott.md","relatedEvents":["missouri-compromise","kansas-nebraska"],"scenes":[{"id":"court-ruling","title":"最高法院裁决","hasDialogue":true}]}
+{
+  "id": "dred-scott",
+  "name": "德雷德·斯科特案",
+  "year": 1857,
+  "month": 3,
+  "characters": [
+    "lincoln",
+    "douglass"
+  ],
+  "importance": "major",
+  "narrative": "events/dred-scott.md",
+  "relatedEvents": [
+    "missouri-compromise",
+    "kansas-nebraska"
+  ],
+  "scenes": [
+    {
+      "id": "court-ruling",
+      "title": "最高法院裁决",
+      "hasDialogue": true,
+      "title_en": "The Supreme Court Ruling"
+    }
+  ],
+  "name_en": "Dred Scott v. Sandford"
+}

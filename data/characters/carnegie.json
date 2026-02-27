@@ -1,18 +1,22 @@
 {
   "id": "carnegie",
   "name": "安德鲁·卡内基",
+  "name_en": "Andrew Carnegie",
   "courtesy": "钢铁大王",
+  "courtesy_en": "Steel King",
   "birth": 1835,
   "death": 1919,
   "color": "#5d6d7e",
   "portrait": "",
   "bio": "苏格兰移民之子，13岁来到美国，从纺织厂童工做起。凭借过人商业才能建立了卡内基钢铁公司，成为镀金时代最富有的人之一。晚年致力于慈善事业，捐建了2500多座图书馆，提出'财富的福音'理念，认为巨富有义务回馈社会。",
+  "bio_en": "Scottish-born industrialist who built the American steel industry into the world's largest. His Carnegie Steel Company revolutionized production and made him one of the richest Americans in history. Later became one of history's greatest philanthropists, funding libraries, universities, and peace institutions. His 'Gospel of Wealth' argued the rich had a duty to give back.",
   "activeRange": [1875, 1919],
   "tags": ["钢铁大王", "慈善家", "实业家"],
+  "tags_en": ["Industrialist", "Philanthropist", "Steel Magnate"],
   "personalEvents": [
-    {"year": 1875, "title": "建立钢铁厂", "description": "在匹兹堡建立埃德加·汤姆森钢铁厂，开创规模化炼钢", "type": "milestone"},
-    {"year": 1889, "title": "《财富的福音》", "description": "发表著名文章，提出富人应将财富用于公益事业", "type": "milestone"},
-    {"year": 1892, "title": "霍姆斯特德罢工", "description": "钢铁厂爆发血腥罢工，300名平克顿侦探与工人激战", "type": "turning-point"},
-    {"year": 1901, "title": "出售钢铁公司", "description": "以4.8亿美元将公司卖给J.P.摩根，成为世界首富", "type": "turning-point"}
+    {"year": 1875, "title": "建立钢铁厂", "title_en": "Established Steel Mill", "description": "在匹兹堡建立埃德加·汤姆森钢铁厂，开创规模化炼钢", "description_en": "Built the Edgar Thomson Steel Works in Pittsburgh, pioneering large-scale steel production", "type": "milestone"},
+    {"year": 1889, "title": "《财富的福音》", "title_en": "The Gospel of Wealth", "description": "发表著名文章，提出富人应将财富用于公益事业", "description_en": "Published famous essay arguing the wealthy should use their fortunes for public benefit", "type": "milestone"},
+    {"year": 1892, "title": "霍姆斯特德罢工", "title_en": "Homestead Strike", "description": "钢铁厂爆发血腥罢工，300名平克顿侦探与工人激战", "description_en": "Violent strike erupted at his steel mill, with 300 Pinkerton detectives battling workers", "type": "turning-point"},
+    {"year": 1901, "title": "出售钢铁公司", "title_en": "Sold Steel Company", "description": "以4.8亿美元将公司卖给J.P.摩根，成为世界首富", "description_en": "Sold his company to J.P. Morgan for $480 million, becoming the world's richest man", "type": "turning-point"}
   ]
 }

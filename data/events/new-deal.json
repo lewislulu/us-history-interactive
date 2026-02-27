@@ -1,1 +1,24 @@
-{"id":"new-deal","name":"罗斯福新政","year":1933,"month":3,"characters":["roosevelt-f"],"importance":"major","narrative":"events/new-deal.md","relatedEvents":["great-depression","pearl-harbor"],"scenes":[{"id":"first-hundred-days","title":"百日新政","hasDialogue":true}]}
+{
+  "id": "new-deal",
+  "name": "罗斯福新政",
+  "year": 1933,
+  "month": 3,
+  "characters": [
+    "roosevelt-f"
+  ],
+  "importance": "major",
+  "narrative": "events/new-deal.md",
+  "relatedEvents": [
+    "great-depression",
+    "pearl-harbor"
+  ],
+  "scenes": [
+    {
+      "id": "first-hundred-days",
+      "title": "百日新政",
+      "hasDialogue": true,
+      "title_en": "The First Hundred Days"
+    }
+  ],
+  "name_en": "Roosevelt's New Deal"
+}

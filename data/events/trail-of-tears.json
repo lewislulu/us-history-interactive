@@ -1,1 +1,21 @@
-{"id":"trail-of-tears","name":"血泪之路","year":1838,"month":5,"characters":["jackson"],"importance":"major","narrative":"events/trail-of-tears.md","relatedEvents":[],"scenes":[{"id":"cherokee-march","title":"切罗基人的行军","hasDialogue":true}]}
+{
+  "id": "trail-of-tears",
+  "name": "血泪之路",
+  "year": 1838,
+  "month": 5,
+  "characters": [
+    "jackson"
+  ],
+  "importance": "major",
+  "narrative": "events/trail-of-tears.md",
+  "relatedEvents": [],
+  "scenes": [
+    {
+      "id": "cherokee-march",
+      "title": "切罗基人的行军",
+      "hasDialogue": true,
+      "title_en": "The Cherokee March"
+    }
+  ],
+  "name_en": "Trail of Tears"
+}

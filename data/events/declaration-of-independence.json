@@ -1,1 +1,25 @@
-{"id":"declaration-of-independence","name":"独立宣言","year":1776,"month":7,"characters":["jefferson","franklin"],"importance":"major","narrative":"events/declaration-of-independence.md","relatedEvents":["boston-tea-party","battle-of-yorktown"],"scenes":[{"id":"signing","title":"签署宣言","hasDialogue":true}]}
+{
+  "id": "declaration-of-independence",
+  "name": "独立宣言",
+  "year": 1776,
+  "month": 7,
+  "characters": [
+    "jefferson",
+    "franklin"
+  ],
+  "importance": "major",
+  "narrative": "events/declaration-of-independence.md",
+  "relatedEvents": [
+    "boston-tea-party",
+    "battle-of-yorktown"
+  ],
+  "scenes": [
+    {
+      "id": "signing",
+      "title": "签署宣言",
+      "hasDialogue": true,
+      "title_en": "Signing the Declaration"
+    }
+  ],
+  "name_en": "Declaration of Independence"
+}

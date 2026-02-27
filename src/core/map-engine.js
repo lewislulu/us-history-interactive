@@ -11,6 +11,7 @@
  */
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
+import { t, f } from '../i18n/index.js';
 
 // ═══ Color palette ═══
 const COLORS = {
@@ -249,7 +250,7 @@ export class MapEngine {
         .attr('font-weight', isCapital ? 700 : 400)
         .attr('opacity', isCapital ? 1 : 0)
         .style('pointer-events', 'none')
-        .text(loc.name);
+        .text(f(loc, 'name'));
 
       // Hover
       group.on('mouseenter', () => {
@@ -330,7 +331,7 @@ export class MapEngine {
         .attr('font-weight', isMajor ? 700 : 400)
         .attr('opacity', 0)
         .style('pointer-events', 'none')
-        .text(evt.name);
+        .text(f(evt, 'name'));
 
       group.on('mouseenter', () => { eventLabel.attr('opacity', 1); });
       group.on('mouseleave', () => { eventLabel.attr('opacity', 0); });
@@ -436,7 +437,7 @@ export class MapEngine {
         .attr('font-size', 9)
         .attr('font-weight', 700)
         .style('pointer-events', 'none')
-        .text(char.name.charAt(0));
+        .text(f(char, 'name').charAt(0));
 
       // Name label — hover-only
       // pointer-events:none so label bbox doesn't extend group hit area
@@ -449,7 +450,7 @@ export class MapEngine {
         .attr('font-weight', 600)
         .attr('opacity', 0)
         .style('pointer-events', 'none')
-        .text(char.name);
+        .text(f(char, 'name'));
 
       group.on('mouseenter', () => { nameLabel.attr('opacity', 1); });
       group.on('mouseleave', () => { nameLabel.attr('opacity', 0); });
@@ -622,7 +623,7 @@ export class MapEngine {
       .attr('font-size', 7)
       .attr('opacity', 0.6)
       .style('pointer-events', 'none')
-      .text('点击展开');
+      .text(t('clickToExpand'));
 
     let expanded = false;
 
@@ -637,8 +638,8 @@ export class MapEngine {
       }
     });
 
-    const names = markers.map(m => m.char.name).join(', ');
-    clusterG.append('title').text(`${loc.name}: ${names}`);
+    const names = markers.map(m => f(m.char, 'name')).join(', ');
+    clusterG.append('title').text(`${f(loc, 'name')}: ${names}`);
 
     function expandCluster() {
       clusterG.select('text:last-of-type').attr('opacity', 0);
@@ -675,7 +676,7 @@ export class MapEngine {
           .attr('font-size', 10)
           .attr('font-weight', 700)
           .style('pointer-events', 'none')
-          .text(m.char.name.charAt(0));
+          .text(f(m.char, 'name').charAt(0));
 
         avatar.append('text')
           .attr('y', 20)
@@ -684,7 +685,7 @@ export class MapEngine {
           .attr('font-size', 9)
           .attr('font-weight', 600)
           .style('pointer-events', 'none')
-          .text(m.char.name);
+          .text(f(m.char, 'name'));
 
         avatar.on('click', (e) => {
           e.stopPropagation();

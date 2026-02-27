@@ -1,1 +1,23 @@
-{"id":"d-day","name":"诺曼底登陆","year":1944,"month":6,"characters":["eisenhower"],"importance":"major","narrative":"events/d-day.md","relatedEvents":["pearl-harbor"],"scenes":[{"id":"omaha-beach","title":"奥马哈海滩","hasDialogue":true}]}
+{
+  "id": "d-day",
+  "name": "诺曼底登陆",
+  "year": 1944,
+  "month": 6,
+  "characters": [
+    "eisenhower"
+  ],
+  "importance": "major",
+  "narrative": "events/d-day.md",
+  "relatedEvents": [
+    "pearl-harbor"
+  ],
+  "scenes": [
+    {
+      "id": "omaha-beach",
+      "title": "奥马哈海滩",
+      "hasDialogue": true,
+      "title_en": "Omaha Beach"
+    }
+  ],
+  "name_en": "D-Day: Normandy Landings"
+}

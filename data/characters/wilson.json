@@ -1,19 +1,23 @@
 {
   "id": "wilson",
   "name": "伍德罗·威尔逊",
+  "name_en": "Woodrow Wilson",
   "courtesy": "理想主义总统",
+  "courtesy_en": "Wartime President",
   "birth": 1856,
   "death": 1924,
   "color": "#2471a3",
   "portrait": "",
   "bio": "美国第28任总统，普林斯顿大学校长出身。带领美国参加一战，提出'十四点和平原则'，推动建立国际联盟。国内签署联邦储备法案和反托拉斯法，但种族政策倒退，在白宫推行种族隔离。1919年因中风在任期最后一年半几乎无法理政。",
+  "bio_en": "Twenty-eighth President who led America through World War I. A former Princeton University president and New Jersey governor, he enacted progressive reforms including the Federal Reserve Act and the Federal Trade Commission. His Fourteen Points and vision for the League of Nations shaped the postwar order, though the Senate rejected U.S. membership.",
   "activeRange": [1913, 1921],
   "tags": ["第28任总统", "一战领袖", "国际联盟"],
+  "tags_en": ["28th President", "WWI Leader", "League of Nations"],
   "personalEvents": [
-    {"year": 1913, "title": "就任总统", "description": "当选第28任总统，推行进步主义改革", "type": "milestone"},
-    {"year": 1913, "title": "签署联邦储备法", "description": "建立联邦储备系统，重塑美国金融体系", "type": "milestone"},
-    {"year": 1917, "title": "对德宣战", "description": "以'让世界民主安全'为号召，带领美国参加一战", "type": "turning-point"},
-    {"year": 1918, "title": "十四点原则", "description": "提出战后和平计划，倡导民族自决与国际联盟", "type": "milestone"},
-    {"year": 1919, "title": "中风瘫痪", "description": "为推动国联在全国巡回演说时中风，此后妻子代理政务", "type": "turning-point"}
+    {"year": 1913, "title": "就任总统", "title_en": "Became President", "description": "当选第28任总统，推行进步主义改革", "description_en": "Elected 28th President, pursued progressive reforms", "type": "milestone"},
+    {"year": 1913, "title": "签署联邦储备法", "title_en": "Signed Federal Reserve Act", "description": "建立联邦储备系统，重塑美国金融体系", "description_en": "Established the Federal Reserve System, reshaping American finance", "type": "milestone"},
+    {"year": 1917, "title": "对德宣战", "title_en": "Declared War on Germany", "description": "以'让世界民主安全'为号召，带领美国参加一战", "description_en": "Led America into WWI with the call to 'make the world safe for democracy'", "type": "turning-point"},
+    {"year": 1918, "title": "十四点原则", "title_en": "Fourteen Points", "description": "提出战后和平计划，倡导民族自决与国际联盟", "description_en": "Proposed postwar peace plan advocating self-determination and the League of Nations", "type": "milestone"},
+    {"year": 1919, "title": "中风瘫痪", "title_en": "Suffered Stroke", "description": "为推动国联在全国巡回演说时中风，此后妻子代理政务", "description_en": "Suffered stroke while touring the nation to promote the League, his wife thereafter handled many duties", "type": "turning-point"}
   ]
 }

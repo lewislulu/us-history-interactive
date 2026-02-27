@@ -1,1 +1,25 @@
-{"id":"womens-suffrage","name":"第19修正案：女性获选举权","year":1920,"month":8,"characters":["anthony","wilson"],"importance":"major","narrative":"events/womens-suffrage.md","relatedEvents":["seneca-falls","us-enters-ww1"],"scenes":[{"id":"ratification","title":"田纳西州关键一票","hasDialogue":true}]}
+{
+  "id": "womens-suffrage",
+  "name": "第19修正案：女性获选举权",
+  "year": 1920,
+  "month": 8,
+  "characters": [
+    "anthony",
+    "wilson"
+  ],
+  "importance": "major",
+  "narrative": "events/womens-suffrage.md",
+  "relatedEvents": [
+    "seneca-falls",
+    "us-enters-ww1"
+  ],
+  "scenes": [
+    {
+      "id": "ratification",
+      "title": "田纳西州关键一票",
+      "hasDialogue": true,
+      "title_en": "Tennessee's Deciding Vote"
+    }
+  ],
+  "name_en": "19th Amendment: Women's Suffrage"
+}

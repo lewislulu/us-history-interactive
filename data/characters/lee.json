@@ -1,17 +1,21 @@
 {
   "id": "lee",
   "name": "罗伯特·E·李",
+  "name_en": "Robert E. Lee",
   "courtesy": "南军总司令",
+  "courtesy_en": "Confederate Commander",
   "birth": 1807,
   "death": 1870,
   "color": "#7d3c98",
   "portrait": "",
   "bio": "南方邦联军总司令。出身弗吉尼亚名门，西点军校毕业。虽个人反对奴隶制，但因忠于故乡选择为南方而战。军事才华卓越，最终因实力悬殊投降，战后致力于南北和解。",
+  "bio_en": "Commanding general of the Confederate Army of Northern Virginia. A distinguished West Point graduate and Mexican-American War veteran who chose loyalty to his home state of Virginia over the Union. His tactical brilliance prolonged the war but ultimately could not overcome the North's material advantages. Surrendered at Appomattox Court House in April 1865.",
   "activeRange": [1861, 1870],
   "tags": ["南军总司令", "弗吉尼亚", "军事天才"],
+  "tags_en": ["Confederate General", "Military Tactician", "Virginia Loyalist"],
   "personalEvents": [
-    {"year": 1861, "title": "拒绝联邦军指挥权", "description": "拒绝林肯的邀请，选择加入南方邦联", "type": "turning-point"},
-    {"year": 1862, "title": "七日战役", "description": "击退联邦军对里士满的进攻", "type": "milestone"},
-    {"year": 1865, "title": "投降", "description": "在阿波马托克斯向格兰特投降", "type": "turning-point"}
+    {"year": 1861, "title": "拒绝联邦军指挥权", "title_en": "Declined Union Command", "description": "拒绝林肯的邀请，选择加入南方邦联", "description_en": "Declined Lincoln's offer to command Union forces, chose to join the Confederacy", "type": "turning-point"},
+    {"year": 1862, "title": "七日战役", "title_en": "Seven Days Battles", "description": "击退联邦军对里士满的进攻", "description_en": "Repelled Union assault on Richmond", "type": "milestone"},
+    {"year": 1865, "title": "投降", "title_en": "Surrender", "description": "在阿波马托克斯向格兰特投降", "description_en": "Surrendered to Grant at Appomattox Court House", "type": "turning-point"}
   ]
 }

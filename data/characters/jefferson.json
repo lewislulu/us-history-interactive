@@ -1,17 +1,21 @@
 {
   "id": "jefferson",
   "name": "托马斯·杰斐逊",
+  "name_en": "Thomas Jefferson",
   "courtesy": "独立宣言起草人",
+  "courtesy_en": "Author of the Declaration",
   "birth": 1743,
   "death": 1826,
   "color": "#c0392b",
   "portrait": "",
   "bio": "美国第三任总统，独立宣言的主要起草人。博学多才，精通建筑、科学、哲学。主张小政府、农业共和国理念。任内完成路易斯安那购地，使国土面积翻倍。",
+  "bio_en": "Third President of the United States and principal author of the Declaration of Independence. A polymath—architect, scientist, diplomat, and philosopher—he championed individual liberty and limited government. The Louisiana Purchase doubled the nation's territory. A slaveholder who wrote 'all men are created equal,' he remains one of America's most complex and consequential figures.",
   "activeRange": [1776, 1826],
   "tags": ["独立宣言", "第三任总统", "启蒙思想家"],
+  "tags_en": ["Founding Father", "3rd President", "Declaration Author"],
   "personalEvents": [
-    {"year": 1776, "title": "起草独立宣言", "description": "受大陆会议委托，执笔起草《独立宣言》", "type": "milestone"},
-    {"year": 1801, "title": "就任第三任总统", "description": "击败亚当斯当选总统，实现首次政党轮替", "type": "milestone"},
-    {"year": 1803, "title": "路易斯安那购地", "description": "以1500万美元从法国购买路易斯安那，国土翻倍", "type": "milestone"}
+    {"year": 1776, "title": "起草独立宣言", "title_en": "Drafted the Declaration of Independence", "description": "受大陆会议委托，执笔起草《独立宣言》", "description_en": "Commissioned by the Continental Congress to draft the Declaration of Independence", "type": "milestone"},
+    {"year": 1801, "title": "就任第三任总统", "title_en": "Inaugurated as Third President", "description": "击败亚当斯当选总统，实现首次政党轮替", "description_en": "Defeated Adams to become President, achieving the first peaceful transfer of power between political parties", "type": "milestone"},
+    {"year": 1803, "title": "路易斯安那购地", "title_en": "Louisiana Purchase", "description": "以1500万美元从法国购买路易斯安那，国土翻倍", "description_en": "Purchased Louisiana Territory from France for $15 million, doubling the nation's size", "type": "milestone"}
   ]
 }

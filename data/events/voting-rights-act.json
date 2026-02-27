@@ -1,1 +1,26 @@
-{"id":"voting-rights-act","name":"选举权法","year":1965,"month":8,"characters":["mlk","lbj"],"importance":"major","narrative":"events/voting-rights-act.md","relatedEvents":["civil-rights-act","i-have-a-dream","montgomery-boycott"],"scenes":[{"id":"bloody-sunday","title":"血腥星期天","hasDialogue":true}]}
+{
+  "id": "voting-rights-act",
+  "name": "选举权法",
+  "year": 1965,
+  "month": 8,
+  "characters": [
+    "mlk",
+    "lbj"
+  ],
+  "importance": "major",
+  "narrative": "events/voting-rights-act.md",
+  "relatedEvents": [
+    "civil-rights-act",
+    "i-have-a-dream",
+    "montgomery-boycott"
+  ],
+  "scenes": [
+    {
+      "id": "bloody-sunday",
+      "title": "血腥星期天",
+      "hasDialogue": true,
+      "title_en": "Bloody Sunday"
+    }
+  ],
+  "name_en": "Voting Rights Act of 1965"
+}

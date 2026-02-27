@@ -1,19 +1,23 @@
 {
   "id": "truman",
   "name": "哈里·杜鲁门",
+  "name_en": "Harry S. Truman",
   "courtesy": "决策总统",
+  "courtesy_en": "The Buck Stops Here",
   "birth": 1884,
   "death": 1972,
   "color": "#2980b9",
   "portrait": "",
   "bio": "美国第33任总统。在罗斯福去世后仓促接任，却做出了二战以来最重大的决策：投下原子弹、提出杜鲁门主义、启动马歇尔计划、下令介入朝鲜战争、签署行政令废除军队种族隔离。他将遏制共产主义扩张定为美国外交核心战略，奠定了整个冷战时期的政策框架。",
+  "bio_en": "Thirty-third President who made some of the most consequential decisions in American history. Authorized the atomic bombs on Hiroshima and Nagasaki, ending WWII. Launched the Marshall Plan to rebuild Europe, established NATO, articulated the Truman Doctrine of communist containment, and desegregated the U.S. military.",
   "activeRange": [1945, 1953],
   "tags": ["第33任总统", "原子弹", "冷战遏制"],
+  "tags_en": ["33rd President", "Cold War Pioneer", "Marshall Plan"],
   "personalEvents": [
-    {"year": 1945, "title": "继任总统", "description": "罗斯福去世，杜鲁门成为总统——上任前不知道原子弹计划的存在", "type": "turning-point"},
-    {"year": 1945, "title": "决定投下原子弹", "description": "下令在广岛和长崎投下原子弹，结束太平洋战争", "type": "turning-point"},
-    {"year": 1947, "title": "杜鲁门主义", "description": "宣布美国将支持受共产主义威胁的自由人民，开启冷战遏制政策", "type": "milestone"},
-    {"year": 1948, "title": "废除军队种族隔离", "description": "签署第9981号行政令，废除美国军队中的种族隔离制度", "type": "milestone"},
-    {"year": 1950, "title": "介入朝鲜战争", "description": "派遣美军在联合国旗帜下参加朝鲜战争", "type": "turning-point"}
+    {"year": 1945, "title": "继任总统", "title_en": "Succeeds to Presidency", "description": "罗斯福去世，杜鲁门成为总统——上任前不知道原子弹计划的存在", "description_en": "Roosevelt dies; Truman becomes president—unaware of the atomic bomb project until after taking office", "type": "turning-point"},
+    {"year": 1945, "title": "决定投下原子弹", "title_en": "Orders Atomic Bombs", "description": "下令在广岛和长崎投下原子弹，结束太平洋战争", "description_en": "Orders atomic bombs dropped on Hiroshima and Nagasaki, ending the Pacific War", "type": "turning-point"},
+    {"year": 1947, "title": "杜鲁门主义", "title_en": "Truman Doctrine", "description": "宣布美国将支持受共产主义威胁的自由人民，开启冷战遏制政策", "description_en": "Announces U.S. will support free peoples threatened by communism, launching Cold War containment policy", "type": "milestone"},
+    {"year": 1948, "title": "废除军队种族隔离", "title_en": "Desegregates the Military", "description": "签署第9981号行政令，废除美国军队中的种族隔离制度", "description_en": "Signs Executive Order 9981, ending racial segregation in the U.S. armed forces", "type": "milestone"},
+    {"year": 1950, "title": "介入朝鲜战争", "title_en": "Korean War Intervention", "description": "派遣美军在联合国旗帜下参加朝鲜战争", "description_en": "Sends U.S. forces to fight in the Korean War under the UN flag", "type": "turning-point"}
   ]
 }

@@ -1,12 +1,15 @@
 {
   "id": "jackson",
   "name": "安德鲁·杰克逊",
+  "name_en": "Andrew Jackson",
   "courtesy": "平民总统",
+  "courtesy_en": "Old Hickory",
   "birth": 1767,
   "death": 1845,
   "color": "#d4ac0d",
   "portrait": "",
   "bio": "美国第7任总统，民主党创始人。出身贫寒，以军功著称。推行杰克逊民主扩大白人男性选举权，但强行驱逐印第安人，是争议极大的历史人物。",
+  "bio_en": "Seventh President of the United States and hero of the Battle of New Orleans. A frontier populist who expanded democratic participation for white men while pursuing brutal policies against Native Americans, including the Trail of Tears. His presidency redefined executive power and launched the era of Jacksonian Democracy.",
   "activeRange": [
     1815,
     1845
@@ -16,23 +19,30 @@
     "平民总统",
     "印第安迁移"
   ],
+  "tags_en": ["7th President", "Populist", "Indian Removal"],
   "personalEvents": [
     {
       "year": 1815,
       "title": "新奥尔良大捷",
+      "title_en": "Victory at New Orleans",
       "description": "在1812年战争中击败英军，成为国家英雄",
+      "description_en": "Defeated the British in the War of 1812, becoming a national hero",
       "type": "milestone"
     },
     {
       "year": 1829,
       "title": "就任总统",
+      "title_en": "Inaugurated as President",
       "description": "首位平民出身的总统，开启杰克逊时代",
+      "description_en": "First President from common origins, launching the Jacksonian era",
       "type": "milestone"
     },
     {
       "year": 1830,
       "title": "签署印第安迁移法",
+      "title_en": "Signed Indian Removal Act",
       "description": "强制东部印第安人西迁，导致血泪之路",
+      "description_en": "Forced relocation of Eastern Indians westward, leading to the Trail of Tears",
       "type": "turning-point"
     }
   ]

@@ -1,17 +1,21 @@
 {
   "id": "franklin",
   "name": "本杰明·富兰克林",
+  "name_en": "Benjamin Franklin",
   "courtesy": "美国第一公民",
+  "courtesy_en": "Polymath & Diplomat",
   "birth": 1706,
   "death": 1790,
   "color": "#27ae60",
   "portrait": "",
   "bio": "政治家、科学家、外交家、发明家。参与起草独立宣言和宪法。出使法国争取到关键军事同盟，对独立战争的胜利功不可没。发明避雷针，创办宾夕法尼亚大学。",
+  "bio_en": "Founding Father, inventor, scientist, diplomat, and publisher. His electrical experiments brought him worldwide fame. As America's envoy to France, he secured the critical alliance that turned the Revolutionary War. The only Founding Father to sign all four key documents: the Declaration of Independence, the Treaty of Alliance with France, the Treaty of Paris, and the Constitution.",
   "activeRange": [1765, 1790],
   "tags": ["外交家", "科学家", "开国元勋"],
+  "tags_en": ["Founding Father", "Diplomat", "Scientist"],
   "personalEvents": [
-    {"year": 1776, "title": "参与起草独立宣言", "description": "与杰斐逊等人共同起草独立宣言", "type": "milestone"},
-    {"year": 1778, "title": "促成法美同盟", "description": "出使法国，成功说服法国与美国结盟，获得军事援助", "type": "turning-point"},
-    {"year": 1787, "title": "出席制宪会议", "description": "以81岁高龄出席制宪会议，促成各方妥协", "type": "milestone"}
+    {"year": 1776, "title": "参与起草独立宣言", "title_en": "Helped Draft the Declaration", "description": "与杰斐逊等人共同起草独立宣言", "description_en": "Worked with Jefferson and others to draft the Declaration of Independence", "type": "milestone"},
+    {"year": 1778, "title": "促成法美同盟", "title_en": "Secured French Alliance", "description": "出使法国，成功说服法国与美国结盟，获得军事援助", "description_en": "As envoy to France, successfully persuaded France to ally with America and provide military aid", "type": "turning-point"},
+    {"year": 1787, "title": "出席制宪会议", "title_en": "Attended Constitutional Convention", "description": "以81岁高龄出席制宪会议，促成各方妥协", "description_en": "At age 81, attended the Constitutional Convention and helped forge compromises between factions", "type": "milestone"}
   ]
 }

@@ -688,6 +688,27 @@ html, body {
   color: var(--color-gold);
 }
 
+.lang-btn {
+  margin-left: 12px;
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 83, 0.25);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-serif);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.lang-btn:hover {
+  background: rgba(212, 168, 83, 0.1);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
 /* ---- Map Layer Filter ---- */
 .map-layer-filter {
   position: absolute;

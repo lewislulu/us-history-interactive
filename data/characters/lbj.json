@@ -1,19 +1,23 @@
 {
   "id": "lbj",
   "name": "林登·约翰逊",
+  "name_en": "Lyndon B. Johnson",
   "courtesy": "伟大社会",
+  "courtesy_en": "LBJ",
   "birth": 1908,
   "death": 1973,
   "color": "#1b6b4f",
   "portrait": "",
   "bio": "美国第36任总统，美国历史上最矛盾的领导人之一。他以非凡的政治手腕推动通过了《民权法案》和《选举权法》，发起'伟大社会'计划——医疗保险、医疗补助、教育改革和消除贫困。然而越南战争的泥潭吞噬了他的一切成就，反战运动使他无法竞选连任。他创造了福利国家，也创造了'信誉鸿沟'。",
+  "bio_en": "Thirty-sixth President whose Great Society programs transformed America. Masterfully pushed through the Civil Rights Act of 1964 and the Voting Rights Act of 1965, Medicare, Medicaid, and federal education funding. His presidency was ultimately consumed by the Vietnam War, leading him not to seek reelection in 1968.",
   "activeRange": [1963, 1969],
   "tags": ["第36任总统", "民权法案", "越南战争"],
+  "tags_en": ["36th President", "Great Society", "Civil Rights Champion"],
   "personalEvents": [
-    {"year": 1963, "title": "继任总统", "description": "肯尼迪遇刺后在空军一号上宣誓就任——旁边站着血衣未换的杰奎琳", "type": "turning-point"},
-    {"year": 1964, "title": "签署民权法案", "description": "以强大政治手腕推动通过1964年民权法案", "type": "milestone"},
-    {"year": 1965, "title": "签署选举权法", "description": "签署《选举权法》，结束南方对黑人投票权的系统性剥夺", "type": "milestone"},
-    {"year": 1965, "title": "启动'伟大社会'", "description": "推出医疗保险、医疗补助、教育改革等社会福利计划", "type": "milestone"},
-    {"year": 1968, "title": "宣布不再竞选", "description": "越战泥潭中宣布放弃竞选连任：'我不会谋求也不接受提名'", "type": "turning-point"}
+    {"year": 1963, "title": "继任总统", "title_en": "Succeeds to Presidency", "description": "肯尼迪遇刺后在空军一号上宣誓就任——旁边站着血衣未换的杰奎琳", "description_en": "Sworn in on Air Force One after Kennedy's assassination—with bloodstained Jacqueline beside him", "type": "turning-point"},
+    {"year": 1964, "title": "签署民权法案", "title_en": "Signs Civil Rights Act", "description": "以强大政治手腕推动通过1964年民权法案", "description_en": "Using formidable political skills, pushes through the Civil Rights Act of 1964", "type": "milestone"},
+    {"year": 1965, "title": "签署选举权法", "title_en": "Voting Rights Act", "description": "签署《选举权法》，结束南方对黑人投票权的系统性剥夺", "description_en": "Signs the Voting Rights Act, ending systematic disenfranchisement of Black voters in the South", "type": "milestone"},
+    {"year": 1965, "title": "启动'伟大社会'", "title_en": "Great Society Programs", "description": "推出医疗保险、医疗补助、教育改革等社会福利计划", "description_en": "Launches Medicare, Medicaid, education reform, and anti-poverty programs", "type": "milestone"},
+    {"year": 1968, "title": "宣布不再竞选", "title_en": "Withdraws from Race", "description": "越战泥潭中宣布放弃竞选连任：'我不会谋求也不接受提名'", "description_en": "Amid Vietnam War quagmire, announces he will not seek reelection: 'I shall not seek, and I will not accept'", "type": "turning-point"}
   ]
 }

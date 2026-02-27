@@ -1,12 +1,15 @@
 {
   "id": "jfk",
   "name": "约翰·F·肯尼迪",
+  "name_en": "John F. Kennedy",
   "courtesy": "JFK",
+  "courtesy_en": "JFK",
   "birth": 1917,
   "death": 1963,
   "color": "#1f618d",
   "portrait": "",
   "bio": "美国第35任总统，最年轻的当选总统。在古巴导弹危机中沉着应对，避免核战争。推动太空计划，提出登月目标。1963年在达拉斯遇刺身亡，震惊世界。",
+  "bio_en": "Thirty-fifth President whose brief tenure defined an era. Navigated the Cuban Missile Crisis, established the Peace Corps, championed the space program and civil rights legislation. His assassination in Dallas on November 22, 1963, shocked the world and ended the era of Camelot.",
   "activeRange": [
     1960,
     1963
@@ -16,23 +19,34 @@
     "太空竞赛",
     "古巴危机"
   ],
+  "tags_en": [
+    "35th President",
+    "Cold War Leader",
+    "Space Race"
+  ],
   "personalEvents": [
     {
       "year": 1961,
       "title": "就任总统",
+      "title_en": "Presidential Inauguration",
       "description": "发表就职演说——不要问国家能为你做什么",
+      "description_en": "Delivers inaugural address—'Ask not what your country can do for you'",
       "type": "milestone"
     },
     {
       "year": 1962,
       "title": "化解古巴导弹危机",
+      "title_en": "Cuban Missile Crisis",
       "description": "与赫鲁晓夫对峙13天，避免核战争",
+      "description_en": "13-day standoff with Khrushchev; averts nuclear war",
       "type": "turning-point"
     },
     {
       "year": 1963,
       "title": "遇刺身亡",
+      "title_en": "Assassination",
       "description": "在达拉斯被枪杀，举国震惊",
+      "description_en": "Assassinated in Dallas; the nation is shocked",
       "type": "turning-point"
     }
   ]

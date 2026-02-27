@@ -1,1 +1,14 @@
-{"id":"mexican-american-war","name":"美墨战争","year":1846,"month":4,"characters":[],"importance":"normal","narrative":"events/mexican-american-war.md","relatedEvents":["california-gold-rush"],"scenes":[]}
+{
+  "id": "mexican-american-war",
+  "name": "美墨战争",
+  "year": 1846,
+  "month": 4,
+  "characters": [],
+  "importance": "normal",
+  "narrative": "events/mexican-american-war.md",
+  "relatedEvents": [
+    "california-gold-rush"
+  ],
+  "scenes": [],
+  "name_en": "Mexican-American War"
+}

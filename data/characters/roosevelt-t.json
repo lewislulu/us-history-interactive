@@ -1,12 +1,15 @@
 {
   "id": "roosevelt-t",
   "name": "西奥多·罗斯福",
+  "name_en": "Theodore Roosevelt",
   "courtesy": "老罗斯福",
+  "courtesy_en": "Trust Buster",
   "birth": 1858,
   "death": 1919,
   "color": "#b7950b",
   "portrait": "",
   "bio": "美国第26任总统，进步主义运动的领袖。以大棒政策推行外交，修建巴拿马运河。在国内推行反垄断、保护自然资源。获诺贝尔和平奖，是美国最年轻的总统。",
+  "bio_en": "Twenty-sixth President who transformed America into a world power. Led the Rough Riders in the Spanish-American War. As President, he busted trusts, championed conservation by creating national parks, built the Panama Canal, and won the Nobel Peace Prize for mediating the Russo-Japanese War. His Square Deal domestic program established progressive reform.",
   "activeRange": [
     1898,
     1919
@@ -16,23 +19,30 @@
     "进步主义",
     "诺贝尔和平奖"
   ],
+  "tags_en": ["26th President", "Progressive", "Conservationist"],
   "personalEvents": [
     {
       "year": 1898,
       "title": "率领义勇骑兵",
+      "title_en": "Led the Rough Riders",
       "description": "在美西战争中率领义勇骑兵冲锋圣胡安山",
+      "description_en": "Led the Rough Riders in their charge up San Juan Hill during the Spanish-American War",
       "type": "milestone"
     },
     {
       "year": 1901,
       "title": "就任总统",
+      "title_en": "Became President",
       "description": "麦金莱遇刺后继任，42岁成为最年轻总统",
+      "description_en": "Succeeded to presidency after McKinley's assassination, becoming the youngest president at age 42",
       "type": "milestone"
     },
     {
       "year": 1906,
       "title": "获诺贝尔和平奖",
+      "title_en": "Won Nobel Peace Prize",
       "description": "因调停日俄战争获奖",
+      "description_en": "Awarded the prize for mediating the Russo-Japanese War",
       "type": "milestone"
     }
   ]

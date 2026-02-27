@@ -6,6 +6,7 @@ import { marked } from 'marked';
 import { panelSlideIn, panelSlideOut, staggerReveal } from '../utils/animations.js';
 import { generatePortraitPlaceholder } from '../utils/helpers.js';
 import { SECTION_LABELS } from '../data/loader.js';
+import { t, f } from '../i18n/index.js';
 
 export class EventPanel {
   constructor(characters, events) {
@@ -46,7 +47,7 @@ export class EventPanel {
     this.currentEvent = event;
     this.currentTab = 'background';
 
-    this.titleEl.textContent = event.name;
+    this.titleEl.textContent = f(event, 'name');
     this.yearEl.textContent = event.month ? `${event.year}.${event.month}` : `${event.year}`;
 
     const existingBadge = this.element.querySelector('.event-importance-badge');
@@ -65,7 +66,7 @@ export class EventPanel {
         margin-left: 8px;
         vertical-align: middle;
       `;
-      badge.textContent = '重大';
+      badge.textContent = t('importanceMajor');
       this.titleEl.appendChild(badge);
     }
 
@@ -77,10 +78,11 @@ export class EventPanel {
       const chip = document.createElement('div');
       chip.className = 'event-char-chip';
 
-      const portrait = generatePortraitPlaceholder(char.name, char.color);
+      const charName = f(char, 'name');
+      const portrait = generatePortraitPlaceholder(charName, char.color);
       chip.innerHTML = `
-        <img src="${portrait}" alt="${char.name}" />
-        <span>${char.name}</span>
+        <img src="${portrait}" alt="${charName}" />
+        <span>${charName}</span>
       `;
       chip.style.borderColor = `${char.color}30`;
       this.charsEl.appendChild(chip);
@@ -109,7 +111,7 @@ export class EventPanel {
 
   _renderContent() {
     if (!this.currentEvent || !this.currentEvent.narrative_parsed) {
-      this.contentEl.innerHTML = '<p style="color: var(--color-text-dim);">暂无内容</p>';
+      this.contentEl.innerHTML = `<p style="color: var(--color-text-dim);">${t('noContent')}</p>`;
       return;
     }
 
@@ -142,7 +144,7 @@ export class EventPanel {
 
     const title = document.createElement('div');
     title.style.cssText = 'font-size:13px;color:var(--color-text-dim);margin-bottom:12px;letter-spacing:2px;';
-    title.textContent = '场景';
+    title.textContent = t('scenesTitle');
     this.scenesEl.appendChild(title);
 
     scenes.forEach((scene, index) => {
@@ -177,7 +179,7 @@ export class EventPanel {
 
     const title = document.createElement('div');
     title.style.cssText = 'font-size:13px;color:var(--color-text-dim);margin-bottom:12px;letter-spacing:2px;';
-    title.textContent = '相关事件';
+    title.textContent = t('relatedEvents');
     this.relatedEl.appendChild(title);
 
     relatedEvents.forEach((related) => {
@@ -199,7 +201,7 @@ export class EventPanel {
       const left = document.createElement('div');
       const nameSpan = document.createElement('div');
       nameSpan.style.cssText = 'font-size:13px; color: var(--color-ivory);';
-      nameSpan.textContent = related.name;
+      nameSpan.textContent = f(related, 'name');
       const yearSpan = document.createElement('div');
       yearSpan.style.cssText = 'font-size:11px; color: var(--color-text-dim); font-family: var(--font-mono); margin-top: 2px;';
       yearSpan.textContent = `${related.year}`;

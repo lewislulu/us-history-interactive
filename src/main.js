@@ -20,12 +20,26 @@ import { PersonalTooltip } from './ui/personal-tooltip.js';
 import { Legend } from './ui/legend.js';
 import { Feedback } from './ui/feedback.js';
 import { ParticleSystem } from './ui/particles.js';
+import { t, f, getLocale, setLocale } from './i18n/index.js';
 import gsap from 'gsap';
 
 // ─── Boot ──────────────────────────────────────────────
 
 async function boot() {
   const header = document.getElementById('header');
+
+  // Apply i18n to static HTML elements
+  document.title = t('pageTitle');
+  header.querySelector('.title').textContent = t('pageTitle');
+  header.querySelector('.subtitle').textContent = t('subtitle');
+  document.querySelector('.bio-banner-exit').textContent = t('exitBio');
+  document.querySelector('.card-follow-btn').textContent = t('followCharacter');
+  document.querySelector('.card-bio-mode-btn').textContent = t('biographyMode');
+  // Tab labels
+  const tabs = document.querySelectorAll('.event-tabs .tab');
+  tabs[0].textContent = t('tabBackground');
+  tabs[1].textContent = t('tabProcess');
+  tabs[2].textContent = t('tabResult');
 
   try {
     // Load all data
@@ -51,8 +65,8 @@ async function boot() {
     // 5. Chapter bar
     const chapterData = (data.timeline.chapters || []).map((ch) => ({
       id: ch.id,
-      title: ch.title,
-      subtitle: ch.subtitle,
+      title: f(ch, 'title'),
+      subtitle: f(ch, 'subtitle'),
       startYear: ch.timeRange[0],
       endYear: ch.timeRange[1],
     }));
@@ -113,12 +127,18 @@ async function boot() {
     const viewSwitcher = document.createElement('div');
     viewSwitcher.className = 'view-switcher';
     viewSwitcher.innerHTML = `
-      <button class="view-btn active" data-view="timeline">时间线</button>
-      <button class="view-btn" data-view="map">地图</button>
+      <button class="view-btn active" data-view="timeline">${t('viewTimeline')}</button>
+      <button class="view-btn" data-view="map">${t('viewMap')}</button>
+      <button class="lang-btn" title="Switch language">${t('langSwitch')}</button>
     `;
     // Insert view switcher as a separate element before the chapter-bar-mount
     const appEl = document.getElementById('app');
     appEl.insertBefore(viewSwitcher, chapterMount);
+
+    // Language switch button
+    viewSwitcher.querySelector('.lang-btn').addEventListener('click', () => {
+      setLocale(getLocale() === 'zh' ? 'en' : 'zh');
+    });
 
     viewSwitcher.addEventListener('click', (e) => {
       const btn = e.target.closest('.view-btn');
@@ -175,10 +195,10 @@ async function boot() {
         const filterPanel = document.createElement('div');
         filterPanel.className = 'map-layer-filter';
         const layers = [
-          { key: 'territories', label: '州界', color: '#9b59b6' },
-          { key: 'cities', label: '地名', color: '#ffd700' },
-          { key: 'events', label: '事件', color: '#ff8c42' },
-          { key: 'characters', label: '人物', color: '#8bbbd0' },
+          { key: 'territories', label: t('layerTerritories'), color: '#9b59b6' },
+          { key: 'cities', label: t('layerCities'), color: '#ffd700' },
+          { key: 'events', label: t('layerEvents'), color: '#ff8c42' },
+          { key: 'characters', label: t('layerCharacters'), color: '#8bbbd0' },
         ];
         for (const layer of layers) {
           const item = document.createElement('label');
@@ -223,7 +243,7 @@ async function boot() {
     function showBioBanner(charId) {
       const char = data.characters[charId];
       if (!char) return;
-      bioBannerText.textContent = `${char.name} -- 人物传记模式`;
+      bioBannerText.textContent = `${f(char, 'name')} -- ${t('bioBannerSuffix')}`;
       bioBannerText.style.color = char.color;
       bioBanner.classList.remove('hidden');
       gsap.from(bioBanner, { y: -40, opacity: 0, duration: 0.5, ease: 'power2.out' });
@@ -375,8 +395,8 @@ async function boot() {
     const app = document.getElementById('app') || document.body;
     app.innerHTML = `
       <div style="padding:24px;color:#fff;background:#111;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;">
-        <h2 style="margin:0 0 12px;">页面加载失败</h2>
-        <p style="margin:0 0 12px;opacity:.9;">请刷新重试；如果仍失败，请把下面错误截图给我。</p>
+        <h2 style="margin:0 0 12px;">${t('loadFailed')}</h2>
+        <p style="margin:0 0 12px;opacity:.9;">${t('loadFailedHint')}</p>
         <pre style="white-space:pre-wrap;background:#1b1b1b;padding:12px;border-radius:8px;overflow:auto;">${(err && (err.stack || err.message)) || String(err)}</pre>
       </div>
     `;

@@ -1,1 +1,25 @@
-{"id":"nullification-crisis","name":"废除关税危机","year":1832,"month":11,"characters":["jackson"],"importance":"major","narrative":"events/nullification-crisis.md","relatedEvents":["trail-of-tears","missouri-compromise","fort-sumter"],"scenes":[{"id":"jackson-vs-calhoun","title":"杰克逊对卡尔霍恩","hasDialogue":true}]}
+{
+  "id": "nullification-crisis",
+  "name": "废除关税危机",
+  "year": 1832,
+  "month": 11,
+  "characters": [
+    "jackson"
+  ],
+  "importance": "major",
+  "narrative": "events/nullification-crisis.md",
+  "relatedEvents": [
+    "trail-of-tears",
+    "missouri-compromise",
+    "fort-sumter"
+  ],
+  "scenes": [
+    {
+      "id": "jackson-vs-calhoun",
+      "title": "杰克逊对卡尔霍恩",
+      "hasDialogue": true,
+      "title_en": "Jackson vs. Calhoun"
+    }
+  ],
+  "name_en": "Nullification Crisis"
+}

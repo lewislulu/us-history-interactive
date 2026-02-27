@@ -1,1 +1,23 @@
-{"id":"homestead-strike","name":"霍姆斯特德罢工","year":1892,"month":7,"characters":["carnegie"],"importance":"major","narrative":"events/homestead-strike.md","relatedEvents":["transcontinental-railroad"],"scenes":[{"id":"battle-at-mill","title":"钢铁厂血战","hasDialogue":true}]}
+{
+  "id": "homestead-strike",
+  "name": "霍姆斯特德罢工",
+  "year": 1892,
+  "month": 7,
+  "characters": [
+    "carnegie"
+  ],
+  "importance": "major",
+  "narrative": "events/homestead-strike.md",
+  "relatedEvents": [
+    "transcontinental-railroad"
+  ],
+  "scenes": [
+    {
+      "id": "battle-at-mill",
+      "title": "钢铁厂血战",
+      "hasDialogue": true,
+      "title_en": "Battle at the Steel Mill"
+    }
+  ],
+  "name_en": "Homestead Strike"
+}

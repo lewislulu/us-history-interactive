@@ -1,1 +1,24 @@
-{"id":"great-depression","name":"大萧条","year":1929,"month":10,"characters":["roosevelt-f"],"importance":"major","narrative":"events/great-depression.md","relatedEvents":["us-enters-ww1","pearl-harbor"],"scenes":[{"id":"black-tuesday","title":"黑色星期二","hasDialogue":true}]}
+{
+  "id": "great-depression",
+  "name": "大萧条",
+  "year": 1929,
+  "month": 10,
+  "characters": [
+    "roosevelt-f"
+  ],
+  "importance": "major",
+  "narrative": "events/great-depression.md",
+  "relatedEvents": [
+    "us-enters-ww1",
+    "pearl-harbor"
+  ],
+  "scenes": [
+    {
+      "id": "black-tuesday",
+      "title": "黑色星期二",
+      "hasDialogue": true,
+      "title_en": "Black Tuesday"
+    }
+  ],
+  "name_en": "The Great Depression"
+}

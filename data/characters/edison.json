@@ -1,17 +1,21 @@
 {
   "id": "edison",
   "name": "托马斯·爱迪生",
+  "name_en": "Thomas Edison",
   "courtesy": "发明大王",
+  "courtesy_en": "Wizard of Menlo Park",
   "birth": 1847,
   "death": 1931,
   "color": "#f39c12",
   "portrait": "",
   "bio": "史上最多产的发明家之一，拥有超过1000项专利。发明电灯泡、留声机、电影摄影机，创建了世界第一个工业研究实验室。他的发明彻底改变了人类生活方式。",
+  "bio_en": "America's most prolific inventor, holding over 1,000 patents. Invented the practical incandescent light bulb, the phonograph, and the motion picture camera. Established the world's first industrial research laboratory at Menlo Park. His innovations in electrical power generation and distribution transformed modern life.",
   "activeRange": [1877, 1920],
   "tags": ["发明家", "电灯", "留声机"],
+  "tags_en": ["Inventor", "Industrialist", "Electrical Pioneer"],
   "personalEvents": [
-    {"year": 1877, "title": "发明留声机", "description": "发明了世界上第一台留声机", "type": "milestone"},
-    {"year": 1879, "title": "发明电灯泡", "description": "成功研发实用白炽灯泡，点亮了世界", "type": "milestone"},
-    {"year": 1882, "title": "建立发电站", "description": "在纽约建立第一座商用发电站", "type": "milestone"}
+    {"year": 1877, "title": "发明留声机", "title_en": "Invented the Phonograph", "description": "发明了世界上第一台留声机", "description_en": "Invented the world's first phonograph", "type": "milestone"},
+    {"year": 1879, "title": "发明电灯泡", "title_en": "Invented the Light Bulb", "description": "成功研发实用白炽灯泡，点亮了世界", "description_en": "Successfully developed the practical incandescent light bulb, illuminating the world", "type": "milestone"},
+    {"year": 1882, "title": "建立发电站", "title_en": "Established Power Station", "description": "在纽约建立第一座商用发电站", "description_en": "Built the first commercial power station in New York", "type": "milestone"}
   ]
 }

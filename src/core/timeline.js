@@ -11,6 +11,7 @@
  */
 import * as d3 from 'd3';
 import { generatePortraitPlaceholder, debounce } from '../utils/helpers.js';
+import { f } from '../i18n/index.js';
 
 // Layout constants
 const MARGIN = { top: 120, right: 80, bottom: 60, left: 140 };
@@ -296,7 +297,7 @@ export class Timeline {
         .attr('class', 'era-label')
         .attr('x', midX).attr('y', 30)
         .attr('text-anchor', 'middle')
-        .text(era.name);
+        .text(f(era, 'name'));
 
       this.eraGroup.append('line')
         .attr('x1', x1).attr('y1', 0)
@@ -612,7 +613,7 @@ export class Timeline {
           .attr('font-size', '10px')
           .attr('fill', char.color)
           .attr('fill-opacity', this.biographyCharacter ? 0.8 : 0)
-          .text(pe.title);
+          .text(f(pe, 'title'));
 
         // Year label
         const yearLabel = g.append('text')
@@ -689,7 +690,7 @@ export class Timeline {
         .attr('font-family', "'Noto Serif SC', serif")
         .attr('font-size', '18px').attr('font-weight', '700')
         .attr('fill', char.color)
-        .text(char.name.charAt(0));
+        .text(f(char, 'name').charAt(0));
 
       // Name
       g.append('text')
@@ -697,7 +698,7 @@ export class Timeline {
         .attr('y', 42).attr('text-anchor', 'middle')
         .attr('font-size', '12px')
         .attr('fill', char.color).attr('fill-opacity', 0.9)
-        .text(char.name);
+        .text(f(char, 'name'));
 
       // Birth-death years
       g.append('text')
@@ -779,7 +780,7 @@ export class Timeline {
       // Event label
       g.append('text').attr('class', 'node-label')
         .attr('y', -(nodeRadius + 14))
-        .text(event.name);
+        .text(f(event, 'name'));
 
       // Year
       g.append('text').attr('class', 'node-label')

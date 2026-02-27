@@ -1,1 +1,26 @@
-{"id":"kansas-nebraska","name":"堪萨斯-内布拉斯加法案","year":1854,"month":5,"characters":["lincoln","douglass"],"importance":"major","narrative":"events/kansas-nebraska.md","relatedEvents":["missouri-compromise","dred-scott","underground-railroad"],"scenes":[{"id":"bleeding-kansas","title":"流血堪萨斯","hasDialogue":true}]}
+{
+  "id": "kansas-nebraska",
+  "name": "堪萨斯-内布拉斯加法案",
+  "year": 1854,
+  "month": 5,
+  "characters": [
+    "lincoln",
+    "douglass"
+  ],
+  "importance": "major",
+  "narrative": "events/kansas-nebraska.md",
+  "relatedEvents": [
+    "missouri-compromise",
+    "dred-scott",
+    "underground-railroad"
+  ],
+  "scenes": [
+    {
+      "id": "bleeding-kansas",
+      "title": "流血堪萨斯",
+      "hasDialogue": true,
+      "title_en": "Bleeding Kansas"
+    }
+  ],
+  "name_en": "Kansas-Nebraska Act"
+}

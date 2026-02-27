@@ -1,16 +1,20 @@
 {
   "id": "eisenhower",
   "name": "德怀特·艾森豪威尔",
+  "name_en": "Dwight D. Eisenhower",
   "courtesy": "艾克",
+  "courtesy_en": "Ike",
   "birth": 1890,
   "death": 1969,
   "color": "#5d6d7e",
   "portrait": "",
   "bio": "二战盟军欧洲最高统帅，美国第34任总统。指挥诺曼底登陆等重大战役。任总统期间推动建设州际公路系统，在冷战中采取遏制政策。离任时警告军工复合体的危险。",
+  "bio_en": "Thirty-fourth President and Supreme Commander of Allied Forces in Europe during WWII. Planned and executed the D-Day invasion of Normandy. As President, he ended the Korean War, launched the Interstate Highway System, enforced school desegregation at Little Rock, and warned of the military-industrial complex in his farewell address.",
   "activeRange": [1942, 1961],
   "tags": ["盟军统帅", "第34任总统", "诺曼底"],
+  "tags_en": ["34th President", "Supreme Commander", "D-Day Architect"],
   "personalEvents": [
-    {"year": 1944, "title": "指挥诺曼底登陆", "description": "作为盟军最高统帅指挥D-Day登陆", "type": "milestone"},
-    {"year": 1953, "title": "就任总统", "description": "当选第34任总统，结束朝鲜战争", "type": "milestone"}
+    {"year": 1944, "title": "指挥诺曼底登陆", "title_en": "Commands D-Day Invasion", "description": "作为盟军最高统帅指挥D-Day登陆", "description_en": "As Supreme Allied Commander, directs the D-Day landings at Normandy", "type": "milestone"},
+    {"year": 1953, "title": "就任总统", "title_en": "Becomes President", "description": "当选第34任总统，结束朝鲜战争", "description_en": "Elected 34th President; ends the Korean War", "type": "milestone"}
   ]
 }

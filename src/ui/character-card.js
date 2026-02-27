@@ -4,6 +4,7 @@
  */
 import { cardPopIn, cardPopOut } from '../utils/animations.js';
 import { generatePortraitPlaceholder } from '../utils/helpers.js';
+import { t, f } from '../i18n/index.js';
 
 export class CharacterCard {
   constructor() {
@@ -47,23 +48,25 @@ export class CharacterCard {
   show(character) {
     this.currentCharacter = character;
 
-    const portraitUrl = generatePortraitPlaceholder(character.name, character.color);
+    const charName = f(character, 'name');
+    const portraitUrl = generatePortraitPlaceholder(charName, character.color);
     this.portraitEl.style.backgroundImage = `url(${portraitUrl})`;
     this.portraitEl.style.borderColor = character.color;
 
-    this.nameEl.textContent = character.name;
+    this.nameEl.textContent = charName;
     this.nameEl.style.color = character.color;
     this.yearsEl.textContent = `${character.birth} — ${character.death}`;
-    this.bioEl.textContent = character.bio;
+    this.bioEl.textContent = f(character, 'bio');
 
     const existingTags = this.element.querySelector('.card-tags');
     if (existingTags) existingTags.remove();
 
-    if (character.tags && character.tags.length) {
+    const tags = f(character, 'tags') || character.tags;
+    if (tags && tags.length) {
       const tagsContainer = document.createElement('div');
       tagsContainer.className = 'card-tags';
       tagsContainer.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;justify-content:center;';
-      character.tags.forEach((tag) => {
+      tags.forEach((tag) => {
         const chip = document.createElement('span');
         chip.textContent = tag;
         chip.style.cssText = `
@@ -99,7 +102,7 @@ export class CharacterCard {
         letter-spacing: 1px;
         margin-bottom: 8px;
       `;
-      summaryTitle.textContent = `关键时刻 (${character.personalEvents.length})`;
+      summaryTitle.textContent = t('keyMoments', { n: character.personalEvents.length });
       summary.appendChild(summaryTitle);
 
       const preview = character.personalEvents.slice(0, 3);
@@ -117,7 +120,7 @@ export class CharacterCard {
         yearSpan.textContent = pe.year;
         const titleSpan = document.createElement('span');
         titleSpan.style.cssText = 'color: var(--color-ivory-dim);';
-        titleSpan.textContent = pe.title;
+        titleSpan.textContent = f(pe, 'title');
         item.appendChild(yearSpan);
         item.appendChild(titleSpan);
         summary.appendChild(item);
@@ -126,7 +129,7 @@ export class CharacterCard {
       if (character.personalEvents.length > 3) {
         const more = document.createElement('div');
         more.style.cssText = `font-size: 11px; color: var(--color-text-dim); margin-top: 4px;`;
-        more.textContent = `...还有 ${character.personalEvents.length - 3} 项`;
+        more.textContent = t('moreItems', { n: character.personalEvents.length - 3 });
         summary.appendChild(more);
       }
 

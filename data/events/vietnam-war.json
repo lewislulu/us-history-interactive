@@ -1,1 +1,24 @@
-{"id":"vietnam-war","name":"越南战争","year":1965,"month":3,"characters":["jfk"],"importance":"major","narrative":"events/vietnam-war.md","relatedEvents":["korean-war","cuban-missile-crisis"],"scenes":[{"id":"tet-offensive","title":"春节攻势","hasDialogue":true}]}
+{
+  "id": "vietnam-war",
+  "name": "越南战争",
+  "year": 1965,
+  "month": 3,
+  "characters": [
+    "jfk"
+  ],
+  "importance": "major",
+  "narrative": "events/vietnam-war.md",
+  "relatedEvents": [
+    "korean-war",
+    "cuban-missile-crisis"
+  ],
+  "scenes": [
+    {
+      "id": "tet-offensive",
+      "title": "春节攻势",
+      "hasDialogue": true,
+      "title_en": "The Tet Offensive"
+    }
+  ],
+  "name_en": "Vietnam War"
+}

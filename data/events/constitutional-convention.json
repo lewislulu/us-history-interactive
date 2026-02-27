@@ -1,1 +1,26 @@
-{"id":"constitutional-convention","name":"制宪会议","year":1787,"month":5,"characters":["washington","franklin","hamilton"],"importance":"major","narrative":"events/constitutional-convention.md","relatedEvents":["battle-of-yorktown","washington-inauguration"],"scenes":[{"id":"great-compromise","title":"伟大妥协","hasDialogue":true}]}
+{
+  "id": "constitutional-convention",
+  "name": "制宪会议",
+  "year": 1787,
+  "month": 5,
+  "characters": [
+    "washington",
+    "franklin",
+    "hamilton"
+  ],
+  "importance": "major",
+  "narrative": "events/constitutional-convention.md",
+  "relatedEvents": [
+    "battle-of-yorktown",
+    "washington-inauguration"
+  ],
+  "scenes": [
+    {
+      "id": "great-compromise",
+      "title": "伟大妥协",
+      "hasDialogue": true,
+      "title_en": "The Great Compromise"
+    }
+  ],
+  "name_en": "Constitutional Convention"
+}

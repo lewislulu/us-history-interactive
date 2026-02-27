@@ -1,19 +1,23 @@
 {
   "id": "nixon",
   "name": "理查德·尼克松",
+  "name_en": "Richard Nixon",
   "courtesy": "复杂总统",
+  "courtesy_en": "Disgraced President",
   "birth": 1913,
   "death": 1994,
   "color": "#566573",
   "portrait": "",
   "bio": "美国第37任总统，冷战时期最复杂的政治人物之一。他打开了中美关系大门，推动与苏联缓和，结束了越南战争。然而水门事件暴露了他对权力的滥用——窃听、掩盖、妨碍司法——最终成为美国历史上唯一辞职的总统。水门事件深刻改变了美国人对政府的信任。",
+  "bio_en": "Thirty-seventh President who reshaped American foreign policy before resigning in disgrace. Opened diplomatic relations with China, pursued détente with the Soviet Union, and negotiated the end of American involvement in Vietnam. The Watergate scandal—a cover-up of political espionage—forced his resignation in 1974, the only president to resign from office.",
   "activeRange": [1952, 1974],
   "tags": ["第37任总统", "水门事件", "访华"],
+  "tags_en": ["37th President", "China Opening", "Watergate"],
   "personalEvents": [
-    {"year": 1952, "title": "当选副总统", "description": "成为艾森豪威尔的竞选搭档，任副总统八年", "type": "milestone"},
-    {"year": 1960, "title": "败选", "description": "在首次电视辩论中输给肯尼迪，以微弱差距落选总统", "type": "turning-point"},
-    {"year": 1969, "title": "就任总统", "description": "八年后卷土重来，当选第37任总统", "type": "milestone"},
-    {"year": 1972, "title": "访问中国", "description": "成为第一位访问中华人民共和国的美国总统，改变冷战格局", "type": "milestone"},
-    {"year": 1974, "title": "水门辞职", "description": "面临弹劾，成为美国历史上唯一辞职的总统", "type": "turning-point"}
+    {"year": 1952, "title": "当选副总统", "title_en": "Elected Vice President", "description": "成为艾森豪威尔的竞选搭档，任副总统八年", "description_en": "Becomes Eisenhower's running mate; serves as Vice President for eight years", "type": "milestone"},
+    {"year": 1960, "title": "败选", "title_en": "Loses Presidential Race", "description": "在首次电视辩论中输给肯尼迪，以微弱差距落选总统", "description_en": "Loses to Kennedy in first televised debate; narrowly defeated in presidential election", "type": "turning-point"},
+    {"year": 1969, "title": "就任总统", "title_en": "Becomes President", "description": "八年后卷土重来，当选第37任总统", "description_en": "Returns after eight years; elected 37th President", "type": "milestone"},
+    {"year": 1972, "title": "访问中国", "title_en": "China Visit", "description": "成为第一位访问中华人民共和国的美国总统，改变冷战格局", "description_en": "First U.S. President to visit the People's Republic of China, reshaping Cold War dynamics", "type": "milestone"},
+    {"year": 1974, "title": "水门辞职", "title_en": "Watergate Resignation", "description": "面临弹劾，成为美国历史上唯一辞职的总统", "description_en": "Facing impeachment, becomes the only president in U.S. history to resign from office", "type": "turning-point"}
   ]
 }

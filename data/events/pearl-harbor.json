@@ -1,1 +1,24 @@
-{"id":"pearl-harbor","name":"珍珠港事件","year":1941,"month":12,"characters":["roosevelt-f"],"importance":"major","narrative":"events/pearl-harbor.md","relatedEvents":["great-depression","d-day"],"scenes":[{"id":"day-of-infamy","title":"国耻日","hasDialogue":true}]}
+{
+  "id": "pearl-harbor",
+  "name": "珍珠港事件",
+  "year": 1941,
+  "month": 12,
+  "characters": [
+    "roosevelt-f"
+  ],
+  "importance": "major",
+  "narrative": "events/pearl-harbor.md",
+  "relatedEvents": [
+    "great-depression",
+    "d-day"
+  ],
+  "scenes": [
+    {
+      "id": "day-of-infamy",
+      "title": "国耻日",
+      "hasDialogue": true,
+      "title_en": "A Date Which Will Live in Infamy"
+    }
+  ],
+  "name_en": "Attack on Pearl Harbor"
+}

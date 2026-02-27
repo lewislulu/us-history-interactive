@@ -1,1 +1,25 @@
-{"id":"montgomery-boycott","name":"蒙哥马利公交车抵制运动","year":1955,"month":12,"characters":["mlk"],"importance":"major","narrative":"events/montgomery-boycott.md","relatedEvents":["brown-v-board","i-have-a-dream","civil-rights-act"],"scenes":[{"id":"rosa-parks-arrest","title":"罗莎·帕克斯被捕","hasDialogue":true}]}
+{
+  "id": "montgomery-boycott",
+  "name": "蒙哥马利公交车抵制运动",
+  "year": 1955,
+  "month": 12,
+  "characters": [
+    "mlk"
+  ],
+  "importance": "major",
+  "narrative": "events/montgomery-boycott.md",
+  "relatedEvents": [
+    "brown-v-board",
+    "i-have-a-dream",
+    "civil-rights-act"
+  ],
+  "scenes": [
+    {
+      "id": "rosa-parks-arrest",
+      "title": "罗莎·帕克斯被捕",
+      "hasDialogue": true,
+      "title_en": "Rosa Parks Arrested"
+    }
+  ],
+  "name_en": "Montgomery Bus Boycott"
+}

@@ -1,12 +1,15 @@
 {
   "id": "roosevelt-f",
   "name": "富兰克林·罗斯福",
+  "name_en": "Franklin D. Roosevelt",
   "courtesy": "FDR",
+  "courtesy_en": "FDR",
   "birth": 1882,
   "death": 1945,
   "color": "#1b4f72",
   "portrait": "",
   "bio": "美国第32任总统，唯一连任四届的总统。大萧条期间推行新政拯救经济，二战期间领导美国成为民主国家的兵工厂。虽身患小儿麻痹症却以坚强意志领导国家度过危机。",
+  "bio_en": "Thirty-second President who led America through the Great Depression and World War II. Elected to an unprecedented four terms, his New Deal programs—Social Security, the SEC, the WPA—fundamentally expanded the federal government's role. Paralyzed by polio, he projected strength and optimism. Led the Allied war effort until his death in April 1945, weeks before victory in Europe.",
   "activeRange": [
     1933,
     1945
@@ -16,29 +19,42 @@
     "新政",
     "二战领袖"
   ],
+  "tags_en": [
+    "32nd President",
+    "New Deal Architect",
+    "WWII Leader"
+  ],
   "personalEvents": [
     {
       "year": 1933,
       "title": "就任总统·推行新政",
+      "title_en": "Inauguration and New Deal",
       "description": "就职演说——唯一值得恐惧的就是恐惧本身，推行百日新政",
+      "description_en": "Inaugural address—'The only thing we have to fear is fear itself'—launches the Hundred Days and New Deal programs",
       "type": "milestone"
     },
     {
       "year": 1941,
       "title": "对日宣战",
+      "title_en": "Declaration of War on Japan",
       "description": "珍珠港事件后发表国耻日演说，美国全面参战",
+      "description_en": "After Pearl Harbor, delivers 'Day of Infamy' speech and leads America into full war mobilization",
       "type": "turning-point"
     },
     {
       "year": 1944,
       "title": "诺曼底登陆",
+      "title_en": "D-Day Normandy Invasion",
       "description": "批准霸王行动，盟军在诺曼底登陆开辟欧洲第二战场",
+      "description_en": "Approves Operation Overlord; Allied forces land at Normandy, opening the second front in Europe",
       "type": "milestone"
     },
     {
       "year": 1945,
       "title": "病逝任上",
+      "title_en": "Death in Office",
       "description": "在二战胜利前夕病逝，举国哀悼",
+      "description_en": "Dies on the eve of victory in WWII; the nation mourns",
       "type": "turning-point"
     }
   ]

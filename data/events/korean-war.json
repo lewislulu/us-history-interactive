@@ -1,1 +1,16 @@
-{"id":"korean-war","name":"朝鲜战争","year":1950,"month":6,"characters":["eisenhower"],"importance":"normal","narrative":"events/korean-war.md","relatedEvents":["cuban-missile-crisis"],"scenes":[]}
+{
+  "id": "korean-war",
+  "name": "朝鲜战争",
+  "year": 1950,
+  "month": 6,
+  "characters": [
+    "eisenhower"
+  ],
+  "importance": "normal",
+  "narrative": "events/korean-war.md",
+  "relatedEvents": [
+    "cuban-missile-crisis"
+  ],
+  "scenes": [],
+  "name_en": "Korean War"
+}

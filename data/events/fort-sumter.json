@@ -1,1 +1,23 @@
-{"id":"fort-sumter","name":"萨姆特堡之战","year":1861,"month":4,"characters":["lincoln"],"importance":"major","narrative":"events/fort-sumter.md","relatedEvents":["emancipation-proclamation"],"scenes":[{"id":"first-shots","title":"内战第一枪","hasDialogue":true}]}
+{
+  "id": "fort-sumter",
+  "name": "萨姆特堡之战",
+  "year": 1861,
+  "month": 4,
+  "characters": [
+    "lincoln"
+  ],
+  "importance": "major",
+  "narrative": "events/fort-sumter.md",
+  "relatedEvents": [
+    "emancipation-proclamation"
+  ],
+  "scenes": [
+    {
+      "id": "first-shots",
+      "title": "内战第一枪",
+      "hasDialogue": true,
+      "title_en": "The First Shot of the Civil War"
+    }
+  ],
+  "name_en": "Battle of Fort Sumter"
+}

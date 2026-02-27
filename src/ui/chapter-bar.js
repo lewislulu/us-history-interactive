@@ -2,6 +2,8 @@
  * ChapterBar - Cinematic chapter navigation component
  * Displays horizontally scrollable chapter cards with overview button
  */
+import { t } from '../i18n/index.js';
+
 export class ChapterBar {
   constructor(chapters, onSelect) {
     this.chapters = chapters;
@@ -80,7 +82,7 @@ export class ChapterBar {
       text-align: center;
     `;
 
-    btn.textContent = '全览';
+    btn.textContent = t('overview');
 
     btn.addEventListener('mouseenter', () => {
       if (this.activeChapterId !== null) {
@@ -130,7 +132,7 @@ export class ChapterBar {
       font-weight: 500;
       letter-spacing: 0.5px;
     `;
-    number.textContent = `第${this.getChapterNumber(chapter.id)}章`;
+    number.textContent = t('chapterN', { n: this.getChapterNumber(chapter.id) });
     card.appendChild(number);
 
     const title = document.createElement('div');

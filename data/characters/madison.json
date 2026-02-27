@@ -1,19 +1,23 @@
 {
   "id": "madison",
   "name": "詹姆斯·麦迪逊",
+  "name_en": "James Madison",
   "courtesy": "宪法之父",
+  "courtesy_en": "Father of the Constitution",
   "birth": 1751,
   "death": 1836,
   "color": "#2e4057",
   "portrait": "",
   "bio": "美国第4任总统，被誉为'宪法之父'。身材矮小、性格内向，却是制宪会议上最出色的理论家。他与汉密尔顿、杰伊合写《联邦党人文集》，为宪法赢得支持；推动通过《权利法案》，保障公民自由。任总统期间领导了1812年战争，白宫被英军焚毁。",
+  "bio_en": "Fourth President of the United States and primary architect of the Constitution and the Bill of Rights. Co-authored The Federalist Papers with Hamilton and Jay. As President, he led the nation through the War of 1812. His political partnership with Jefferson shaped the Democratic-Republican Party.",
   "activeRange": [1780, 1820],
   "tags": ["第4任总统", "宪法之父", "联邦党人文集"],
+  "tags_en": ["Founding Father", "4th President", "Constitution Author"],
   "personalEvents": [
-    {"year": 1787, "title": "主导制宪会议", "description": "提出'弗吉尼亚方案'，成为制宪会议核心设计者", "type": "turning-point"},
-    {"year": 1788, "title": "《联邦党人文集》", "description": "与汉密尔顿合写85篇文章，说服各州批准宪法", "type": "milestone"},
-    {"year": 1791, "title": "推动《权利法案》", "description": "主导起草并推动通过宪法前十条修正案", "type": "milestone"},
-    {"year": 1809, "title": "就任总统", "description": "当选第4任总统，面对与英国日益紧张的关系", "type": "milestone"},
-    {"year": 1814, "title": "白宫被焚", "description": "1812年战争中英军攻入华盛顿，火烧白宫", "type": "turning-point"}
+    {"year": 1787, "title": "主导制宪会议", "title_en": "Led Constitutional Convention", "description": "提出'弗吉尼亚方案'，成为制宪会议核心设计者", "description_en": "Proposed the Virginia Plan and became the chief architect of the Constitutional Convention", "type": "turning-point"},
+    {"year": 1788, "title": "《联邦党人文集》", "title_en": "The Federalist Papers", "description": "与汉密尔顿合写85篇文章，说服各州批准宪法", "description_en": "Co-wrote 85 essays with Hamilton to persuade states to ratify the Constitution", "type": "milestone"},
+    {"year": 1791, "title": "推动《权利法案》", "title_en": "Championed the Bill of Rights", "description": "主导起草并推动通过宪法前十条修正案", "description_en": "Led the drafting and passage of the first ten amendments to the Constitution", "type": "milestone"},
+    {"year": 1809, "title": "就任总统", "title_en": "Inaugurated as President", "description": "当选第4任总统，面对与英国日益紧张的关系", "description_en": "Elected as the 4th President, facing escalating tensions with Britain", "type": "milestone"},
+    {"year": 1814, "title": "白宫被焚", "title_en": "Burning of the White House", "description": "1812年战争中英军攻入华盛顿，火烧白宫", "description_en": "British forces invaded Washington during the War of 1812 and burned the White House", "type": "turning-point"}
   ]
 }

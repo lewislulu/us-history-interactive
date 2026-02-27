@@ -1,6 +1,7 @@
 /**
  * Feedback Component -- floating button + modal to submit GitHub issues
  */
+import { t } from '../i18n/index.js';
 
 export class Feedback {
   constructor() {
@@ -28,29 +29,29 @@ export class Feedback {
       <div class="feedback-backdrop"></div>
       <div class="feedback-modal">
         <button class="feedback-close">&times;</button>
-        <h3 class="feedback-title">Feedback</h3>
-        <p class="feedback-desc">Submit an issue to the GitHub repository</p>
+        <h3 class="feedback-title">${t('feedbackTitle')}</h3>
+        <p class="feedback-desc">${t('feedbackDesc')}</p>
         <form class="feedback-form">
           <label class="feedback-label">
-            Title
+            ${t('feedbackInputTitle')}
             <input type="text" class="feedback-input" name="title"
-                   placeholder="Briefly describe your suggestion or issue" required />
+                   placeholder="${t('feedbackInputPlaceholder')}" required />
           </label>
           <label class="feedback-label">
-            Type
+            ${t('feedbackType')}
             <select class="feedback-select" name="type">
-              <option value="suggestion">Feature Request</option>
-              <option value="bug">Bug Report</option>
-              <option value="content">Content Correction</option>
-              <option value="other">Other</option>
+              <option value="suggestion">${t('feedbackFeatureRequest')}</option>
+              <option value="bug">${t('feedbackBugReport')}</option>
+              <option value="content">${t('feedbackContentCorrection')}</option>
+              <option value="other">${t('feedbackOther')}</option>
             </select>
           </label>
           <label class="feedback-label">
-            Description
+            ${t('feedbackDescription')}
             <textarea class="feedback-textarea" name="body" rows="5"
-                      placeholder="Optional: provide more details..."></textarea>
+                      placeholder="${t('feedbackDetailPlaceholder')}"></textarea>
           </label>
-          <button type="submit" class="feedback-submit">Submit</button>
+          <button type="submit" class="feedback-submit">${t('feedbackSubmit')}</button>
           <div class="feedback-status"></div>
         </form>
       </div>
@@ -91,7 +92,7 @@ export class Feedback {
     if (!title) return;
 
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Submitting...';
+    submitBtn.textContent = t('feedbackSubmitting');
     status.textContent = '';
     status.className = 'feedback-status';
 
@@ -125,20 +126,20 @@ export class Feedback {
       const data = await res.json();
 
       if (res.ok && data.success) {
-        status.textContent = `Issue #${data.issueNumber} created`;
+        status.textContent = t('feedbackSuccess', { n: data.issueNumber });
         status.className = 'feedback-status success';
         form.reset();
         setTimeout(() => this.hide(), 2000);
       } else {
-        status.textContent = data.error || 'Submission failed, please try again';
+        status.textContent = data.error || t('feedbackFailed');
         status.className = 'feedback-status error';
       }
     } catch (err) {
-      status.textContent = 'Network error, please check connection';
+      status.textContent = t('feedbackNetworkError');
       status.className = 'feedback-status error';
     } finally {
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Submit';
+      submitBtn.textContent = t('feedbackSubmit');
     }
   }
 

@@ -1,1 +1,25 @@
-{"id":"little-rock","name":"小石城事件","year":1957,"month":9,"characters":["eisenhower"],"importance":"major","narrative":"events/little-rock.md","relatedEvents":["brown-v-board","montgomery-boycott","civil-rights-act"],"scenes":[{"id":"nine-students","title":"九名黑人学生","hasDialogue":true}]}
+{
+  "id": "little-rock",
+  "name": "小石城事件",
+  "year": 1957,
+  "month": 9,
+  "characters": [
+    "eisenhower"
+  ],
+  "importance": "major",
+  "narrative": "events/little-rock.md",
+  "relatedEvents": [
+    "brown-v-board",
+    "montgomery-boycott",
+    "civil-rights-act"
+  ],
+  "scenes": [
+    {
+      "id": "nine-students",
+      "title": "九名黑人学生",
+      "hasDialogue": true,
+      "title_en": "Nine Black Students"
+    }
+  ],
+  "name_en": "Little Rock Nine"
+}

@@ -5,6 +5,8 @@
  * chapter markers as visual reference, play/pause, and current year display.
  * Calls onChange(chapterNum) when the selected year crosses into a new chapter.
  */
+import { t, f } from '../i18n/index.js';
+
 export class MapScrubber {
   constructor(timelineData, onChange) {
     this.timeline = timelineData;
@@ -51,8 +53,8 @@ export class MapScrubber {
       chEl.style.position = 'absolute';
       chEl.style.left = `${leftPct}%`;
       chEl.style.width = `${widthPct}%`;
-      chEl.textContent = ch.title;
-      chEl.title = `${ch.subtitle} (${chStart}-${chEnd})`;
+      chEl.textContent = f(ch, 'title');
+      chEl.title = `${f(ch, 'subtitle')} (${chStart}-${chEnd})`;
       chEl.dataset.chapterNum = i + 1;
 
       // Click on chapter label to jump to that chapter's start year
@@ -73,7 +75,7 @@ export class MapScrubber {
     this.playBtn = document.createElement('button');
     this.playBtn.className = 'scrubber-play-btn';
     this.playBtn.innerHTML = '&#9654;';
-    this.playBtn.title = '自动播放';
+    this.playBtn.title = t('autoPlay');
     this.playBtn.addEventListener('click', () => this.togglePlay());
     sliderRow.appendChild(this.playBtn);
 
@@ -189,7 +191,13 @@ export class MapScrubber {
   _updateInfo() {
     const ch = this.chapters[this.currentChapter - 1];
     if (ch) {
-      this.infoText.textContent = `第${this.currentChapter}章 · ${ch.title} · ${ch.subtitle} (${ch.timeRange[0]}-${ch.timeRange[1]})`;
+      this.infoText.textContent = t('scrubberInfo', {
+        n: this.currentChapter,
+        title: f(ch, 'title'),
+        subtitle: f(ch, 'subtitle'),
+        start: ch.timeRange[0],
+        end: ch.timeRange[1],
+      });
     }
   }
 
@@ -211,7 +219,7 @@ export class MapScrubber {
 
     if (this.playing) {
       this.playBtn.innerHTML = '&#9646;&#9646;';
-      this.playBtn.title = '暂停';
+      this.playBtn.title = t('pause');
       this.playInterval = setInterval(() => {
         let nextYear = this.currentYear + 1;
         if (nextYear > this.yearMax) nextYear = this.yearMin;
@@ -219,7 +227,7 @@ export class MapScrubber {
       }, this.playSpeed);
     } else {
       this.playBtn.innerHTML = '&#9654;';
-      this.playBtn.title = '自动播放';
+      this.playBtn.title = t('autoPlay');
       clearInterval(this.playInterval);
     }
   }

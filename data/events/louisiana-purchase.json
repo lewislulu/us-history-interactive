@@ -1,1 +1,14 @@
-{"id":"louisiana-purchase","name":"路易斯安那购地","year":1803,"month":4,"characters":["jefferson"],"importance":"major","narrative":"events/louisiana-purchase.md","relatedEvents":[],"scenes":[]}
+{
+  "id": "louisiana-purchase",
+  "name": "路易斯安那购地",
+  "year": 1803,
+  "month": 4,
+  "characters": [
+    "jefferson"
+  ],
+  "importance": "major",
+  "narrative": "events/louisiana-purchase.md",
+  "relatedEvents": [],
+  "scenes": [],
+  "name_en": "Louisiana Purchase"
+}

@@ -1,1 +1,22 @@
-{"id":"missouri-compromise","name":"密苏里妥协案","year":1820,"month":3,"characters":[],"importance":"major","narrative":"events/missouri-compromise.md","relatedEvents":["louisiana-purchase","trail-of-tears"],"scenes":[{"id":"senate-debate","title":"参议院激辩","hasDialogue":true}]}
+{
+  "id": "missouri-compromise",
+  "name": "密苏里妥协案",
+  "year": 1820,
+  "month": 3,
+  "characters": [],
+  "importance": "major",
+  "narrative": "events/missouri-compromise.md",
+  "relatedEvents": [
+    "louisiana-purchase",
+    "trail-of-tears"
+  ],
+  "scenes": [
+    {
+      "id": "senate-debate",
+      "title": "参议院激辩",
+      "hasDialogue": true,
+      "title_en": "Senate Debate"
+    }
+  ],
+  "name_en": "Missouri Compromise"
+}

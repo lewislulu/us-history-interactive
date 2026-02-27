@@ -2,6 +2,8 @@
  * Legend - Visual legend explaining chart elements
  * Compact, collapsible legend in bottom-right corner
  */
+import { t } from '../i18n/index.js';
+
 export class Legend {
   constructor() {
     this.container = null;
@@ -42,7 +44,7 @@ export class Legend {
       color: rgb(255, 215, 0);
       letter-spacing: 0.5px;
     `;
-    title.textContent = '图例';
+    title.textContent = t('legendTitle');
 
     const toggleBtn = document.createElement('button');
     toggleBtn.className = 'legend-toggle';
@@ -84,19 +86,19 @@ export class Legend {
 
     content.appendChild(this.createLegendItem(
       this.createCircleIcon(12, 'rgb(255, 215, 0)'),
-      '重大事件'
+      t('legendMajorEvent')
     ));
     content.appendChild(this.createLegendItem(
       this.createCircleIcon(8, 'rgba(255, 215, 0, 0.6)'),
-      '一般事件'
+      t('legendMinorEvent')
     ));
     content.appendChild(this.createLegendItem(
       this.createDiamondIcon(10, 'rgb(147, 197, 253)'),
-      '个人事件'
+      t('legendPersonalEvent')
     ));
     content.appendChild(this.createLegendItem(
       this.createLineIcon('rgba(255, 215, 0, 0.4)'),
-      '人物故事线'
+      t('legendStoryline')
     ));
 
     this.container.appendChild(content);

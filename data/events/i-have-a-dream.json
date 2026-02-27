@@ -1,1 +1,24 @@
-{"id":"i-have-a-dream","name":"我有一个梦想","year":1963,"month":8,"characters":["mlk"],"importance":"major","narrative":"events/i-have-a-dream.md","relatedEvents":["cuban-missile-crisis","moon-landing"],"scenes":[{"id":"lincoln-memorial","title":"林肯纪念堂前","hasDialogue":true}]}
+{
+  "id": "i-have-a-dream",
+  "name": "我有一个梦想",
+  "year": 1963,
+  "month": 8,
+  "characters": [
+    "mlk"
+  ],
+  "importance": "major",
+  "narrative": "events/i-have-a-dream.md",
+  "relatedEvents": [
+    "cuban-missile-crisis",
+    "moon-landing"
+  ],
+  "scenes": [
+    {
+      "id": "lincoln-memorial",
+      "title": "林肯纪念堂前",
+      "hasDialogue": true,
+      "title_en": "Before the Lincoln Memorial"
+    }
+  ],
+  "name_en": "I Have a Dream"
+}

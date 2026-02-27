@@ -1,1 +1,24 @@
-{"id":"emancipation-proclamation","name":"解放黑人奴隶宣言","year":1863,"month":1,"characters":["lincoln"],"importance":"major","narrative":"events/emancipation-proclamation.md","relatedEvents":["fort-sumter","gettysburg"],"scenes":[{"id":"proclamation-signing","title":"签署宣言","hasDialogue":true}]}
+{
+  "id": "emancipation-proclamation",
+  "name": "解放黑人奴隶宣言",
+  "year": 1863,
+  "month": 1,
+  "characters": [
+    "lincoln"
+  ],
+  "importance": "major",
+  "narrative": "events/emancipation-proclamation.md",
+  "relatedEvents": [
+    "fort-sumter",
+    "gettysburg"
+  ],
+  "scenes": [
+    {
+      "id": "proclamation-signing",
+      "title": "签署宣言",
+      "hasDialogue": true,
+      "title_en": "Signing the Proclamation"
+    }
+  ],
+  "name_en": "Emancipation Proclamation"
+}

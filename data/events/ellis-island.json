@@ -1,1 +1,22 @@
-{"id":"ellis-island","name":"埃利斯岛移民站开放","year":1892,"month":1,"characters":[],"importance":"normal","narrative":"events/ellis-island.md","relatedEvents":["statue-of-liberty","homestead-strike"],"scenes":[{"id":"first-immigrant","title":"第一个移民","hasDialogue":true}]}
+{
+  "id": "ellis-island",
+  "name": "埃利斯岛移民站开放",
+  "year": 1892,
+  "month": 1,
+  "characters": [],
+  "importance": "normal",
+  "narrative": "events/ellis-island.md",
+  "relatedEvents": [
+    "statue-of-liberty",
+    "homestead-strike"
+  ],
+  "scenes": [
+    {
+      "id": "first-immigrant",
+      "title": "第一个移民",
+      "hasDialogue": true,
+      "title_en": "The First Immigrant"
+    }
+  ],
+  "name_en": "Ellis Island Immigration Station Opens"
+}

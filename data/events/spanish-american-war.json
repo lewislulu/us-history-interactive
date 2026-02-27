@@ -1,1 +1,14 @@
-{"id":"spanish-american-war","name":"美西战争","year":1898,"month":4,"characters":["roosevelt-t"],"importance":"normal","narrative":"events/spanish-american-war.md","relatedEvents":[],"scenes":[]}
+{
+  "id": "spanish-american-war",
+  "name": "美西战争",
+  "year": 1898,
+  "month": 4,
+  "characters": [
+    "roosevelt-t"
+  ],
+  "importance": "normal",
+  "narrative": "events/spanish-american-war.md",
+  "relatedEvents": [],
+  "scenes": [],
+  "name_en": "Spanish-American War"
+}

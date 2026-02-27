@@ -1,1 +1,24 @@
-{"id":"lincoln-assassination","name":"林肯遇刺","year":1865,"month":4,"characters":["lincoln","grant"],"importance":"major","narrative":"events/lincoln-assassination.md","relatedEvents":["gettysburg"],"scenes":[{"id":"ford-theatre","title":"福特剧院之夜","hasDialogue":true}]}
+{
+  "id": "lincoln-assassination",
+  "name": "林肯遇刺",
+  "year": 1865,
+  "month": 4,
+  "characters": [
+    "lincoln",
+    "grant"
+  ],
+  "importance": "major",
+  "narrative": "events/lincoln-assassination.md",
+  "relatedEvents": [
+    "gettysburg"
+  ],
+  "scenes": [
+    {
+      "id": "ford-theatre",
+      "title": "福特剧院之夜",
+      "hasDialogue": true,
+      "title_en": "Night at Ford's Theatre"
+    }
+  ],
+  "name_en": "Assassination of Lincoln"
+}

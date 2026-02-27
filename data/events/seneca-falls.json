@@ -1,1 +1,23 @@
-{"id":"seneca-falls","name":"塞内卡瀑布大会","year":1848,"month":7,"characters":["anthony"],"importance":"major","narrative":"events/seneca-falls.md","relatedEvents":["california-gold-rush"],"scenes":[{"id":"declaration-of-sentiments","title":"签署《情感宣言》","hasDialogue":true}]}
+{
+  "id": "seneca-falls",
+  "name": "塞内卡瀑布大会",
+  "year": 1848,
+  "month": 7,
+  "characters": [
+    "anthony"
+  ],
+  "importance": "major",
+  "narrative": "events/seneca-falls.md",
+  "relatedEvents": [
+    "california-gold-rush"
+  ],
+  "scenes": [
+    {
+      "id": "declaration-of-sentiments",
+      "title": "签署《情感宣言》",
+      "hasDialogue": true,
+      "title_en": "Signing the Declaration of Sentiments"
+    }
+  ],
+  "name_en": "Seneca Falls Convention"
+}

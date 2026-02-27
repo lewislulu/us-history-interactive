@@ -1,1 +1,26 @@
-{"id":"brown-v-board","name":"布朗诉教育委员会案","year":1954,"month":5,"characters":["eisenhower"],"importance":"major","narrative":"events/brown-v-board.md","relatedEvents":["plessy-v-ferguson","14th-amendment","little-rock","montgomery-boycott"],"scenes":[{"id":"unanimous-ruling","title":"全票推翻","hasDialogue":true}]}
+{
+  "id": "brown-v-board",
+  "name": "布朗诉教育委员会案",
+  "year": 1954,
+  "month": 5,
+  "characters": [
+    "eisenhower"
+  ],
+  "importance": "major",
+  "narrative": "events/brown-v-board.md",
+  "relatedEvents": [
+    "plessy-v-ferguson",
+    "14th-amendment",
+    "little-rock",
+    "montgomery-boycott"
+  ],
+  "scenes": [
+    {
+      "id": "unanimous-ruling",
+      "title": "全票推翻",
+      "hasDialogue": true,
+      "title_en": "Unanimous Reversal"
+    }
+  ],
+  "name_en": "Brown v. Board of Education"
+}
