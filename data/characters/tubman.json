@@ -1,0 +1,19 @@
+{
+  "id": "tubman",
+  "name": "哈丽特·塔布曼",
+  "courtesy": "黑摩西",
+  "birth": 1822,
+  "death": 1913,
+  "color": "#6c3461",
+  "portrait": "",
+  "bio": "生为奴隶，1849年孤身逃往北方后，13次潜回南方，通过'地下铁路'帮助约70名奴隶逃往自由。她随身携带手枪——不是为了对付追捕者，而是警告想要回头的逃亡者。内战期间担任联邦军间谍和侦察兵，是美国历史上第一位领导武装突袭的女性。",
+  "activeRange": [1849, 1913],
+  "tags": ["地下铁路", "废奴英雄", "间谍"],
+  "personalEvents": [
+    {"year": 1849, "title": "逃出奴役", "description": "独自从马里兰逃往费城，步行近90英里", "type": "turning-point"},
+    {"year": 1850, "title": "首次返回救人", "description": "《逃奴法》通过后，冒死返回马里兰营救家人", "type": "milestone"},
+    {"year": 1858, "title": "与道格拉斯会面", "description": "在地下铁路网络中与弗雷德里克·道格拉斯合作", "type": "milestone"},
+    {"year": 1863, "title": "领导军事行动", "description": "在南卡罗来纳领导康巴希河突袭，解放700余名奴隶", "type": "turning-point"},
+    {"year": 1869, "title": "加入女权运动", "description": "在废奴之后转向争取女性投票权", "type": "milestone"}
+  ]
+}

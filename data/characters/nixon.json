@@ -1,0 +1,19 @@
+{
+  "id": "nixon",
+  "name": "理查德·尼克松",
+  "courtesy": "复杂总统",
+  "birth": 1913,
+  "death": 1994,
+  "color": "#566573",
+  "portrait": "",
+  "bio": "美国第37任总统，冷战时期最复杂的政治人物之一。他打开了中美关系大门，推动与苏联缓和，结束了越南战争。然而水门事件暴露了他对权力的滥用——窃听、掩盖、妨碍司法——最终成为美国历史上唯一辞职的总统。水门事件深刻改变了美国人对政府的信任。",
+  "activeRange": [1952, 1974],
+  "tags": ["第37任总统", "水门事件", "访华"],
+  "personalEvents": [
+    {"year": 1952, "title": "当选副总统", "description": "成为艾森豪威尔的竞选搭档，任副总统八年", "type": "milestone"},
+    {"year": 1960, "title": "败选", "description": "在首次电视辩论中输给肯尼迪，以微弱差距落选总统", "type": "turning-point"},
+    {"year": 1969, "title": "就任总统", "description": "八年后卷土重来，当选第37任总统", "type": "milestone"},
+    {"year": 1972, "title": "访问中国", "description": "成为第一位访问中华人民共和国的美国总统，改变冷战格局", "type": "milestone"},
+    {"year": 1974, "title": "水门辞职", "description": "面临弹劾，成为美国历史上唯一辞职的总统", "type": "turning-point"}
+  ]
+}

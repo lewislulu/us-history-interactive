@@ -1,0 +1,1 @@
+{"id":"watergate","name":"水门事件","year":1972,"month":6,"characters":["nixon"],"importance":"major","narrative":"events/watergate.md","relatedEvents":["vietnam-war","civil-rights-act"],"scenes":[{"id":"i-am-not-a-crook","title":"我不是骗子","hasDialogue":true}]}

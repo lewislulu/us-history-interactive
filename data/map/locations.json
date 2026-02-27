@@ -45,5 +45,10 @@
   { "id": "ellis-island", "name": "埃利斯岛", "coords": [-74.04, 40.70], "type": "landmark" },
   { "id": "princeton", "name": "普林斯顿", "coords": [-74.66, 40.35], "type": "city" },
   { "id": "saigon", "name": "西贡", "coords": [106.66, 10.76], "type": "city" },
-  { "id": "nashville", "name": "纳什维尔", "coords": [-86.78, 36.16], "type": "city" }
+  { "id": "nashville", "name": "纳什维尔", "coords": [-86.78, 36.16], "type": "city" },
+  { "id": "harpers-ferry", "name": "哈珀斯费里", "coords": [-77.73, 39.33], "type": "battlefield" },
+  { "id": "topeka", "name": "托皮卡", "coords": [-95.68, 39.05], "type": "city" },
+  { "id": "quincy", "name": "昆西", "coords": [-70.87, 42.25], "type": "landmark" },
+  { "id": "kansas-territory", "name": "堪萨斯领地", "coords": [-98.48, 38.50], "type": "battlefield" },
+  { "id": "omaha", "name": "奥马哈", "coords": [-95.93, 41.26], "type": "city" }
 ]

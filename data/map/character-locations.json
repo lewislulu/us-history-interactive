@@ -88,5 +88,37 @@
     { "location": "seneca-falls", "chapters": [3, 3] },
     { "location": "rochester", "chapters": [3, 5] },
     { "location": "washington-dc", "chapters": [5, 5] }
+  ],
+  "john-adams": [
+    { "location": "boston", "chapters": [1, 1] },
+    { "location": "philadelphia", "chapters": [1, 2] },
+    { "location": "washington-dc", "chapters": [2, 2] },
+    { "location": "quincy", "chapters": [2, 2] }
+  ],
+  "madison": [
+    { "location": "philadelphia", "chapters": [1, 1] },
+    { "location": "washington-dc", "chapters": [1, 2] }
+  ],
+  "tubman": [
+    { "location": "baltimore", "chapters": [3, 3] },
+    { "location": "philadelphia", "chapters": [3, 3] },
+    { "location": "rochester", "chapters": [3, 4] }
+  ],
+  "john-brown": [
+    { "location": "kansas-territory", "chapters": [3, 3] },
+    { "location": "harpers-ferry", "chapters": [3, 3] }
+  ],
+  "truman": [
+    { "location": "washington-dc", "chapters": [6, 7] }
+  ],
+  "lbj": [
+    { "location": "dallas", "chapters": [7, 7] },
+    { "location": "washington-dc", "chapters": [7, 7] }
+  ],
+  "malcolm-x": [
+    { "location": "new-york", "chapters": [7, 7] }
+  ],
+  "nixon": [
+    { "location": "washington-dc", "chapters": [7, 7] }
   ]
 }

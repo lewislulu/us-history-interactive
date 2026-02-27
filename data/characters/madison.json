@@ -1,0 +1,19 @@
+{
+  "id": "madison",
+  "name": "詹姆斯·麦迪逊",
+  "courtesy": "宪法之父",
+  "birth": 1751,
+  "death": 1836,
+  "color": "#2e4057",
+  "portrait": "",
+  "bio": "美国第4任总统，被誉为'宪法之父'。身材矮小、性格内向，却是制宪会议上最出色的理论家。他与汉密尔顿、杰伊合写《联邦党人文集》，为宪法赢得支持；推动通过《权利法案》，保障公民自由。任总统期间领导了1812年战争，白宫被英军焚毁。",
+  "activeRange": [1780, 1820],
+  "tags": ["第4任总统", "宪法之父", "联邦党人文集"],
+  "personalEvents": [
+    {"year": 1787, "title": "主导制宪会议", "description": "提出'弗吉尼亚方案'，成为制宪会议核心设计者", "type": "turning-point"},
+    {"year": 1788, "title": "《联邦党人文集》", "description": "与汉密尔顿合写85篇文章，说服各州批准宪法", "type": "milestone"},
+    {"year": 1791, "title": "推动《权利法案》", "description": "主导起草并推动通过宪法前十条修正案", "type": "milestone"},
+    {"year": 1809, "title": "就任总统", "description": "当选第4任总统，面对与英国日益紧张的关系", "type": "milestone"},
+    {"year": 1814, "title": "白宫被焚", "description": "1812年战争中英军攻入华盛顿，火烧白宫", "type": "turning-point"}
+  ]
+}

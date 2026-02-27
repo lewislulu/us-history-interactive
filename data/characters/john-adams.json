@@ -1,0 +1,19 @@
+{
+  "id": "john-adams",
+  "name": "约翰·亚当斯",
+  "courtesy": "独立之父",
+  "birth": 1735,
+  "death": 1826,
+  "color": "#1a5276",
+  "portrait": "",
+  "bio": "美国第2任总统，独立运动的核心推动者。在大陆会议上力主独立，推荐杰斐逊起草《独立宣言》。任总统期间通过争议性的《外侨与煽动法》，在与法国的准战争中保持克制，避免全面冲突。他与杰斐逊先为盟友、后为政敌、终为挚友——两人在1826年7月4日同一天去世，恰逢独立宣言发表50周年。",
+  "activeRange": [1765, 1801],
+  "tags": ["第2任总统", "独立推动者", "联邦党人"],
+  "personalEvents": [
+    {"year": 1770, "title": "辩护英军士兵", "description": "在波士顿惨案后为英军士兵辩护，捍卫法治原则", "type": "milestone"},
+    {"year": 1776, "title": "推动独立宣言", "description": "在大陆会议上成为独立最强有力的倡导者", "type": "milestone"},
+    {"year": 1789, "title": "当选首任副总统", "description": "成为华盛顿的副总统，称此职为'最无用的职位'", "type": "milestone"},
+    {"year": 1797, "title": "就任第二任总统", "description": "继华盛顿之后成为总统，面对与法国的外交危机", "type": "turning-point"},
+    {"year": 1798, "title": "签署《外侨与煽动法》", "description": "限制移民和言论自由，引发第一次宪法权利大辩论", "type": "turning-point"}
+  ]
+}
