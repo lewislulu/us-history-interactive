@@ -31,9 +31,16 @@
       <button class="bio-banner-exit">退出传记模式</button>
     </div>
 
+    <!-- View switcher (injected by JS into chapter-bar-mount) -->
+
     <!-- Main SVG timeline area -->
     <div id="timeline-container">
       <svg id="timeline-svg"></svg>
+    </div>
+
+    <!-- Map view (hidden by default) -->
+    <div id="map-view" class="hidden" style="flex:1;position:relative;overflow:hidden;">
+      <div id="map-container" style="width:100%;height:100%;"></div>
     </div>
 
     <!-- Character bio card (floating) -->

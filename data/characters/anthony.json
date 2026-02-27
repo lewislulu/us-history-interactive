@@ -1,0 +1,19 @@
+{
+  "id": "anthony",
+  "name": "苏珊·B·安东尼",
+  "courtesy": "女权先驱",
+  "birth": 1820,
+  "death": 1906,
+  "color": "#a569bd",
+  "portrait": "",
+  "bio": "美国女权运动的核心领袖。终身未婚，将一生献给争取女性选举权的事业。她组织集会、发行报纸、在全国巡回演讲超过50年。1872年因'非法投票'被捕，引起全国关注。虽然未能亲眼看到第19修正案通过，但她点燃的火焰最终照亮了美国半数人口的政治权利。",
+  "activeRange": [1848, 1906],
+  "tags": ["女权运动", "选举权", "社会改革"],
+  "personalEvents": [
+    {"year": 1848, "title": "参加塞内卡瀑布大会", "description": "出席美国第一次女权大会，从此投身女权运动", "type": "turning-point"},
+    {"year": 1868, "title": "创办《革命报》", "description": "创办女权报纸，口号：'男人的权利不多不少，女人的权利不多不少'", "type": "milestone"},
+    {"year": 1872, "title": "非法投票被捕", "description": "以女性身份投票被捕，庭审成为全国焦点", "type": "turning-point"},
+    {"year": 1878, "title": "提出宪法修正案", "description": "推动在国会提出女性选举权修正案（即后来的第19修正案）", "type": "milestone"},
+    {"year": 1906, "title": "逝世", "description": "临终前说：'失败是不可能的。'14年后第19修正案通过", "type": "turning-point"}
+  ]
+}

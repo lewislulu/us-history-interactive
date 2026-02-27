@@ -1,0 +1,18 @@
+{
+  "id": "carnegie",
+  "name": "安德鲁·卡内基",
+  "courtesy": "钢铁大王",
+  "birth": 1835,
+  "death": 1919,
+  "color": "#5d6d7e",
+  "portrait": "",
+  "bio": "苏格兰移民之子，13岁来到美国，从纺织厂童工做起。凭借过人商业才能建立了卡内基钢铁公司，成为镀金时代最富有的人之一。晚年致力于慈善事业，捐建了2500多座图书馆，提出'财富的福音'理念，认为巨富有义务回馈社会。",
+  "activeRange": [1875, 1919],
+  "tags": ["钢铁大王", "慈善家", "实业家"],
+  "personalEvents": [
+    {"year": 1875, "title": "建立钢铁厂", "description": "在匹兹堡建立埃德加·汤姆森钢铁厂，开创规模化炼钢", "type": "milestone"},
+    {"year": 1889, "title": "《财富的福音》", "description": "发表著名文章，提出富人应将财富用于公益事业", "type": "milestone"},
+    {"year": 1892, "title": "霍姆斯特德罢工", "description": "钢铁厂爆发血腥罢工，300名平克顿侦探与工人激战", "type": "turning-point"},
+    {"year": 1901, "title": "出售钢铁公司", "description": "以4.8亿美元将公司卖给J.P.摩根，成为世界首富", "type": "turning-point"}
+  ]
+}

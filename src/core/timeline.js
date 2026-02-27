@@ -10,7 +10,7 @@
  * - Biography mode (single character focus)
  */
 import * as d3 from 'd3';
-import { generatePortraitPlaceholder } from '../utils/helpers.js';
+import { generatePortraitPlaceholder, debounce } from '../utils/helpers.js';
 
 // Layout constants
 const MARGIN = { top: 120, right: 80, bottom: 60, left: 140 };
@@ -86,11 +86,11 @@ export class Timeline {
     this._render();
     this._setupZoom();
 
-    window.addEventListener('resize', () => {
+    window.addEventListener('resize', debounce(() => {
       this._updateDimensions();
       this._createScales();
       this._render();
-    });
+    }, 150));
   }
 
   // ── Chapter & View Management ──────────────────────

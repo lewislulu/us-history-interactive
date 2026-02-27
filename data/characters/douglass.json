@@ -1,0 +1,19 @@
+{
+  "id": "douglass",
+  "name": "弗雷德里克·道格拉斯",
+  "courtesy": "自由之声",
+  "birth": 1818,
+  "death": 1895,
+  "color": "#7d3c98",
+  "portrait": "",
+  "bio": "生为奴隶，自学识字，1838年逃出奴隶主控制。成为美国最伟大的废奴主义演说家和作家。他的自传《一个美国奴隶的自述》震撼了整个北方。内战期间为林肯政府出谋划策，推动黑人士兵参军，是美国种族平等运动的先驱。",
+  "activeRange": [1838, 1895],
+  "tags": ["废奴主义者", "演说家", "黑人领袖"],
+  "personalEvents": [
+    {"year": 1838, "title": "逃出奴役", "description": "伪装成自由水手，从巴尔的摩逃往纽约，获得自由", "type": "turning-point"},
+    {"year": 1845, "title": "出版自传", "description": "出版《一个美国奴隶的自述》，轰动全美", "type": "milestone"},
+    {"year": 1847, "title": "创办报纸", "description": "在罗切斯特创办《北极星报》，传播废奴思想", "type": "milestone"},
+    {"year": 1863, "title": "推动黑人参军", "description": "说服林肯允许黑人参加联邦军队，组建第54马萨诸塞步兵团", "type": "milestone"},
+    {"year": 1872, "title": "竞选副总统", "description": "成为美国历史上第一位获得副总统提名的非裔美国人", "type": "milestone"}
+  ]
+}

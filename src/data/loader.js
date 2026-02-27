@@ -35,6 +35,12 @@ const eventModules = import.meta.glob('../../data/events/*.json', { eager: true 
 const eventMarkdown = import.meta.glob('../../data/events/*.md', { eager: true, query: '?raw', import: 'default' });
 import timelineConfig from '../../data/timeline.json';
 
+// Map data imports
+import locationsData from '../../data/map/locations.json';
+import territoriesData from '../../data/map/territories.json';
+import characterLocationsData from '../../data/map/character-locations.json';
+import usStatesTopo from '../../data/map/us-states-topo.json';
+
 /**
  * Load the master timeline configuration
  */
@@ -167,5 +173,13 @@ export async function loadAllData() {
     }
   }
 
-  return { timeline, characters, events };
+  // Map data
+  const mapData = {
+    'us-states-topo': usStatesTopo,
+    locations: locationsData,
+    territories: territoriesData,
+    'character-locations': characterLocationsData,
+  };
+
+  return { timeline, characters, events, mapData };
 }

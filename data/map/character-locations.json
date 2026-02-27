@@ -1,0 +1,92 @@
+{
+  "washington": [
+    { "location": "mount-vernon", "chapters": [1, 1] },
+    { "location": "valley-forge", "chapters": [1, 1] },
+    { "location": "yorktown", "chapters": [1, 1] },
+    { "location": "philadelphia", "chapters": [1, 2] },
+    { "location": "washington-dc", "chapters": [2, 2] },
+    { "location": "mount-vernon", "chapters": [2, 2] }
+  ],
+  "jefferson": [
+    { "location": "monticello", "chapters": [1, 1] },
+    { "location": "philadelphia", "chapters": [1, 1] },
+    { "location": "washington-dc", "chapters": [2, 2] },
+    { "location": "monticello", "chapters": [2, 3] }
+  ],
+  "franklin": [
+    { "location": "boston", "chapters": [1, 1] },
+    { "location": "philadelphia", "chapters": [1, 2] }
+  ],
+  "hamilton": [
+    { "location": "new-york", "chapters": [1, 1] },
+    { "location": "yorktown", "chapters": [1, 1] },
+    { "location": "philadelphia", "chapters": [1, 2] },
+    { "location": "new-york", "chapters": [2, 2] }
+  ],
+  "jackson": [
+    { "location": "hermitage", "chapters": [2, 3] },
+    { "location": "new-orleans", "chapters": [2, 2] },
+    { "location": "washington-dc", "chapters": [3, 3] }
+  ],
+  "lincoln": [
+    { "location": "springfield-il", "chapters": [3, 4] },
+    { "location": "washington-dc", "chapters": [4, 4] },
+    { "location": "gettysburg", "chapters": [4, 4] }
+  ],
+  "grant": [
+    { "location": "st-louis", "chapters": [4, 4] },
+    { "location": "gettysburg", "chapters": [4, 4] },
+    { "location": "appomattox", "chapters": [4, 4] },
+    { "location": "washington-dc", "chapters": [4, 5] }
+  ],
+  "lee": [
+    { "location": "richmond", "chapters": [4, 4] },
+    { "location": "gettysburg", "chapters": [4, 4] },
+    { "location": "appomattox", "chapters": [4, 4] }
+  ],
+  "edison": [
+    { "location": "menlo-park", "chapters": [5, 5] },
+    { "location": "new-york", "chapters": [5, 5] }
+  ],
+  "roosevelt-t": [
+    { "location": "new-york", "chapters": [5, 5] },
+    { "location": "washington-dc", "chapters": [5, 6] }
+  ],
+  "roosevelt-f": [
+    { "location": "hyde-park", "chapters": [6, 6] },
+    { "location": "washington-dc", "chapters": [6, 6] }
+  ],
+  "eisenhower": [
+    { "location": "washington-dc", "chapters": [6, 7] }
+  ],
+  "jfk": [
+    { "location": "boston", "chapters": [7, 7] },
+    { "location": "washington-dc", "chapters": [7, 7] },
+    { "location": "dallas", "chapters": [7, 7] }
+  ],
+  "mlk": [
+    { "location": "atlanta", "chapters": [7, 7] },
+    { "location": "montgomery", "chapters": [7, 7] },
+    { "location": "washington-dc", "chapters": [7, 7] },
+    { "location": "selma", "chapters": [7, 7] }
+  ],
+  "douglass": [
+    { "location": "baltimore", "chapters": [3, 3] },
+    { "location": "new-york", "chapters": [3, 3] },
+    { "location": "rochester", "chapters": [3, 4] },
+    { "location": "washington-dc", "chapters": [4, 5] }
+  ],
+  "carnegie": [
+    { "location": "pittsburgh", "chapters": [5, 5] },
+    { "location": "new-york", "chapters": [5, 6] }
+  ],
+  "wilson": [
+    { "location": "princeton", "chapters": [6, 6] },
+    { "location": "washington-dc", "chapters": [6, 6] }
+  ],
+  "anthony": [
+    { "location": "seneca-falls", "chapters": [3, 3] },
+    { "location": "rochester", "chapters": [3, 5] },
+    { "location": "washington-dc", "chapters": [5, 5] }
+  ]
+}

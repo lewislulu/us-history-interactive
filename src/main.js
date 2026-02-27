@@ -1,12 +1,15 @@
 /**
- * Main entry point -- Storyline Visualization Template
+ * Main entry point -- US History Interactive Visualization
  *
- * Cinematic dark theme, D3 storyline engine,
+ * Cinematic dark theme, D3 storyline engine + map engine,
  * GSAP animations, Markdown narrative renderer.
  * Chapter-based navigation, personal events, biography mode.
+ * Dual view: Timeline ↔ Map
  */
 import { loadAllData } from './data/loader.js';
 import { Timeline } from './core/timeline.js';
+import { MapEngine } from './core/map-engine.js';
+import { MapScrubber } from './ui/map-scrubber.js';
 import { Router } from './core/router.js';
 import { Minimap } from './core/minimap.js';
 import { ChapterBar } from './ui/chapter-bar.js';
@@ -59,6 +62,15 @@ async function boot() {
       chapterBar.setActive(chapterId);
       router.setState({ chapter: chapterId, event: null, bio: null });
       hideBioBanner();
+
+      // Sync map if active
+      if (mapEngine && currentView === 'map') {
+        const chConfig = (data.timeline.chapters || []).find(c => c.id === chapterId);
+        if (chConfig) {
+          mapEngine.setChapter(chConfig.number);
+          if (mapScrubber) mapScrubber.setChapter(chConfig.number);
+        }
+      }
     });
 
     const chapterMount = document.getElementById('chapter-bar-mount');
@@ -85,6 +97,121 @@ async function boot() {
     const feedback = new Feedback();
     document.getElementById('app').appendChild(feedback.getButton());
     document.getElementById('app').appendChild(feedback.getOverlay());
+
+    // ── View management (Timeline ↔ Map) ──
+    let currentView = 'timeline';
+    let mapEngine = null;
+    let mapScrubber = null;
+    let mapInitPending = false;
+
+    const timelineContainer = document.getElementById('timeline-container');
+    const mapView = document.getElementById('map-view');
+    const mapContainer = document.getElementById('map-container');
+    const minimapEl = document.getElementById('minimap');
+
+    // View switcher UI
+    const viewSwitcher = document.createElement('div');
+    viewSwitcher.className = 'view-switcher';
+    viewSwitcher.innerHTML = `
+      <button class="view-btn active" data-view="timeline">时间线</button>
+      <button class="view-btn" data-view="map">地图</button>
+    `;
+    chapterMount.insertBefore(viewSwitcher, chapterBar.getElement());
+
+    viewSwitcher.addEventListener('click', (e) => {
+      const btn = e.target.closest('.view-btn');
+      if (!btn) return;
+      const view = btn.dataset.view;
+      if (view === currentView) return;
+      switchView(view);
+    });
+
+    function switchView(mode) {
+      currentView = mode;
+
+      // Update button states
+      viewSwitcher.querySelectorAll('.view-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.view === mode);
+      });
+
+      if (mode === 'map') {
+        timelineContainer.classList.add('hidden');
+        minimapEl.classList.add('hidden');
+        mapView.classList.remove('hidden');
+
+        // Hide chapter cards in map mode (map has its own scrubber)
+        chapterBar.getElement().style.display = 'none';
+
+        initMapView();
+      } else {
+        mapView.classList.add('hidden');
+        timelineContainer.classList.remove('hidden');
+        minimapEl.classList.remove('hidden');
+        chapterBar.getElement().style.display = '';
+      }
+    }
+
+    function initMapView() {
+      if (mapEngine || mapInitPending) return;
+      mapInitPending = true;
+
+      // Defer to next frame so container has correct dimensions
+      requestAnimationFrame(() => {
+        if (mapEngine) return;
+
+        mapEngine = new MapEngine(mapContainer, data);
+
+        mapScrubber = new MapScrubber(data.timeline, (chapterNum) => {
+          mapEngine.setChapter(chapterNum);
+        });
+        mapView.appendChild(mapScrubber.getElement());
+
+        mapEngine.onEventClick = (event) => { eventPanel.show(event); };
+        mapEngine.onCharacterClick = (character) => { characterCard.show(character); };
+
+        // Layer filter panel
+        const filterPanel = document.createElement('div');
+        filterPanel.className = 'map-layer-filter';
+        const layers = [
+          { key: 'territories', label: '州界', color: '#9b59b6' },
+          { key: 'cities', label: '地名', color: '#ffd700' },
+          { key: 'events', label: '事件', color: '#ff8c42' },
+          { key: 'characters', label: '人物', color: '#8bbbd0' },
+        ];
+        for (const layer of layers) {
+          const item = document.createElement('label');
+          item.className = 'map-filter-item';
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.checked = true;
+          checkbox.addEventListener('change', () => {
+            mapEngine.setLayerVisibility(layer.key, checkbox.checked);
+          });
+          const dot = document.createElement('span');
+          dot.className = 'map-filter-dot';
+          dot.style.background = layer.color;
+          const text = document.createTextNode(layer.label);
+          item.appendChild(checkbox);
+          item.appendChild(dot);
+          item.appendChild(text);
+          filterPanel.appendChild(item);
+        }
+        mapContainer.appendChild(filterPanel);
+
+        // Sync to current chapter
+        const ch = timeline.getCurrentChapter();
+        if (ch) {
+          const chConfig = (data.timeline.chapters || []).find(c => c.id === ch);
+          if (chConfig) {
+            mapEngine.setChapter(chConfig.number);
+            mapScrubber.setChapter(chConfig.number);
+          }
+        } else {
+          mapEngine.setChapter(1);
+          mapScrubber.setChapter(1);
+        }
+      });
+    }
 
     // ── Biography mode banner ──
     const bioBanner = document.getElementById('bio-banner');
@@ -217,7 +344,11 @@ async function boot() {
       }
       if (e.key === 'r' && !e.metaKey && !e.ctrlKey) {
         if (!eventPanel.isVisible && !characterCard.isVisible && !detailView.isVisible) {
-          timeline.resetZoom();
+          if (currentView === 'map' && mapEngine) {
+            mapEngine.resetZoom();
+          } else {
+            timeline.resetZoom();
+          }
         }
       }
     });
@@ -228,7 +359,7 @@ async function boot() {
     gsap.from('#timeline-container', { opacity: 0, duration: 1.5, delay: 0.3, ease: 'power2.out' });
     gsap.from('#minimap', { y: 20, opacity: 0, duration: 0.8, delay: 0.8, ease: 'power2.out' });
 
-    console.log('Storyline Visualization loaded.');
+    console.log('US History Interactive loaded.');
     console.log(`  ${Object.keys(data.characters).length} characters`);
     console.log(`  ${Object.keys(data.events).length} events`);
     console.log(`  ${(data.timeline.chapters || []).length} chapters`);

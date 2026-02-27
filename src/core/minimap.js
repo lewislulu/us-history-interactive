@@ -1,6 +1,7 @@
 /**
  * Minimap -- shows a small overview of the full timeline with viewport indicator
  */
+import { debounce, throttle } from '../utils/helpers.js';
 
 export class Minimap {
   constructor(timeline) {
@@ -13,10 +14,10 @@ export class Minimap {
     this._resize();
     this._render();
 
-    window.addEventListener('resize', () => {
+    window.addEventListener('resize', debounce(() => {
       this._resize();
       this._render();
-    });
+    }, 150));
   }
 
   _resize() {
@@ -92,9 +93,11 @@ export class Minimap {
   }
 
   /**
-   * Update viewport rectangle based on current zoom transform
+   * Update viewport rectangle based on current zoom transform (throttled)
    */
-  update(transform) {
+  update = throttle((transform) => this._updateViewport(transform), 32);
+
+  _updateViewport(transform) {
     const { width, height, innerWidth, innerHeight } = this.timeline.getDimensions();
     const scaleX = this.mapWidth / innerWidth;
     const scaleY = this.mapHeight / innerHeight;
